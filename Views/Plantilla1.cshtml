@@ -1,0 +1,20 @@
+﻿@inherits Umbraco.Web.Mvc.UmbracoTemplatePage
+@{
+	Layout = "SlavePage.cshtml";
+}
+
+<title>@Umbraco.Field("pageTitle")</title>
+
+<head>
+	<link rel="stylesheet" href="/css/wrapper.css" />
+</head>
+<body>
+	<div class="wrapper">
+	  <div class="one">@Umbraco.Field("listaDeEnlaces")</div>
+	  <div class="two">Two</div>
+	  <div class="three">Three</div>
+	  <div class="four">Four</div>
+	  <div class="five">Five</div>
+	  <div class="six">Six</div>
+	</div>
+</body>
