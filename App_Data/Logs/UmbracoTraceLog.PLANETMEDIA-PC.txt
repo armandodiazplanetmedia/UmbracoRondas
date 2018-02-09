@@ -1299,3 +1299,10 @@ System.InvalidCastException: Null object cannot be converted to a value type.
    at Newtonsoft.Json.Linq.JToken.Value[T](Object key)
    at Umbraco.Web.PropertyEditors.ValueConverters.RelatedLinksEditorValueConvertor.ConvertDataToSource(PublishedPropertyType propertyType, Object source, Boolean preview)
  2018-02-09 13:27:36,331 [P6528/D2/T94] INFO  Umbraco.Core.Logging.OwinLogger - Event Id: 0, state: User logged will be logged out due to timeout: armando.diaz@planetmedia.com.mx, IP Address: ::1
+ 2018-02-09 13:38:09,048 [P6528/D2/T86] INFO  Umbraco.Core.Security.BackOfficeSignInManager - Event Id: 0, state: Login attempt succeeded for username armando.diaz@planetmedia.com.mx from IP address ::1
+ 2018-02-09 13:38:09,048 [P6528/D2/T86] INFO  Umbraco.Core.Security.BackOfficeSignInManager - Event Id: 0, state: User: armando.diaz@planetmedia.com.mx logged in from IP address ::1
+ 2018-02-09 13:38:13,365 [P6528/D2/T85] WARN  Umbraco.Web.Models.Mapping.PreValueDisplayResolver - Could not find persisted pre-value for field editor
+ 2018-02-09 13:38:13,365 [P6528/D2/T85] WARN  Umbraco.Web.Models.Mapping.PreValueDisplayResolver - Could not find persisted pre-value for field hideLabel
+ 2018-02-09 13:39:52,366 [P6528/D2/T68] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Home' with Id '1053' has been published.
+ 2018-02-09 13:39:56,981 [P6528/D2/T93] INFO  umbraco.content - Save Xml to file...
+ 2018-02-09 13:39:56,985 [P6528/D2/T93] INFO  umbraco.content - Saved Xml to file.
