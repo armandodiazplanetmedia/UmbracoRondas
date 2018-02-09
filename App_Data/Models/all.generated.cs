@@ -8,8 +8,8 @@ using  Umbraco.Web;
 using  Umbraco.ModelsBuilder;
 using  Umbraco.ModelsBuilder.Umbraco;
 [assembly: PureLiveAssembly]
-[assembly:ModelsBuilderAssembly(PureLive = true, SourceHash = "61d79f9e7ba84b35")]
-[assembly:System.Reflection.AssemblyVersion("0.0.0.1")]
+[assembly:ModelsBuilderAssembly(PureLive = true, SourceHash = "b4a42b3d865c03e2")]
+[assembly:System.Reflection.AssemblyVersion("0.0.0.2")]
 
 
 // FILE: models.generated.cs
@@ -112,14 +112,14 @@ namespace Umbraco.Web.PublishedContentModels
 	}
 
 	// Mixin content Type 1056 with alias "plantilla2"
-	/// <summary>Plantilla-2</summary>
+	/// <summary>Menú con enlaces</summary>
 	public partial interface IPlantilla2 : IPublishedContent
 	{
 		/// <summary>Lista de enlaces</summary>
 		Newtonsoft.Json.Linq.JArray ListaDeEnlaces { get; }
 	}
 
-	/// <summary>Plantilla-2</summary>
+	/// <summary>Menú con enlaces</summary>
 	[PublishedContentModel("plantilla2")]
 	public partial class Plantilla2 : PublishedContentModel, IPlantilla2
 	{
