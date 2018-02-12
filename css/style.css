@@ -28,3 +28,10 @@ wrapper {
   grid-column: 3;
   grid-row: 4;
 }
+
+
+imgMul {
+  display: grid;
+  grid-auto-rows: minmax(100px, auto);
+  background:blue;
+}

@@ -8,8 +8,8 @@ using  Umbraco.Web;
 using  Umbraco.ModelsBuilder;
 using  Umbraco.ModelsBuilder.Umbraco;
 [assembly: PureLiveAssembly]
-[assembly:ModelsBuilderAssembly(PureLive = true, SourceHash = "b4a42b3d865c03e2")]
-[assembly:System.Reflection.AssemblyVersion("0.0.0.2")]
+[assembly:ModelsBuilderAssembly(PureLive = true, SourceHash = "2bb2efe5bb64f049")]
+[assembly:System.Reflection.AssemblyVersion("0.0.0.3")]
 
 
 // FILE: models.generated.cs
@@ -84,6 +84,15 @@ namespace Umbraco.Web.PublishedContentModels
 		}
 
 		///<summary>
+		/// imagentext
+		///</summary>
+		[ImplementPropertyType("imagentext")]
+		public string Imagentext
+		{
+			get { return this.GetPropertyValue<string>("imagentext"); }
+		}
+
+		///<summary>
 		/// Menu: Menú principal.
 		///</summary>
 		[ImplementPropertyType("menu")]
@@ -99,6 +108,15 @@ namespace Umbraco.Web.PublishedContentModels
 		public string PageTitle
 		{
 			get { return this.GetPropertyValue<string>("pageTitle"); }
+		}
+
+		///<summary>
+		/// textCorto
+		///</summary>
+		[ImplementPropertyType("textCorto")]
+		public string TextCorto
+		{
+			get { return this.GetPropertyValue<string>("textCorto"); }
 		}
 
 		///<summary>
@@ -155,6 +173,41 @@ namespace Umbraco.Web.PublishedContentModels
 
 		/// <summary>Static getter for Lista de enlaces</summary>
 		public static Newtonsoft.Json.Linq.JArray GetListaDeEnlaces(IPlantilla2 that) { return that.GetPropertyValue<Newtonsoft.Json.Linq.JArray>("listaDeEnlaces"); }
+	}
+
+	/// <summary>testTexto</summary>
+	[PublishedContentModel("testTexto")]
+	public partial class TestTexto : PublishedContentModel
+	{
+#pragma warning disable 0109 // new is redundant
+		public new const string ModelTypeAlias = "testTexto";
+		public new const PublishedItemType ModelItemType = PublishedItemType.Content;
+#pragma warning restore 0109
+
+		public TestTexto(IPublishedContent content)
+			: base(content)
+		{ }
+
+#pragma warning disable 0109 // new is redundant
+		public new static PublishedContentType GetModelContentType()
+		{
+			return PublishedContentType.Get(ModelItemType, ModelTypeAlias);
+		}
+#pragma warning restore 0109
+
+		public static PublishedPropertyType GetModelPropertyType<TValue>(Expression<Func<TestTexto, TValue>> selector)
+		{
+			return PublishedContentModelUtility.GetModelPropertyType(GetModelContentType(), selector);
+		}
+
+		///<summary>
+		/// textCorto: Bienvenido
+		///</summary>
+		[ImplementPropertyType("textCorto")]
+		public string TextCorto
+		{
+			get { return this.GetPropertyValue<string>("textCorto"); }
+		}
 	}
 
 	/// <summary>Folder</summary>
