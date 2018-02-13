@@ -1,0 +1,3960 @@
+﻿ 2018-02-09 09:46:31,830 [P3968/D12/T139] INFO  umbraco.BusinessLogic.Log - Log scrubbed.  Removed all items older than 2018-02-08 09:46:31
+ 2018-02-09 09:59:19,319 [P3968/D12/T15] WARN  Umbraco.Web.UmbracoModule - Status code is 404 yet TrySkipIisCustomErrors is false - IIS will take over.
+ 2018-02-09 10:27:11,518 [P10716/D2/T1] INFO  Umbraco.Core.CoreBootManager - Umbraco 7.5.4 application starting on PLANETMEDIA-PC
+ 2018-02-09 10:27:11,642 [P10716/D2/T1] INFO  Umbraco.Core.PluginManager - Determining hash of code files on disk
+ 2018-02-09 10:27:11,674 [P10716/D2/T1] INFO  Umbraco.Core.PluginManager - Hash determined (took 36ms)
+ 2018-02-09 10:27:11,798 [P10716/D2/T1] INFO  Umbraco.Core.PluginManager - Starting resolution types of umbraco.interfaces.IApplicationStartupHandler
+ 2018-02-09 10:27:11,831 [P10716/D2/T1] INFO  Umbraco.Core.PluginManager - Completed resolution of types of umbraco.interfaces.IApplicationStartupHandler, found 0 (took 30ms)
+ 2018-02-09 10:27:11,867 [P10716/D2/T1] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Core.PropertyEditors.IPropertyEditorValueConverter
+ 2018-02-09 10:27:11,867 [P10716/D2/T1] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Core.PropertyEditors.IPropertyEditorValueConverter, found 0 (took 2ms)
+ 2018-02-09 10:27:11,867 [P10716/D2/T1] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Core.PropertyEditors.IPropertyValueConverter
+ 2018-02-09 10:27:11,883 [P10716/D2/T1] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Core.PropertyEditors.IPropertyValueConverter, found 0 (took 3ms)
+ 2018-02-09 10:27:11,914 [P10716/D2/T1] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Web.Mvc.SurfaceController
+ 2018-02-09 10:27:11,914 [P10716/D2/T1] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Web.Mvc.SurfaceController, found 0 (took 2ms)
+ 2018-02-09 10:27:11,914 [P10716/D2/T1] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Web.WebApi.UmbracoApiController
+ 2018-02-09 10:27:11,930 [P10716/D2/T1] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Web.WebApi.UmbracoApiController, found 0 (took 10ms)
+ 2018-02-09 10:27:12,023 [P10716/D2/T1] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Core.Media.IThumbnailProvider
+ 2018-02-09 10:27:12,023 [P10716/D2/T1] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Core.Media.IThumbnailProvider, found 0 (took 2ms)
+ 2018-02-09 10:27:12,023 [P10716/D2/T1] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Core.Media.IImageUrlProvider
+ 2018-02-09 10:27:12,023 [P10716/D2/T1] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Core.Media.IImageUrlProvider, found 0 (took 1ms)
+ 2018-02-09 10:27:14,844 [P10716/D2/T1] INFO  Umbraco.Core.DatabaseContext - CanConnect = True
+ 2018-02-09 10:27:15,817 [P10716/D2/T1] INFO  Umbraco.Core.DatabaseContext - CanConnect = True
+ 2018-02-09 10:27:15,966 [P10716/D2/T1] INFO  Umbraco.Core.DatabaseContext - CanConnect = True
+ 2018-02-09 10:27:16,325 [P10716/D2/T1] INFO  Umbraco.Web.Cache.CacheRefresherEventHandler - Initializing Umbraco internal event handlers for cache refreshing
+ 2018-02-09 10:27:16,684 [P10716/D2/T1] INFO  Umbraco.Web.Search.ExamineEvents - Initializing Examine and binding to business logic events
+ 2018-02-09 10:27:16,684 [P10716/D2/T1] INFO  Umbraco.Web.Search.ExamineEvents - Adding examine event handlers for index providers: 3
+ 2018-02-09 10:27:16,730 [P10716/D2/T1] INFO  Umbraco.Core.CoreBootManager - Umbraco application startup complete (took 5366ms)
+ 2018-02-09 10:27:17,179 [P10716/D2/T9] INFO  Umbraco.Core.Sync.ApplicationUrlHelper - ApplicationUrl: http://localhost:38181/umbraco (UmbracoModule request)
+ 2018-02-09 10:27:18,439 [P10716/D2/T9] INFO  umbraco.content - Load Xml from file...
+ 2018-02-09 10:27:18,455 [P10716/D2/T9] INFO  umbraco.content - Loaded Xml from file.
+ 2018-02-09 10:27:20,527 [P10716/D2/T9] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Core.PropertyEditors.IParameterEditor
+ 2018-02-09 10:27:20,527 [P10716/D2/T9] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Core.PropertyEditors.IParameterEditor, found 0 (took 2ms)
+ 2018-02-09 10:27:31,864 [P10716/D2/T9] ERROR Umbraco.Web.PropertyEditors.ValueConverters.RelatedLinksEditorValueConvertor - Could not parse the string [
+  {
+    "caption": "CNH",
+    "link": 1053,
+    "newWindow": false,
+    "internal": 1053,
+    "edit": false,
+    "isInternal": true,
+    "internalName": "Home",
+    "internalIcon": "icon-home",
+    "type": "internal",
+    "title": "CNH"
+  },
+  {
+    "caption": "Rondas",
+    "link": null,
+    "newWindow": false,
+    "internal": null,
+    "edit": false,
+    "isInternal": true,
+    "internalName": "",
+    "internalIcon": null,
+    "type": "internal",
+    "title": "Rondas"
+  },
+  {
+    "caption": "Asociaciones  Estratégicas",
+    "link": null,
+    "newWindow": false,
+    "internal": null,
+    "edit": false,
+    "isInternal": true,
+    "internalName": "",
+    "internalIcon": null,
+    "type": "internal",
+    "title": "Asociaciones  Estratégicas"
+  },
+  {
+    "caption": "Administración de Contratos",
+    "link": null,
+    "newWindow": false,
+    "internal": null,
+    "edit": false,
+    "isInternal": true,
+    "internalName": "",
+    "internalIcon": null,
+    "type": "internal",
+    "title": "Administración de Contratos"
+  },
+  {
+    "caption": "Cifras Relevantes",
+    "link": null,
+    "newWindow": false,
+    "internal": null,
+    "edit": false,
+    "isInternal": true,
+    "internalName": "",
+    "internalIcon": null,
+    "type": "internal",
+    "title": "Cifras Relevantes"
+  },
+  {
+    "caption": "Arreglo Institucional",
+    "link": null,
+    "newWindow": false,
+    "internal": null,
+    "edit": false,
+    "isInternal": true,
+    "internalName": "",
+    "internalIcon": null,
+    "type": "internal",
+    "title": "Arreglo Institucional"
+  },
+  {
+    "caption": "Contacto",
+    "link": null,
+    "newWindow": false,
+    "internal": null,
+    "edit": false,
+    "isInternal": true,
+    "internalName": "",
+    "internalIcon": null,
+    "type": "internal",
+    "title": "Contacto"
+  }
+] to a json object
+System.InvalidCastException: Null object cannot be converted to a value type.
+   at System.Convert.ChangeType(Object value, Type conversionType, IFormatProvider provider)
+   at Newtonsoft.Json.Linq.Extensions.Convert[T,U](T token)
+   at Newtonsoft.Json.Linq.JToken.Value[T](Object key)
+   at Umbraco.Web.PropertyEditors.ValueConverters.RelatedLinksEditorValueConvertor.ConvertDataToSource(PublishedPropertyType propertyType, Object source, Boolean preview)
+ 2018-02-09 10:27:39,756 [P10716/D2/T18] ERROR Umbraco.Web.PropertyEditors.ValueConverters.RelatedLinksEditorValueConvertor - Could not parse the string [
+  {
+    "caption": "CNH",
+    "link": 1053,
+    "newWindow": false,
+    "internal": 1053,
+    "edit": false,
+    "isInternal": true,
+    "internalName": "Home",
+    "internalIcon": "icon-home",
+    "type": "internal",
+    "title": "CNH"
+  },
+  {
+    "caption": "Rondas",
+    "link": null,
+    "newWindow": false,
+    "internal": null,
+    "edit": false,
+    "isInternal": true,
+    "internalName": "",
+    "internalIcon": null,
+    "type": "internal",
+    "title": "Rondas"
+  },
+  {
+    "caption": "Asociaciones  Estratégicas",
+    "link": null,
+    "newWindow": false,
+    "internal": null,
+    "edit": false,
+    "isInternal": true,
+    "internalName": "",
+    "internalIcon": null,
+    "type": "internal",
+    "title": "Asociaciones  Estratégicas"
+  },
+  {
+    "caption": "Administración de Contratos",
+    "link": null,
+    "newWindow": false,
+    "internal": null,
+    "edit": false,
+    "isInternal": true,
+    "internalName": "",
+    "internalIcon": null,
+    "type": "internal",
+    "title": "Administración de Contratos"
+  },
+  {
+    "caption": "Cifras Relevantes",
+    "link": null,
+    "newWindow": false,
+    "internal": null,
+    "edit": false,
+    "isInternal": true,
+    "internalName": "",
+    "internalIcon": null,
+    "type": "internal",
+    "title": "Cifras Relevantes"
+  },
+  {
+    "caption": "Arreglo Institucional",
+    "link": null,
+    "newWindow": false,
+    "internal": null,
+    "edit": false,
+    "isInternal": true,
+    "internalName": "",
+    "internalIcon": null,
+    "type": "internal",
+    "title": "Arreglo Institucional"
+  },
+  {
+    "caption": "Contacto",
+    "link": null,
+    "newWindow": false,
+    "internal": null,
+    "edit": false,
+    "isInternal": true,
+    "internalName": "",
+    "internalIcon": null,
+    "type": "internal",
+    "title": "Contacto"
+  }
+] to a json object
+System.InvalidCastException: Null object cannot be converted to a value type.
+   at System.Convert.ChangeType(Object value, Type conversionType, IFormatProvider provider)
+   at Newtonsoft.Json.Linq.Extensions.Convert[T,U](T token)
+   at Newtonsoft.Json.Linq.JToken.Value[T](Object key)
+   at Umbraco.Web.PropertyEditors.ValueConverters.RelatedLinksEditorValueConvertor.ConvertDataToSource(PublishedPropertyType propertyType, Object source, Boolean preview)
+ 2018-02-09 10:28:19,078 [P10716/D2/T7] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Core.Persistence.Mappers.BaseMapper
+ 2018-02-09 10:28:19,078 [P10716/D2/T7] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Core.Persistence.Mappers.BaseMapper, found 0 (took 2ms)
+ 2018-02-09 10:28:19,297 [P10716/D2/T14] INFO  umbraco.BusinessLogic.Log - Log scrubbed.  Removed all items older than 2018-02-08 10:28:18
+ 2018-02-09 11:05:25,542 [P11160/D2/T1] INFO  Umbraco.Core.CoreBootManager - Umbraco 7.5.4 application starting on PLANETMEDIA-PC
+ 2018-02-09 11:05:25,733 [P11160/D2/T1] INFO  Umbraco.Core.PluginManager - Determining hash of code files on disk
+ 2018-02-09 11:05:25,792 [P11160/D2/T1] INFO  Umbraco.Core.PluginManager - Hash determined (took 59ms)
+ 2018-02-09 11:05:25,911 [P11160/D2/T1] INFO  Umbraco.Core.PluginManager - Starting resolution types of umbraco.interfaces.IApplicationStartupHandler
+ 2018-02-09 11:05:28,801 [P11160/D2/T1] INFO  Umbraco.Core.PluginManager - Completed resolution of types of umbraco.interfaces.IApplicationStartupHandler, found 0 (took 2890ms)
+ 2018-02-09 11:05:28,833 [P11160/D2/T1] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Core.PropertyEditors.IPropertyEditorValueConverter
+ 2018-02-09 11:05:28,841 [P11160/D2/T1] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Core.PropertyEditors.IPropertyEditorValueConverter, found 0 (took 7ms)
+ 2018-02-09 11:05:28,841 [P11160/D2/T1] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Core.PropertyEditors.IPropertyValueConverter
+ 2018-02-09 11:05:28,848 [P11160/D2/T1] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Core.PropertyEditors.IPropertyValueConverter, found 0 (took 6ms)
+ 2018-02-09 11:05:28,974 [P11160/D2/T1] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Web.Mvc.SurfaceController
+ 2018-02-09 11:05:28,984 [P11160/D2/T1] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Web.Mvc.SurfaceController, found 0 (took 10ms)
+ 2018-02-09 11:05:28,986 [P11160/D2/T1] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Web.WebApi.UmbracoApiController
+ 2018-02-09 11:05:28,991 [P11160/D2/T1] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Web.WebApi.UmbracoApiController, found 0 (took 5ms)
+ 2018-02-09 11:05:29,457 [P11160/D2/T1] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Core.Media.IThumbnailProvider
+ 2018-02-09 11:05:29,467 [P11160/D2/T1] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Core.Media.IThumbnailProvider, found 0 (took 10ms)
+ 2018-02-09 11:05:29,468 [P11160/D2/T1] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Core.Media.IImageUrlProvider
+ 2018-02-09 11:05:29,473 [P11160/D2/T1] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Core.Media.IImageUrlProvider, found 0 (took 5ms)
+ 2018-02-09 11:05:34,268 [P11160/D2/T1] INFO  Umbraco.Core.DatabaseContext - CanConnect = True
+ 2018-02-09 11:05:35,285 [P11160/D2/T1] INFO  Umbraco.Core.DatabaseContext - CanConnect = True
+ 2018-02-09 11:05:35,324 [P11160/D2/T1] INFO  Umbraco.Core.DatabaseContext - CanConnect = True
+ 2018-02-09 11:05:35,433 [P11160/D2/T1] WARN  Umbraco.Core.Sync.DatabaseServerMessenger - No last synced Id found, this generally means this is a new server/install. The server will build its caches and indexes, and then adjust its last synced Id to the latest found in the database and maintain cache updates based on that Id.
+ 2018-02-09 11:05:35,547 [P11160/D2/T1] INFO  umbraco.content - Load Xml from file...
+ 2018-02-09 11:05:35,602 [P11160/D2/T1] INFO  umbraco.content - Loaded Xml from file.
+ 2018-02-09 11:05:35,629 [P11160/D2/T1] INFO  umbraco.content - Loading content from database...
+ 2018-02-09 11:05:37,695 [P11160/D2/T1] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Core.PropertyEditors.IParameterEditor
+ 2018-02-09 11:05:37,711 [P11160/D2/T1] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Core.PropertyEditors.IParameterEditor, found 0 (took 15ms)
+ 2018-02-09 11:05:38,001 [P11160/D2/T1] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Core.Persistence.Mappers.BaseMapper
+ 2018-02-09 11:05:38,007 [P11160/D2/T1] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Core.Persistence.Mappers.BaseMapper, found 0 (took 6ms)
+ 2018-02-09 11:05:38,318 [P11160/D2/T1] INFO  Umbraco.Web.Cache.CacheRefresherEventHandler - Initializing Umbraco internal event handlers for cache refreshing
+ 2018-02-09 11:05:38,343 [P11160/D2/T1] INFO  Umbraco.Web.Search.ExamineEvents - Initializing Examine and binding to business logic events
+ 2018-02-09 11:05:38,344 [P11160/D2/T1] INFO  Umbraco.Web.Search.ExamineEvents - Adding examine event handlers for index providers: 3
+ 2018-02-09 11:05:38,523 [P11160/D2/T1] INFO  Umbraco.Core.CoreBootManager - Umbraco application startup complete (took 13300ms)
+ 2018-02-09 11:05:39,128 [P11160/D2/T6] INFO  Umbraco.Core.Sync.ApplicationUrlHelper - ApplicationUrl: http://localhost:18701/umbraco (UmbracoModule request)
+ 2018-02-09 11:05:41,070 [P11160/D2/T13] INFO  umbraco.content - Save Xml to file...
+ 2018-02-09 11:05:41,088 [P11160/D2/T13] INFO  umbraco.content - Saved Xml to file.
+ 2018-02-09 11:05:48,019 [P11160/D2/T6] ERROR Umbraco.Web.PropertyEditors.ValueConverters.RelatedLinksEditorValueConvertor - Could not parse the string [
+  {
+    "caption": "CNH",
+    "link": 1053,
+    "newWindow": false,
+    "internal": 1053,
+    "edit": false,
+    "isInternal": true,
+    "internalName": "Home",
+    "internalIcon": "icon-home",
+    "type": "internal",
+    "title": "CNH"
+  },
+  {
+    "caption": "Rondas",
+    "link": null,
+    "newWindow": false,
+    "internal": null,
+    "edit": false,
+    "isInternal": true,
+    "internalName": "",
+    "internalIcon": null,
+    "type": "internal",
+    "title": "Rondas"
+  },
+  {
+    "caption": "Asociaciones  Estratégicas",
+    "link": null,
+    "newWindow": false,
+    "internal": null,
+    "edit": false,
+    "isInternal": true,
+    "internalName": "",
+    "internalIcon": null,
+    "type": "internal",
+    "title": "Asociaciones  Estratégicas"
+  },
+  {
+    "caption": "Administración de Contratos",
+    "link": null,
+    "newWindow": false,
+    "internal": null,
+    "edit": false,
+    "isInternal": true,
+    "internalName": "",
+    "internalIcon": null,
+    "type": "internal",
+    "title": "Administración de Contratos"
+  },
+  {
+    "caption": "Cifras Relevantes",
+    "link": null,
+    "newWindow": false,
+    "internal": null,
+    "edit": false,
+    "isInternal": true,
+    "internalName": "",
+    "internalIcon": null,
+    "type": "internal",
+    "title": "Cifras Relevantes"
+  },
+  {
+    "caption": "Arreglo Institucional",
+    "link": null,
+    "newWindow": false,
+    "internal": null,
+    "edit": false,
+    "isInternal": true,
+    "internalName": "",
+    "internalIcon": null,
+    "type": "internal",
+    "title": "Arreglo Institucional"
+  },
+  {
+    "caption": "Contacto",
+    "link": null,
+    "newWindow": false,
+    "internal": null,
+    "edit": false,
+    "isInternal": true,
+    "internalName": "",
+    "internalIcon": null,
+    "type": "internal",
+    "title": "Contacto"
+  }
+] to a json object
+System.InvalidCastException: Null object cannot be converted to a value type.
+   at System.Convert.ChangeType(Object value, Type conversionType, IFormatProvider provider)
+   at Newtonsoft.Json.Linq.Extensions.Convert[T,U](T token)
+   at Newtonsoft.Json.Linq.JToken.Value[T](Object key)
+   at Umbraco.Web.PropertyEditors.ValueConverters.RelatedLinksEditorValueConvertor.ConvertDataToSource(PublishedPropertyType propertyType, Object source, Boolean preview)
+ 2018-02-09 11:06:46,018 [P11160/D2/T18] INFO  umbraco.BusinessLogic.Log - Log scrubbed.  Removed all items older than 2018-02-08 11:06:40
+ 2018-02-09 11:07:30,965 [P11160/D2/T22] INFO  Umbraco.Core.Security.BackOfficeSignInManager - Event Id: 0, state: Login attempt failed for username Jorge.medrano@planetmedia.com.mx from IP address ::1
+ 2018-02-09 11:08:42,740 [P11160/D2/T21] INFO  Umbraco.Core.Security.BackOfficeSignInManager - Event Id: 0, state: Login attempt succeeded for username armando.diaz@planetmedia.com.mx from IP address ::1
+ 2018-02-09 11:08:42,741 [P11160/D2/T21] INFO  Umbraco.Core.Security.BackOfficeSignInManager - Event Id: 0, state: User: armando.diaz@planetmedia.com.mx logged in from IP address ::1
+ 2018-02-09 11:08:43,138 [P11160/D2/T21] ERROR Umbraco.Web.WebApi.Filters.AngularAntiForgeryHelper - Could not validate XSRF token
+System.Web.Mvc.HttpAntiForgeryException (0x80004005): The anti-forgery token could not be decrypted. If this application is hosted by a Web Farm or cluster, ensure that all machines are running the same version of ASP.NET Web Pages and that the <machineKey> configuration specifies explicit encryption and validation keys. AutoGenerate cannot be used in a cluster.
+   en System.Web.Helpers.AntiXsrf.AntiForgeryTokenSerializer.Deserialize(String serializedToken)
+   en System.Web.Helpers.AntiXsrf.AntiForgeryWorker.Validate(HttpContextBase httpContext, String cookieToken, String formToken)
+   en System.Web.Helpers.AntiForgery.Validate(String cookieToken, String formToken)
+   en Umbraco.Web.WebApi.Filters.AngularAntiForgeryHelper.ValidateTokens(String cookieToken, String headerToken)
+ 2018-02-09 11:08:43,233 [P11160/D2/T9] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Web.Trees.TreeController
+ 2018-02-09 11:08:43,238 [P11160/D2/T9] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Web.Trees.TreeController, found 0 (took 4ms)
+ 2018-02-09 11:08:43,432 [P11160/D2/T9] INFO  Umbraco.Core.PluginManager - Starting resolution types of umbraco.interfaces.IApplication
+ 2018-02-09 11:08:43,470 [P11160/D2/T9] INFO  Umbraco.Core.PluginManager - Completed resolution of types of umbraco.interfaces.IApplication, found 0 (took 37ms)
+ 2018-02-09 11:08:43,488 [P11160/D2/T25] INFO  Umbraco.Core.PluginManager - Starting resolution types of umbraco.interfaces.ITree
+ 2018-02-09 11:08:43,500 [P11160/D2/T25] INFO  Umbraco.Core.PluginManager - Completed resolution of types of umbraco.interfaces.ITree, found 0 (took 12ms)
+ 2018-02-09 11:08:43,536 [P11160/D2/T16] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Web.Trees.TreeController
+ 2018-02-09 11:08:43,536 [P11160/D2/T16] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Web.Trees.TreeController, found 0 (took 0ms)
+ 2018-02-09 11:08:43,539 [P11160/D2/T16] INFO  Umbraco.Core.PluginManager - Starting resolution types of umbraco.interfaces.ITree
+ 2018-02-09 11:08:43,554 [P11160/D2/T16] INFO  Umbraco.Core.PluginManager - Completed resolution of types of umbraco.interfaces.ITree, found 0 (took 15ms)
+ 2018-02-09 11:10:57,504 [P11160/D2/T5] INFO  Umbraco.Core.PluginManager - Starting resolution types of umbraco.interfaces.ICacheRefresher
+ 2018-02-09 11:10:57,519 [P11160/D2/T5] INFO  Umbraco.Core.PluginManager - Completed resolution of types of umbraco.interfaces.ICacheRefresher, found 0 (took 15ms)
+ 2018-02-09 11:22:57,592 [P6016/D2/T1] INFO  Umbraco.Core.CoreBootManager - Umbraco 7.5.4 application starting on PLANETMEDIA-PC
+ 2018-02-09 11:22:57,613 [P6016/D2/T1] INFO  Umbraco.Core.PluginManager - Determining hash of code files on disk
+ 2018-02-09 11:22:57,623 [P6016/D2/T1] INFO  Umbraco.Core.PluginManager - Hash determined (took 9ms)
+ 2018-02-09 11:22:57,726 [P6016/D2/T1] INFO  Umbraco.Core.PluginManager - Starting resolution types of umbraco.interfaces.IApplicationStartupHandler
+ 2018-02-09 11:22:57,737 [P6016/D2/T1] INFO  Umbraco.Core.PluginManager - Completed resolution of types of umbraco.interfaces.IApplicationStartupHandler, found 0 (took 10ms)
+ 2018-02-09 11:22:57,754 [P6016/D2/T1] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Core.PropertyEditors.IPropertyEditorValueConverter
+ 2018-02-09 11:22:57,756 [P6016/D2/T1] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Core.PropertyEditors.IPropertyEditorValueConverter, found 0 (took 1ms)
+ 2018-02-09 11:22:57,756 [P6016/D2/T1] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Core.PropertyEditors.IPropertyValueConverter
+ 2018-02-09 11:22:57,758 [P6016/D2/T1] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Core.PropertyEditors.IPropertyValueConverter, found 0 (took 1ms)
+ 2018-02-09 11:22:57,769 [P6016/D2/T1] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Web.Mvc.SurfaceController
+ 2018-02-09 11:22:57,770 [P6016/D2/T1] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Web.Mvc.SurfaceController, found 0 (took 1ms)
+ 2018-02-09 11:22:57,771 [P6016/D2/T1] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Web.WebApi.UmbracoApiController
+ 2018-02-09 11:22:57,775 [P6016/D2/T1] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Web.WebApi.UmbracoApiController, found 0 (took 4ms)
+ 2018-02-09 11:22:57,852 [P6016/D2/T1] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Core.Media.IThumbnailProvider
+ 2018-02-09 11:22:57,853 [P6016/D2/T1] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Core.Media.IThumbnailProvider, found 0 (took 1ms)
+ 2018-02-09 11:22:57,854 [P6016/D2/T1] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Core.Media.IImageUrlProvider
+ 2018-02-09 11:22:57,855 [P6016/D2/T1] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Core.Media.IImageUrlProvider, found 0 (took 0ms)
+ 2018-02-09 11:22:59,173 [P6016/D2/T1] INFO  Umbraco.Core.DatabaseContext - CanConnect = True
+ 2018-02-09 11:22:59,549 [P6016/D2/T1] INFO  Umbraco.Core.DatabaseContext - CanConnect = True
+ 2018-02-09 11:22:59,585 [P6016/D2/T1] INFO  Umbraco.Core.DatabaseContext - CanConnect = True
+ 2018-02-09 11:22:59,679 [P6016/D2/T1] INFO  Umbraco.Web.Cache.CacheRefresherEventHandler - Initializing Umbraco internal event handlers for cache refreshing
+ 2018-02-09 11:22:59,796 [P6016/D2/T1] INFO  Umbraco.Web.Search.ExamineEvents - Initializing Examine and binding to business logic events
+ 2018-02-09 11:22:59,796 [P6016/D2/T1] INFO  Umbraco.Web.Search.ExamineEvents - Adding examine event handlers for index providers: 3
+ 2018-02-09 11:22:59,849 [P6016/D2/T1] INFO  Umbraco.Core.CoreBootManager - Umbraco application startup complete (took 2380ms)
+ 2018-02-09 11:23:00,026 [P6016/D2/T10] INFO  Umbraco.Core.Sync.ApplicationUrlHelper - ApplicationUrl: http://localhost:18701/umbraco (UmbracoModule request)
+ 2018-02-09 11:23:00,782 [P6016/D2/T10] INFO  umbraco.content - Load Xml from file...
+ 2018-02-09 11:23:00,795 [P6016/D2/T10] INFO  umbraco.content - Loaded Xml from file.
+ 2018-02-09 11:23:01,463 [P6016/D2/T11] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Core.PropertyEditors.IParameterEditor
+ 2018-02-09 11:23:01,464 [P6016/D2/T11] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Core.PropertyEditors.IParameterEditor, found 0 (took 1ms)
+ 2018-02-09 11:23:13,802 [P6016/D2/T10] ERROR Umbraco.Web.PropertyEditors.ValueConverters.RelatedLinksEditorValueConvertor - Could not parse the string [
+  {
+    "caption": "CNH",
+    "link": 1053,
+    "newWindow": false,
+    "internal": 1053,
+    "edit": false,
+    "isInternal": true,
+    "internalName": "Home",
+    "internalIcon": "icon-home",
+    "type": "internal",
+    "title": "CNH"
+  },
+  {
+    "caption": "Rondas",
+    "link": null,
+    "newWindow": false,
+    "internal": null,
+    "edit": false,
+    "isInternal": true,
+    "internalName": "",
+    "internalIcon": null,
+    "type": "internal",
+    "title": "Rondas"
+  },
+  {
+    "caption": "Asociaciones  Estratégicas",
+    "link": null,
+    "newWindow": false,
+    "internal": null,
+    "edit": false,
+    "isInternal": true,
+    "internalName": "",
+    "internalIcon": null,
+    "type": "internal",
+    "title": "Asociaciones  Estratégicas"
+  },
+  {
+    "caption": "Administración de Contratos",
+    "link": null,
+    "newWindow": false,
+    "internal": null,
+    "edit": false,
+    "isInternal": true,
+    "internalName": "",
+    "internalIcon": null,
+    "type": "internal",
+    "title": "Administración de Contratos"
+  },
+  {
+    "caption": "Cifras Relevantes",
+    "link": null,
+    "newWindow": false,
+    "internal": null,
+    "edit": false,
+    "isInternal": true,
+    "internalName": "",
+    "internalIcon": null,
+    "type": "internal",
+    "title": "Cifras Relevantes"
+  },
+  {
+    "caption": "Arreglo Institucional",
+    "link": null,
+    "newWindow": false,
+    "internal": null,
+    "edit": false,
+    "isInternal": true,
+    "internalName": "",
+    "internalIcon": null,
+    "type": "internal",
+    "title": "Arreglo Institucional"
+  },
+  {
+    "caption": "Contacto",
+    "link": null,
+    "newWindow": false,
+    "internal": null,
+    "edit": false,
+    "isInternal": true,
+    "internalName": "",
+    "internalIcon": null,
+    "type": "internal",
+    "title": "Contacto"
+  }
+] to a json object
+System.InvalidCastException: Null object cannot be converted to a value type.
+   at System.Convert.ChangeType(Object value, Type conversionType, IFormatProvider provider)
+   at Newtonsoft.Json.Linq.Extensions.Convert[T,U](T token)
+   at Newtonsoft.Json.Linq.JToken.Value[T](Object key)
+   at Umbraco.Web.PropertyEditors.ValueConverters.RelatedLinksEditorValueConvertor.ConvertDataToSource(PublishedPropertyType propertyType, Object source, Boolean preview)
+ 2018-02-09 11:23:13,803 [P6016/D2/T11] ERROR Umbraco.Web.PropertyEditors.ValueConverters.RelatedLinksEditorValueConvertor - Could not parse the string [
+  {
+    "caption": "CNH",
+    "link": 1053,
+    "newWindow": false,
+    "internal": 1053,
+    "edit": false,
+    "isInternal": true,
+    "internalName": "Home",
+    "internalIcon": "icon-home",
+    "type": "internal",
+    "title": "CNH"
+  },
+  {
+    "caption": "Rondas",
+    "link": null,
+    "newWindow": false,
+    "internal": null,
+    "edit": false,
+    "isInternal": true,
+    "internalName": "",
+    "internalIcon": null,
+    "type": "internal",
+    "title": "Rondas"
+  },
+  {
+    "caption": "Asociaciones  Estratégicas",
+    "link": null,
+    "newWindow": false,
+    "internal": null,
+    "edit": false,
+    "isInternal": true,
+    "internalName": "",
+    "internalIcon": null,
+    "type": "internal",
+    "title": "Asociaciones  Estratégicas"
+  },
+  {
+    "caption": "Administración de Contratos",
+    "link": null,
+    "newWindow": false,
+    "internal": null,
+    "edit": false,
+    "isInternal": true,
+    "internalName": "",
+    "internalIcon": null,
+    "type": "internal",
+    "title": "Administración de Contratos"
+  },
+  {
+    "caption": "Cifras Relevantes",
+    "link": null,
+    "newWindow": false,
+    "internal": null,
+    "edit": false,
+    "isInternal": true,
+    "internalName": "",
+    "internalIcon": null,
+    "type": "internal",
+    "title": "Cifras Relevantes"
+  },
+  {
+    "caption": "Arreglo Institucional",
+    "link": null,
+    "newWindow": false,
+    "internal": null,
+    "edit": false,
+    "isInternal": true,
+    "internalName": "",
+    "internalIcon": null,
+    "type": "internal",
+    "title": "Arreglo Institucional"
+  },
+  {
+    "caption": "Contacto",
+    "link": null,
+    "newWindow": false,
+    "internal": null,
+    "edit": false,
+    "isInternal": true,
+    "internalName": "",
+    "internalIcon": null,
+    "type": "internal",
+    "title": "Contacto"
+  }
+] to a json object
+System.InvalidCastException: Null object cannot be converted to a value type.
+   at System.Convert.ChangeType(Object value, Type conversionType, IFormatProvider provider)
+   at Newtonsoft.Json.Linq.Extensions.Convert[T,U](T token)
+   at Newtonsoft.Json.Linq.JToken.Value[T](Object key)
+   at Umbraco.Web.PropertyEditors.ValueConverters.RelatedLinksEditorValueConvertor.ConvertDataToSource(PublishedPropertyType propertyType, Object source, Boolean preview)
+ 2018-02-09 11:23:20,800 [P6016/D2/T11] ERROR Umbraco.Web.PropertyEditors.ValueConverters.RelatedLinksEditorValueConvertor - Could not parse the string [
+  {
+    "caption": "CNH",
+    "link": 1053,
+    "newWindow": false,
+    "internal": 1053,
+    "edit": false,
+    "isInternal": true,
+    "internalName": "Home",
+    "internalIcon": "icon-home",
+    "type": "internal",
+    "title": "CNH"
+  },
+  {
+    "caption": "Rondas",
+    "link": null,
+    "newWindow": false,
+    "internal": null,
+    "edit": false,
+    "isInternal": true,
+    "internalName": "",
+    "internalIcon": null,
+    "type": "internal",
+    "title": "Rondas"
+  },
+  {
+    "caption": "Asociaciones  Estratégicas",
+    "link": null,
+    "newWindow": false,
+    "internal": null,
+    "edit": false,
+    "isInternal": true,
+    "internalName": "",
+    "internalIcon": null,
+    "type": "internal",
+    "title": "Asociaciones  Estratégicas"
+  },
+  {
+    "caption": "Administración de Contratos",
+    "link": null,
+    "newWindow": false,
+    "internal": null,
+    "edit": false,
+    "isInternal": true,
+    "internalName": "",
+    "internalIcon": null,
+    "type": "internal",
+    "title": "Administración de Contratos"
+  },
+  {
+    "caption": "Cifras Relevantes",
+    "link": null,
+    "newWindow": false,
+    "internal": null,
+    "edit": false,
+    "isInternal": true,
+    "internalName": "",
+    "internalIcon": null,
+    "type": "internal",
+    "title": "Cifras Relevantes"
+  },
+  {
+    "caption": "Arreglo Institucional",
+    "link": null,
+    "newWindow": false,
+    "internal": null,
+    "edit": false,
+    "isInternal": true,
+    "internalName": "",
+    "internalIcon": null,
+    "type": "internal",
+    "title": "Arreglo Institucional"
+  },
+  {
+    "caption": "Contacto",
+    "link": null,
+    "newWindow": false,
+    "internal": null,
+    "edit": false,
+    "isInternal": true,
+    "internalName": "",
+    "internalIcon": null,
+    "type": "internal",
+    "title": "Contacto"
+  }
+] to a json object
+System.InvalidCastException: Null object cannot be converted to a value type.
+   at System.Convert.ChangeType(Object value, Type conversionType, IFormatProvider provider)
+   at Newtonsoft.Json.Linq.Extensions.Convert[T,U](T token)
+   at Newtonsoft.Json.Linq.JToken.Value[T](Object key)
+   at Umbraco.Web.PropertyEditors.ValueConverters.RelatedLinksEditorValueConvertor.ConvertDataToSource(PublishedPropertyType propertyType, Object source, Boolean preview)
+ 2018-02-09 11:24:01,156 [P6016/D2/T18] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Core.Persistence.Mappers.BaseMapper
+ 2018-02-09 11:24:01,156 [P6016/D2/T18] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Core.Persistence.Mappers.BaseMapper, found 0 (took 1ms)
+ 2018-02-09 11:24:01,188 [P6016/D2/T17] INFO  umbraco.BusinessLogic.Log - Log scrubbed.  Removed all items older than 2018-02-08 11:24:00
+ 2018-02-09 11:38:58,042 [P6528/D2/T1] INFO  Umbraco.Core.CoreBootManager - Umbraco 7.5.4 application starting on PLANETMEDIA-PC
+ 2018-02-09 11:38:58,085 [P6528/D2/T1] INFO  Umbraco.Core.PluginManager - Determining hash of code files on disk
+ 2018-02-09 11:38:58,110 [P6528/D2/T1] INFO  Umbraco.Core.PluginManager - Hash determined (took 25ms)
+ 2018-02-09 11:38:58,247 [P6528/D2/T1] INFO  Umbraco.Core.PluginManager - Starting resolution types of umbraco.interfaces.IApplicationStartupHandler
+ 2018-02-09 11:38:58,889 [P6528/D2/T1] INFO  Umbraco.Core.PluginManager - Completed resolution of types of umbraco.interfaces.IApplicationStartupHandler, found 0 (took 642ms)
+ 2018-02-09 11:38:58,917 [P6528/D2/T1] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Core.PropertyEditors.IPropertyEditorValueConverter
+ 2018-02-09 11:38:58,927 [P6528/D2/T1] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Core.PropertyEditors.IPropertyEditorValueConverter, found 0 (took 10ms)
+ 2018-02-09 11:38:58,928 [P6528/D2/T1] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Core.PropertyEditors.IPropertyValueConverter
+ 2018-02-09 11:38:58,939 [P6528/D2/T1] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Core.PropertyEditors.IPropertyValueConverter, found 0 (took 10ms)
+ 2018-02-09 11:38:58,964 [P6528/D2/T1] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Web.Mvc.SurfaceController
+ 2018-02-09 11:38:58,971 [P6528/D2/T1] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Web.Mvc.SurfaceController, found 0 (took 7ms)
+ 2018-02-09 11:38:58,972 [P6528/D2/T1] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Web.WebApi.UmbracoApiController
+ 2018-02-09 11:38:58,982 [P6528/D2/T1] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Web.WebApi.UmbracoApiController, found 0 (took 10ms)
+ 2018-02-09 11:38:59,038 [P6528/D2/T1] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Core.Media.IThumbnailProvider
+ 2018-02-09 11:38:59,047 [P6528/D2/T1] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Core.Media.IThumbnailProvider, found 0 (took 8ms)
+ 2018-02-09 11:38:59,048 [P6528/D2/T1] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Core.Media.IImageUrlProvider
+ 2018-02-09 11:38:59,058 [P6528/D2/T1] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Core.Media.IImageUrlProvider, found 0 (took 9ms)
+ 2018-02-09 11:39:01,267 [P6528/D2/T1] INFO  Umbraco.Core.DatabaseContext - CanConnect = True
+ 2018-02-09 11:39:01,980 [P6528/D2/T1] INFO  Umbraco.Core.DatabaseContext - CanConnect = True
+ 2018-02-09 11:39:02,140 [P6528/D2/T1] INFO  Umbraco.Core.DatabaseContext - CanConnect = True
+ 2018-02-09 11:39:02,351 [P6528/D2/T1] INFO  Umbraco.Web.Cache.CacheRefresherEventHandler - Initializing Umbraco internal event handlers for cache refreshing
+ 2018-02-09 11:39:02,586 [P6528/D2/T1] INFO  Umbraco.Web.Search.ExamineEvents - Initializing Examine and binding to business logic events
+ 2018-02-09 11:39:02,586 [P6528/D2/T1] INFO  Umbraco.Web.Search.ExamineEvents - Adding examine event handlers for index providers: 3
+ 2018-02-09 11:39:02,603 [P6528/D2/T1] INFO  Umbraco.Core.CoreBootManager - Umbraco application startup complete (took 4713ms)
+ 2018-02-09 11:39:02,924 [P6528/D2/T10] INFO  Umbraco.Core.Sync.ApplicationUrlHelper - ApplicationUrl: http://localhost:38181/umbraco (UmbracoModule request)
+ 2018-02-09 11:39:03,412 [P6528/D2/T10] INFO  umbraco.content - Load Xml from file...
+ 2018-02-09 11:39:03,416 [P6528/D2/T10] INFO  umbraco.content - Loaded Xml from file.
+ 2018-02-09 11:39:04,765 [P6528/D2/T10] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Core.PropertyEditors.IParameterEditor
+ 2018-02-09 11:39:04,801 [P6528/D2/T10] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Core.PropertyEditors.IParameterEditor, found 0 (took 35ms)
+ 2018-02-09 11:39:12,770 [P6528/D2/T10] ERROR Umbraco.Web.PropertyEditors.ValueConverters.RelatedLinksEditorValueConvertor - Could not parse the string [
+  {
+    "caption": "CNH",
+    "link": 1053,
+    "newWindow": false,
+    "internal": 1053,
+    "edit": false,
+    "isInternal": true,
+    "internalName": "Home",
+    "internalIcon": "icon-home",
+    "type": "internal",
+    "title": "CNH"
+  },
+  {
+    "caption": "Rondas",
+    "link": null,
+    "newWindow": false,
+    "internal": null,
+    "edit": false,
+    "isInternal": true,
+    "internalName": "",
+    "internalIcon": null,
+    "type": "internal",
+    "title": "Rondas"
+  },
+  {
+    "caption": "Asociaciones  Estratégicas",
+    "link": null,
+    "newWindow": false,
+    "internal": null,
+    "edit": false,
+    "isInternal": true,
+    "internalName": "",
+    "internalIcon": null,
+    "type": "internal",
+    "title": "Asociaciones  Estratégicas"
+  },
+  {
+    "caption": "Administración de Contratos",
+    "link": null,
+    "newWindow": false,
+    "internal": null,
+    "edit": false,
+    "isInternal": true,
+    "internalName": "",
+    "internalIcon": null,
+    "type": "internal",
+    "title": "Administración de Contratos"
+  },
+  {
+    "caption": "Cifras Relevantes",
+    "link": null,
+    "newWindow": false,
+    "internal": null,
+    "edit": false,
+    "isInternal": true,
+    "internalName": "",
+    "internalIcon": null,
+    "type": "internal",
+    "title": "Cifras Relevantes"
+  },
+  {
+    "caption": "Arreglo Institucional",
+    "link": null,
+    "newWindow": false,
+    "internal": null,
+    "edit": false,
+    "isInternal": true,
+    "internalName": "",
+    "internalIcon": null,
+    "type": "internal",
+    "title": "Arreglo Institucional"
+  },
+  {
+    "caption": "Contacto",
+    "link": null,
+    "newWindow": false,
+    "internal": null,
+    "edit": false,
+    "isInternal": true,
+    "internalName": "",
+    "internalIcon": null,
+    "type": "internal",
+    "title": "Contacto"
+  }
+] to a json object
+System.InvalidCastException: Null object cannot be converted to a value type.
+   at System.Convert.ChangeType(Object value, Type conversionType, IFormatProvider provider)
+   at Newtonsoft.Json.Linq.Extensions.Convert[T,U](T token)
+   at Newtonsoft.Json.Linq.JToken.Value[T](Object key)
+   at Umbraco.Web.PropertyEditors.ValueConverters.RelatedLinksEditorValueConvertor.ConvertDataToSource(PublishedPropertyType propertyType, Object source, Boolean preview)
+ 2018-02-09 11:39:12,770 [P6528/D2/T11] ERROR Umbraco.Web.PropertyEditors.ValueConverters.RelatedLinksEditorValueConvertor - Could not parse the string [
+  {
+    "caption": "CNH",
+    "link": 1053,
+    "newWindow": false,
+    "internal": 1053,
+    "edit": false,
+    "isInternal": true,
+    "internalName": "Home",
+    "internalIcon": "icon-home",
+    "type": "internal",
+    "title": "CNH"
+  },
+  {
+    "caption": "Rondas",
+    "link": null,
+    "newWindow": false,
+    "internal": null,
+    "edit": false,
+    "isInternal": true,
+    "internalName": "",
+    "internalIcon": null,
+    "type": "internal",
+    "title": "Rondas"
+  },
+  {
+    "caption": "Asociaciones  Estratégicas",
+    "link": null,
+    "newWindow": false,
+    "internal": null,
+    "edit": false,
+    "isInternal": true,
+    "internalName": "",
+    "internalIcon": null,
+    "type": "internal",
+    "title": "Asociaciones  Estratégicas"
+  },
+  {
+    "caption": "Administración de Contratos",
+    "link": null,
+    "newWindow": false,
+    "internal": null,
+    "edit": false,
+    "isInternal": true,
+    "internalName": "",
+    "internalIcon": null,
+    "type": "internal",
+    "title": "Administración de Contratos"
+  },
+  {
+    "caption": "Cifras Relevantes",
+    "link": null,
+    "newWindow": false,
+    "internal": null,
+    "edit": false,
+    "isInternal": true,
+    "internalName": "",
+    "internalIcon": null,
+    "type": "internal",
+    "title": "Cifras Relevantes"
+  },
+  {
+    "caption": "Arreglo Institucional",
+    "link": null,
+    "newWindow": false,
+    "internal": null,
+    "edit": false,
+    "isInternal": true,
+    "internalName": "",
+    "internalIcon": null,
+    "type": "internal",
+    "title": "Arreglo Institucional"
+  },
+  {
+    "caption": "Contacto",
+    "link": null,
+    "newWindow": false,
+    "internal": null,
+    "edit": false,
+    "isInternal": true,
+    "internalName": "",
+    "internalIcon": null,
+    "type": "internal",
+    "title": "Contacto"
+  }
+] to a json object
+System.InvalidCastException: Null object cannot be converted to a value type.
+   at System.Convert.ChangeType(Object value, Type conversionType, IFormatProvider provider)
+   at Newtonsoft.Json.Linq.Extensions.Convert[T,U](T token)
+   at Newtonsoft.Json.Linq.JToken.Value[T](Object key)
+   at Umbraco.Web.PropertyEditors.ValueConverters.RelatedLinksEditorValueConvertor.ConvertDataToSource(PublishedPropertyType propertyType, Object source, Boolean preview)
+ 2018-02-09 11:39:18,618 [P6528/D2/T18] INFO  Umbraco.Core.PluginManager - Starting resolution types of umbraco.interfaces.ICacheRefresher
+ 2018-02-09 11:39:18,671 [P6528/D2/T18] INFO  Umbraco.Core.PluginManager - Completed resolution of types of umbraco.interfaces.ICacheRefresher, found 0 (took 53ms)
+ 2018-02-09 11:39:18,712 [P6528/D2/T18] ERROR Umbraco.Web.PropertyEditors.ValueConverters.RelatedLinksEditorValueConvertor - Could not parse the string [
+  {
+    "caption": "CNH",
+    "link": 1053,
+    "newWindow": false,
+    "internal": 1053,
+    "edit": false,
+    "isInternal": true,
+    "internalName": "Home",
+    "internalIcon": "icon-home",
+    "type": "internal",
+    "title": "CNH"
+  },
+  {
+    "caption": "Rondas",
+    "link": null,
+    "newWindow": false,
+    "internal": null,
+    "edit": false,
+    "isInternal": true,
+    "internalName": "",
+    "internalIcon": null,
+    "type": "internal",
+    "title": "Rondas"
+  },
+  {
+    "caption": "Asociaciones  Estratégicas",
+    "link": null,
+    "newWindow": false,
+    "internal": null,
+    "edit": false,
+    "isInternal": true,
+    "internalName": "",
+    "internalIcon": null,
+    "type": "internal",
+    "title": "Asociaciones  Estratégicas"
+  },
+  {
+    "caption": "Administración de Contratos",
+    "link": null,
+    "newWindow": false,
+    "internal": null,
+    "edit": false,
+    "isInternal": true,
+    "internalName": "",
+    "internalIcon": null,
+    "type": "internal",
+    "title": "Administración de Contratos"
+  },
+  {
+    "caption": "Cifras Relevantes",
+    "link": null,
+    "newWindow": false,
+    "internal": null,
+    "edit": false,
+    "isInternal": true,
+    "internalName": "",
+    "internalIcon": null,
+    "type": "internal",
+    "title": "Cifras Relevantes"
+  },
+  {
+    "caption": "Arreglo Institucional",
+    "link": null,
+    "newWindow": false,
+    "internal": null,
+    "edit": false,
+    "isInternal": true,
+    "internalName": "",
+    "internalIcon": null,
+    "type": "internal",
+    "title": "Arreglo Institucional"
+  },
+  {
+    "caption": "Contacto",
+    "link": null,
+    "newWindow": false,
+    "internal": null,
+    "edit": false,
+    "isInternal": true,
+    "internalName": "",
+    "internalIcon": null,
+    "type": "internal",
+    "title": "Contacto"
+  }
+] to a json object
+System.InvalidCastException: Null object cannot be converted to a value type.
+   at System.Convert.ChangeType(Object value, Type conversionType, IFormatProvider provider)
+   at Newtonsoft.Json.Linq.Extensions.Convert[T,U](T token)
+   at Newtonsoft.Json.Linq.JToken.Value[T](Object key)
+   at Umbraco.Web.PropertyEditors.ValueConverters.RelatedLinksEditorValueConvertor.ConvertDataToSource(PublishedPropertyType propertyType, Object source, Boolean preview)
+ 2018-02-09 11:39:41,506 [P6528/D2/T10] ERROR Umbraco.Web.PropertyEditors.ValueConverters.RelatedLinksEditorValueConvertor - Could not parse the string [
+  {
+    "caption": "CNH",
+    "link": 1053,
+    "newWindow": false,
+    "internal": 1053,
+    "edit": false,
+    "isInternal": true,
+    "internalName": "Home",
+    "internalIcon": "icon-home",
+    "type": "internal",
+    "title": "CNH"
+  },
+  {
+    "caption": "Rondas",
+    "link": null,
+    "newWindow": false,
+    "internal": null,
+    "edit": false,
+    "isInternal": true,
+    "internalName": "",
+    "internalIcon": null,
+    "type": "internal",
+    "title": "Rondas"
+  },
+  {
+    "caption": "Asociaciones  Estratégicas",
+    "link": null,
+    "newWindow": false,
+    "internal": null,
+    "edit": false,
+    "isInternal": true,
+    "internalName": "",
+    "internalIcon": null,
+    "type": "internal",
+    "title": "Asociaciones  Estratégicas"
+  },
+  {
+    "caption": "Administración de Contratos",
+    "link": null,
+    "newWindow": false,
+    "internal": null,
+    "edit": false,
+    "isInternal": true,
+    "internalName": "",
+    "internalIcon": null,
+    "type": "internal",
+    "title": "Administración de Contratos"
+  },
+  {
+    "caption": "Cifras Relevantes",
+    "link": null,
+    "newWindow": false,
+    "internal": null,
+    "edit": false,
+    "isInternal": true,
+    "internalName": "",
+    "internalIcon": null,
+    "type": "internal",
+    "title": "Cifras Relevantes"
+  },
+  {
+    "caption": "Arreglo Institucional",
+    "link": null,
+    "newWindow": false,
+    "internal": null,
+    "edit": false,
+    "isInternal": true,
+    "internalName": "",
+    "internalIcon": null,
+    "type": "internal",
+    "title": "Arreglo Institucional"
+  },
+  {
+    "caption": "Contacto",
+    "link": null,
+    "newWindow": false,
+    "internal": null,
+    "edit": false,
+    "isInternal": true,
+    "internalName": "",
+    "internalIcon": null,
+    "type": "internal",
+    "title": "Contacto"
+  }
+] to a json object
+System.InvalidCastException: Null object cannot be converted to a value type.
+   at System.Convert.ChangeType(Object value, Type conversionType, IFormatProvider provider)
+   at Newtonsoft.Json.Linq.Extensions.Convert[T,U](T token)
+   at Newtonsoft.Json.Linq.JToken.Value[T](Object key)
+   at Umbraco.Web.PropertyEditors.ValueConverters.RelatedLinksEditorValueConvertor.ConvertDataToSource(PublishedPropertyType propertyType, Object source, Boolean preview)
+ 2018-02-09 11:40:03,977 [P6528/D2/T16] INFO  umbraco.BusinessLogic.Log - Log scrubbed.  Removed all items older than 2018-02-08 11:40:03
+ 2018-02-09 11:40:04,008 [P6528/D2/T16] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Core.Persistence.Mappers.BaseMapper
+ 2018-02-09 11:40:04,019 [P6528/D2/T16] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Core.Persistence.Mappers.BaseMapper, found 0 (took 10ms)
+ 2018-02-09 11:40:05,485 [P6528/D2/T7] INFO  Umbraco.Core.Security.BackOfficeSignInManager - Event Id: 0, state: Login attempt succeeded for username armando.diaz@planetmedia.com.mx from IP address ::1
+ 2018-02-09 11:40:05,491 [P6528/D2/T7] INFO  Umbraco.Core.Security.BackOfficeSignInManager - Event Id: 0, state: User: armando.diaz@planetmedia.com.mx logged in from IP address ::1
+ 2018-02-09 11:40:06,023 [P6528/D2/T18] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Web.Trees.TreeController
+ 2018-02-09 11:40:06,023 [P6528/D2/T18] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Web.Trees.TreeController, found 0 (took 8ms)
+ 2018-02-09 11:40:06,122 [P6528/D2/T7] INFO  Umbraco.Core.PluginManager - Starting resolution types of umbraco.interfaces.IApplication
+ 2018-02-09 11:40:06,140 [P6528/D2/T7] INFO  Umbraco.Core.PluginManager - Completed resolution of types of umbraco.interfaces.IApplication, found 0 (took 17ms)
+ 2018-02-09 11:40:06,172 [P6528/D2/T13] INFO  Umbraco.Core.PluginManager - Starting resolution types of umbraco.interfaces.ITree
+ 2018-02-09 11:40:06,185 [P6528/D2/T13] INFO  Umbraco.Core.PluginManager - Completed resolution of types of umbraco.interfaces.ITree, found 0 (took 13ms)
+ 2018-02-09 11:40:06,214 [P6528/D2/T13] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Web.Trees.TreeController
+ 2018-02-09 11:40:06,214 [P6528/D2/T13] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Web.Trees.TreeController, found 0 (took 0ms)
+ 2018-02-09 11:40:06,219 [P6528/D2/T13] INFO  Umbraco.Core.PluginManager - Starting resolution types of umbraco.interfaces.ITree
+ 2018-02-09 11:40:06,232 [P6528/D2/T13] INFO  Umbraco.Core.PluginManager - Completed resolution of types of umbraco.interfaces.ITree, found 0 (took 13ms)
+ 2018-02-09 11:40:22,752 [P6528/D2/T18] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Web.HealthCheck.HealthCheck
+ 2018-02-09 11:40:22,768 [P6528/D2/T18] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Web.HealthCheck.HealthCheck, found 0 (took 16ms)
+ 2018-02-09 11:42:55,144 [P6528/D2/T32] ERROR Umbraco.Web.PropertyEditors.ValueConverters.RelatedLinksEditorValueConvertor - Could not parse the string [
+  {
+    "caption": "CNH",
+    "link": 1053,
+    "newWindow": false,
+    "internal": 1053,
+    "edit": false,
+    "isInternal": true,
+    "internalName": "Home",
+    "internalIcon": "icon-home",
+    "type": "internal",
+    "title": "CNH"
+  },
+  {
+    "caption": "Rondas",
+    "link": null,
+    "newWindow": false,
+    "internal": null,
+    "edit": false,
+    "isInternal": true,
+    "internalName": "",
+    "internalIcon": null,
+    "type": "internal",
+    "title": "Rondas"
+  },
+  {
+    "caption": "Asociaciones  Estratégicas",
+    "link": null,
+    "newWindow": false,
+    "internal": null,
+    "edit": false,
+    "isInternal": true,
+    "internalName": "",
+    "internalIcon": null,
+    "type": "internal",
+    "title": "Asociaciones  Estratégicas"
+  },
+  {
+    "caption": "Administración de Contratos",
+    "link": null,
+    "newWindow": false,
+    "internal": null,
+    "edit": false,
+    "isInternal": true,
+    "internalName": "",
+    "internalIcon": null,
+    "type": "internal",
+    "title": "Administración de Contratos"
+  },
+  {
+    "caption": "Cifras Relevantes",
+    "link": null,
+    "newWindow": false,
+    "internal": null,
+    "edit": false,
+    "isInternal": true,
+    "internalName": "",
+    "internalIcon": null,
+    "type": "internal",
+    "title": "Cifras Relevantes"
+  },
+  {
+    "caption": "Arreglo Institucional",
+    "link": null,
+    "newWindow": false,
+    "internal": null,
+    "edit": false,
+    "isInternal": true,
+    "internalName": "",
+    "internalIcon": null,
+    "type": "internal",
+    "title": "Arreglo Institucional"
+  },
+  {
+    "caption": "Contacto",
+    "link": null,
+    "newWindow": false,
+    "internal": null,
+    "edit": false,
+    "isInternal": true,
+    "internalName": "",
+    "internalIcon": null,
+    "type": "internal",
+    "title": "Contacto"
+  }
+] to a json object
+System.InvalidCastException: Null object cannot be converted to a value type.
+   at System.Convert.ChangeType(Object value, Type conversionType, IFormatProvider provider)
+   at Newtonsoft.Json.Linq.Extensions.Convert[T,U](T token)
+   at Newtonsoft.Json.Linq.JToken.Value[T](Object key)
+   at Umbraco.Web.PropertyEditors.ValueConverters.RelatedLinksEditorValueConvertor.ConvertDataToSource(PublishedPropertyType propertyType, Object source, Boolean preview)
+ 2018-02-09 11:50:02,505 [P6528/D2/T49] WARN  Umbraco.Web.Models.Mapping.PreValueDisplayResolver - Could not find persisted pre-value for field editor
+ 2018-02-09 11:50:02,505 [P6528/D2/T49] WARN  Umbraco.Web.Models.Mapping.PreValueDisplayResolver - Could not find persisted pre-value for field hideLabel
+ 2018-02-09 11:50:11,300 [P6528/D2/T34] WARN  Umbraco.Web.Models.Mapping.PreValueDisplayResolver - Could not find persisted pre-value for field editor
+ 2018-02-09 11:50:11,300 [P6528/D2/T34] WARN  Umbraco.Web.Models.Mapping.PreValueDisplayResolver - Could not find persisted pre-value for field hideLabel
+ 2018-02-09 11:50:47,344 [P6528/D2/T57] WARN  Umbraco.Web.Models.Mapping.PreValueDisplayResolver - Could not find persisted pre-value for field editor
+ 2018-02-09 11:50:47,344 [P6528/D2/T57] WARN  Umbraco.Web.Models.Mapping.PreValueDisplayResolver - Could not find persisted pre-value for field hideLabel
+ 2018-02-09 12:09:44,085 [P6528/D2/T49] INFO  Umbraco.Core.Logging.OwinLogger - Event Id: 0, state: User logged will be logged out due to timeout: armando.diaz@planetmedia.com.mx, IP Address: ::1
+ 2018-02-09 12:13:32,125 [P6528/D2/T97] INFO  Umbraco.Core.Security.BackOfficeSignInManager - Event Id: 0, state: Login attempt succeeded for username armando.diaz@planetmedia.com.mx from IP address ::1
+ 2018-02-09 12:13:32,125 [P6528/D2/T97] INFO  Umbraco.Core.Security.BackOfficeSignInManager - Event Id: 0, state: User: armando.diaz@planetmedia.com.mx logged in from IP address ::1
+ 2018-02-09 12:15:54,923 [P6528/D2/T104] ERROR dashboardUtilities.FeedProxy - Exception occurred
+System.Net.WebException: Se excedió el tiempo de espera de la operación
+   at System.Net.WebClient.DownloadDataInternal(Uri address, WebRequest& request)
+   at System.Net.WebClient.DownloadString(Uri address)
+   at dashboardUtilities.FeedProxy.Page_Load(Object sender, EventArgs e)
+ 2018-02-09 12:21:26,516 [P6528/D2/T136] WARN  Umbraco.Web.Models.Mapping.PreValueDisplayResolver - Could not find persisted pre-value for field editor
+ 2018-02-09 12:21:26,516 [P6528/D2/T136] WARN  Umbraco.Web.Models.Mapping.PreValueDisplayResolver - Could not find persisted pre-value for field hideLabel
+ 2018-02-09 12:21:49,870 [P6528/D2/T136] WARN  Umbraco.Web.Models.Mapping.PreValueDisplayResolver - Could not find persisted pre-value for field editor
+ 2018-02-09 12:21:49,870 [P6528/D2/T136] WARN  Umbraco.Web.Models.Mapping.PreValueDisplayResolver - Could not find persisted pre-value for field hideLabel
+ 2018-02-09 12:22:36,699 [P6528/D2/T160] WARN  Umbraco.Web.Models.Mapping.PreValueDisplayResolver - Could not find persisted pre-value for field editor
+ 2018-02-09 12:22:36,700 [P6528/D2/T160] WARN  Umbraco.Web.Models.Mapping.PreValueDisplayResolver - Could not find persisted pre-value for field hideLabel
+ 2018-02-09 12:43:22,189 [P6528/D2/T92] INFO  Umbraco.Core.Logging.OwinLogger - Event Id: 0, state: User logged will be logged out due to timeout: armando.diaz@planetmedia.com.mx, IP Address: ::1
+ 2018-02-09 13:07:58,389 [P6528/D2/T45] INFO  Umbraco.Core.Security.BackOfficeSignInManager - Event Id: 0, state: Login attempt succeeded for username armando.diaz@planetmedia.com.mx from IP address ::1
+ 2018-02-09 13:07:58,392 [P6528/D2/T45] INFO  Umbraco.Core.Security.BackOfficeSignInManager - Event Id: 0, state: User: armando.diaz@planetmedia.com.mx logged in from IP address ::1
+ 2018-02-09 13:08:44,938 [P6528/D2/T75] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Web.Editors.IEditorValidator
+ 2018-02-09 13:08:44,966 [P6528/D2/T75] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Web.Editors.IEditorValidator, found 0 (took 27ms)
+ 2018-02-09 13:08:49,497 [P6528/D2/T8] WARN  Umbraco.Web.Models.Mapping.PreValueDisplayResolver - Could not find persisted pre-value for field editor
+ 2018-02-09 13:08:49,499 [P6528/D2/T8] WARN  Umbraco.Web.Models.Mapping.PreValueDisplayResolver - Could not find persisted pre-value for field hideLabel
+ 2018-02-09 13:13:43,386 [P6528/D2/T73] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Menú Principal' with Id '0' has been published.
+ 2018-02-09 13:13:48,444 [P6528/D2/T12] INFO  umbraco.content - Save Xml to file...
+ 2018-02-09 13:13:48,451 [P6528/D2/T12] INFO  umbraco.content - Saved Xml to file.
+ 2018-02-09 13:14:12,275 [P6528/D2/T8] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Web.Trees.TreeController
+ 2018-02-09 13:14:12,275 [P6528/D2/T8] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Web.Trees.TreeController, found 0 (took 0ms)
+ 2018-02-09 13:14:15,366 [P6528/D2/T8] ERROR umbraco.presentation.preview.PreviewContent - Couldn't delete preview set: 0_745bf6d3-e542-44d6-b7e5-f202c262e208.config - User 0
+System.IO.IOException: The process cannot access the file '0_745bf6d3-e542-44d6-b7e5-f202c262e208.config' because it is being used by another process.
+   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.FileInfo.Delete()
+   at umbraco.presentation.preview.PreviewContent.DeletePreviewFile(Int32 userId, FileInfo file)
+ 2018-02-09 13:14:18,024 [P6528/D2/T97] ERROR Umbraco.Web.PropertyEditors.ValueConverters.RelatedLinksEditorValueConvertor - Could not parse the string [
+  {
+    "caption": "CNH",
+    "link": 1053,
+    "newWindow": false,
+    "internal": 1053,
+    "edit": false,
+    "isInternal": true,
+    "internalName": "Home",
+    "internalIcon": "icon-home",
+    "type": "internal",
+    "title": "CNH"
+  },
+  {
+    "caption": "Rondas",
+    "link": null,
+    "newWindow": false,
+    "internal": null,
+    "edit": false,
+    "isInternal": true,
+    "internalName": "",
+    "internalIcon": null,
+    "type": "internal",
+    "title": "Rondas"
+  },
+  {
+    "caption": "Asociaciones  Estratégicas",
+    "link": null,
+    "newWindow": false,
+    "internal": null,
+    "edit": false,
+    "isInternal": true,
+    "internalName": "",
+    "internalIcon": null,
+    "type": "internal",
+    "title": "Asociaciones  Estratégicas"
+  },
+  {
+    "caption": "Administración de Contratos",
+    "link": null,
+    "newWindow": false,
+    "internal": null,
+    "edit": false,
+    "isInternal": true,
+    "internalName": "",
+    "internalIcon": null,
+    "type": "internal",
+    "title": "Administración de Contratos"
+  },
+  {
+    "caption": "Cifras Relevantes",
+    "link": null,
+    "newWindow": false,
+    "internal": null,
+    "edit": false,
+    "isInternal": true,
+    "internalName": "",
+    "internalIcon": null,
+    "type": "internal",
+    "title": "Cifras Relevantes"
+  },
+  {
+    "caption": "Arreglo Institucional",
+    "link": null,
+    "newWindow": false,
+    "internal": null,
+    "edit": false,
+    "isInternal": true,
+    "internalName": "",
+    "internalIcon": null,
+    "type": "internal",
+    "title": "Arreglo Institucional"
+  },
+  {
+    "caption": "Contacto",
+    "link": null,
+    "newWindow": false,
+    "internal": null,
+    "edit": false,
+    "isInternal": true,
+    "internalName": "",
+    "internalIcon": null,
+    "type": "internal",
+    "title": "Contacto"
+  }
+] to a json object
+System.InvalidCastException: Null object cannot be converted to a value type.
+   at System.Convert.ChangeType(Object value, Type conversionType, IFormatProvider provider)
+   at Newtonsoft.Json.Linq.Extensions.Convert[T,U](T token)
+   at Newtonsoft.Json.Linq.JToken.Value[T](Object key)
+   at Umbraco.Web.PropertyEditors.ValueConverters.RelatedLinksEditorValueConvertor.ConvertDataToSource(PublishedPropertyType propertyType, Object source, Boolean preview)
+ 2018-02-09 13:27:36,331 [P6528/D2/T94] INFO  Umbraco.Core.Logging.OwinLogger - Event Id: 0, state: User logged will be logged out due to timeout: armando.diaz@planetmedia.com.mx, IP Address: ::1
+ 2018-02-09 13:38:09,048 [P6528/D2/T86] INFO  Umbraco.Core.Security.BackOfficeSignInManager - Event Id: 0, state: Login attempt succeeded for username armando.diaz@planetmedia.com.mx from IP address ::1
+ 2018-02-09 13:38:09,048 [P6528/D2/T86] INFO  Umbraco.Core.Security.BackOfficeSignInManager - Event Id: 0, state: User: armando.diaz@planetmedia.com.mx logged in from IP address ::1
+ 2018-02-09 13:38:13,365 [P6528/D2/T85] WARN  Umbraco.Web.Models.Mapping.PreValueDisplayResolver - Could not find persisted pre-value for field editor
+ 2018-02-09 13:38:13,365 [P6528/D2/T85] WARN  Umbraco.Web.Models.Mapping.PreValueDisplayResolver - Could not find persisted pre-value for field hideLabel
+ 2018-02-09 13:39:52,366 [P6528/D2/T68] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Home' with Id '1053' has been published.
+ 2018-02-09 13:39:56,981 [P6528/D2/T93] INFO  umbraco.content - Save Xml to file...
+ 2018-02-09 13:39:56,985 [P6528/D2/T93] INFO  umbraco.content - Saved Xml to file.
+ 2018-02-12 11:48:19,733 [P6960/D2/T1] INFO  Umbraco.Core.CoreBootManager - Umbraco 7.5.4 application starting on PLANETMEDIA-PC
+ 2018-02-12 11:48:19,775 [P6960/D2/T1] INFO  Umbraco.Core.PluginManager - Determining hash of code files on disk
+ 2018-02-12 11:48:19,786 [P6960/D2/T1] INFO  Umbraco.Core.PluginManager - Hash determined (took 10ms)
+ 2018-02-12 11:48:19,867 [P6960/D2/T1] INFO  Umbraco.Core.PluginManager - Starting resolution types of umbraco.interfaces.IApplicationStartupHandler
+ 2018-02-12 11:48:20,446 [P6960/D2/T1] INFO  Umbraco.Core.PluginManager - Completed resolution of types of umbraco.interfaces.IApplicationStartupHandler, found 0 (took 578ms)
+ 2018-02-12 11:48:20,459 [P6960/D2/T1] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Core.PropertyEditors.IPropertyEditorValueConverter
+ 2018-02-12 11:48:20,464 [P6960/D2/T1] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Core.PropertyEditors.IPropertyEditorValueConverter, found 0 (took 4ms)
+ 2018-02-12 11:48:20,464 [P6960/D2/T1] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Core.PropertyEditors.IPropertyValueConverter
+ 2018-02-12 11:48:20,470 [P6960/D2/T1] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Core.PropertyEditors.IPropertyValueConverter, found 0 (took 6ms)
+ 2018-02-12 11:48:20,481 [P6960/D2/T1] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Web.Mvc.SurfaceController
+ 2018-02-12 11:48:20,487 [P6960/D2/T1] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Web.Mvc.SurfaceController, found 0 (took 5ms)
+ 2018-02-12 11:48:20,488 [P6960/D2/T1] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Web.WebApi.UmbracoApiController
+ 2018-02-12 11:48:20,493 [P6960/D2/T1] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Web.WebApi.UmbracoApiController, found 0 (took 5ms)
+ 2018-02-12 11:48:20,596 [P6960/D2/T1] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Core.Media.IThumbnailProvider
+ 2018-02-12 11:48:20,600 [P6960/D2/T1] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Core.Media.IThumbnailProvider, found 0 (took 4ms)
+ 2018-02-12 11:48:20,601 [P6960/D2/T1] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Core.Media.IImageUrlProvider
+ 2018-02-12 11:48:20,607 [P6960/D2/T1] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Core.Media.IImageUrlProvider, found 0 (took 5ms)
+ 2018-02-12 11:48:22,598 [P6960/D2/T1] INFO  Umbraco.Core.DatabaseContext - CanConnect = True
+ 2018-02-12 11:48:23,356 [P6960/D2/T1] INFO  Umbraco.Core.DatabaseContext - CanConnect = True
+ 2018-02-12 11:48:23,394 [P6960/D2/T1] INFO  Umbraco.Core.DatabaseContext - CanConnect = True
+ 2018-02-12 11:48:23,505 [P6960/D2/T1] INFO  Umbraco.Web.Cache.CacheRefresherEventHandler - Initializing Umbraco internal event handlers for cache refreshing
+ 2018-02-12 11:48:23,664 [P6960/D2/T1] INFO  Umbraco.Web.Search.ExamineEvents - Initializing Examine and binding to business logic events
+ 2018-02-12 11:48:23,664 [P6960/D2/T1] INFO  Umbraco.Web.Search.ExamineEvents - Adding examine event handlers for index providers: 3
+ 2018-02-12 11:48:23,805 [P6960/D2/T1] INFO  Umbraco.Core.CoreBootManager - Umbraco application startup complete (took 4152ms)
+ 2018-02-12 11:48:24,023 [P6960/D2/T6] INFO  Umbraco.Core.Sync.ApplicationUrlHelper - ApplicationUrl: http://localhost:18701/umbraco (UmbracoModule request)
+ 2018-02-12 11:48:24,893 [P6960/D2/T6] INFO  umbraco.content - Load Xml from file...
+ 2018-02-12 11:48:24,942 [P6960/D2/T6] INFO  umbraco.content - Loaded Xml from file.
+ 2018-02-12 11:48:26,898 [P6960/D2/T6] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Core.PropertyEditors.IParameterEditor
+ 2018-02-12 11:48:26,917 [P6960/D2/T6] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Core.PropertyEditors.IParameterEditor, found 0 (took 18ms)
+ 2018-02-12 11:48:35,217 [P6960/D2/T6] ERROR Umbraco.Web.PropertyEditors.ValueConverters.RelatedLinksEditorValueConvertor - Could not parse the string [
+  {
+    "caption": "CNH",
+    "link": 1053,
+    "newWindow": false,
+    "internal": 1053,
+    "edit": false,
+    "isInternal": true,
+    "internalName": "Home",
+    "internalIcon": "icon-home",
+    "type": "internal",
+    "title": "CNH"
+  },
+  {
+    "caption": "Rondas",
+    "link": null,
+    "newWindow": false,
+    "internal": null,
+    "edit": false,
+    "isInternal": true,
+    "internalName": "",
+    "internalIcon": null,
+    "type": "internal",
+    "title": "Rondas"
+  },
+  {
+    "caption": "Asociaciones  Estratégicas",
+    "link": null,
+    "newWindow": false,
+    "internal": null,
+    "edit": false,
+    "isInternal": true,
+    "internalName": "",
+    "internalIcon": null,
+    "type": "internal",
+    "title": "Asociaciones  Estratégicas"
+  },
+  {
+    "caption": "Administración de Contratos",
+    "link": null,
+    "newWindow": false,
+    "internal": null,
+    "edit": false,
+    "isInternal": true,
+    "internalName": "",
+    "internalIcon": null,
+    "type": "internal",
+    "title": "Administración de Contratos"
+  },
+  {
+    "caption": "Cifras Relevantes",
+    "link": null,
+    "newWindow": false,
+    "internal": null,
+    "edit": false,
+    "isInternal": true,
+    "internalName": "",
+    "internalIcon": null,
+    "type": "internal",
+    "title": "Cifras Relevantes"
+  },
+  {
+    "caption": "Arreglo Institucional",
+    "link": null,
+    "newWindow": false,
+    "internal": null,
+    "edit": false,
+    "isInternal": true,
+    "internalName": "",
+    "internalIcon": null,
+    "type": "internal",
+    "title": "Arreglo Institucional"
+  },
+  {
+    "caption": "Contacto",
+    "link": null,
+    "newWindow": false,
+    "internal": null,
+    "edit": false,
+    "isInternal": true,
+    "internalName": "",
+    "internalIcon": null,
+    "type": "internal",
+    "title": "Contacto"
+  }
+] to a json object
+System.InvalidCastException: Null object cannot be converted to a value type.
+   at System.Convert.ChangeType(Object value, Type conversionType, IFormatProvider provider)
+   at Newtonsoft.Json.Linq.Extensions.Convert[T,U](T token)
+   at Newtonsoft.Json.Linq.JToken.Value[T](Object key)
+   at Umbraco.Web.PropertyEditors.ValueConverters.RelatedLinksEditorValueConvertor.ConvertDataToSource(PublishedPropertyType propertyType, Object source, Boolean preview)
+ 2018-02-12 11:49:12,036 [P6960/D2/T6] INFO  Umbraco.Core.PluginManager - Starting resolution types of umbraco.interfaces.ICacheRefresher
+ 2018-02-12 11:49:12,065 [P6960/D2/T6] INFO  Umbraco.Core.PluginManager - Completed resolution of types of umbraco.interfaces.ICacheRefresher, found 0 (took 28ms)
+ 2018-02-12 11:49:19,271 [P6960/D2/T13] INFO  umbraco.content - Save Xml to file...
+ 2018-02-12 11:49:19,541 [P6960/D2/T13] INFO  umbraco.content - Saved Xml to file.
+ 2018-02-12 11:49:21,293 [P6960/D2/T6] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Core.Persistence.Mappers.BaseMapper
+ 2018-02-12 11:49:21,302 [P6960/D2/T6] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Core.Persistence.Mappers.BaseMapper, found 0 (took 9ms)
+ 2018-02-12 11:49:21,765 [P6960/D2/T6] INFO  Umbraco.Core.Security.BackOfficeSignInManager - Event Id: 0, state: Login attempt succeeded for username armando.diaz@planetmedia.com.mx from IP address ::1
+ 2018-02-12 11:49:21,770 [P6960/D2/T6] INFO  Umbraco.Core.Security.BackOfficeSignInManager - Event Id: 0, state: User: armando.diaz@planetmedia.com.mx logged in from IP address ::1
+ 2018-02-12 11:49:22,821 [P6960/D2/T6] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Web.Trees.TreeController
+ 2018-02-12 11:49:22,826 [P6960/D2/T6] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Web.Trees.TreeController, found 0 (took 5ms)
+ 2018-02-12 11:49:23,948 [P6960/D2/T23] INFO  Umbraco.Core.PluginManager - Starting resolution types of umbraco.interfaces.IApplication
+ 2018-02-12 11:49:23,967 [P6960/D2/T23] INFO  Umbraco.Core.PluginManager - Completed resolution of types of umbraco.interfaces.IApplication, found 0 (took 19ms)
+ 2018-02-12 11:49:24,107 [P6960/D2/T23] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Web.Trees.TreeController
+ 2018-02-12 11:49:24,108 [P6960/D2/T23] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Web.Trees.TreeController, found 0 (took 0ms)
+ 2018-02-12 11:49:24,112 [P6960/D2/T23] INFO  Umbraco.Core.PluginManager - Starting resolution types of umbraco.interfaces.ITree
+ 2018-02-12 11:49:24,126 [P6960/D2/T23] INFO  Umbraco.Core.PluginManager - Completed resolution of types of umbraco.interfaces.ITree, found 0 (took 14ms)
+ 2018-02-12 11:49:24,205 [P6960/D2/T23] INFO  Umbraco.Core.PluginManager - Starting resolution types of umbraco.interfaces.ITree
+ 2018-02-12 11:49:24,211 [P6960/D2/T23] INFO  Umbraco.Core.PluginManager - Completed resolution of types of umbraco.interfaces.ITree, found 0 (took 6ms)
+ 2018-02-12 11:49:25,091 [P6960/D2/T15] INFO  umbraco.BusinessLogic.Log - Log scrubbed.  Removed all items older than 2018-02-11 11:49:24
+ 2018-02-12 12:03:40,612 [P6960/D2/T50] INFO  Umbraco.Web.Editors.AuthenticationController - User armando.diaz@planetmedia.com.mx from IP address ::1 has logged out
+ 2018-02-12 12:03:56,906 [P6960/D2/T49] INFO  Umbraco.Core.Security.BackOfficeSignInManager - Event Id: 0, state: Login attempt failed for username Jorge.medrano@planetmedia.com.mx from IP address ::1
+ 2018-02-12 12:04:10,470 [P6960/D2/T49] INFO  Umbraco.Core.Security.BackOfficeSignInManager - Event Id: 0, state: Login attempt failed for username jorge.medrano@planetmedia.com.mx from IP address ::1
+ 2018-02-12 12:04:23,347 [P6960/D2/T25] INFO  Umbraco.Core.Security.BackOfficeSignInManager - Event Id: 0, state: Login attempt succeeded for username armando.diaz@planetmedia.com.mx from IP address ::1
+ 2018-02-12 12:04:23,347 [P6960/D2/T25] INFO  Umbraco.Core.Security.BackOfficeSignInManager - Event Id: 0, state: User: armando.diaz@planetmedia.com.mx logged in from IP address ::1
+ 2018-02-12 12:04:23,594 [P6960/D2/T7] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Web.Trees.TreeController
+ 2018-02-12 12:04:23,594 [P6960/D2/T7] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Web.Trees.TreeController, found 0 (took 0ms)
+ 2018-02-12 12:07:16,542 [P6960/D2/T41] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Web.Editors.IEditorValidator
+ 2018-02-12 12:07:16,602 [P6960/D2/T41] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Web.Editors.IEditorValidator, found 0 (took 60ms)
+ 2018-02-12 12:08:18,266 [P6960/D2/T31] WARN  Umbraco.Web.Models.Mapping.PreValueDisplayResolver - Could not find persisted pre-value for field crops
+ 2018-02-12 12:08:52,079 [P6960/D2/T7] WARN  Umbraco.Web.Models.Mapping.PreValueDisplayResolver - Could not find persisted pre-value for field editor
+ 2018-02-12 12:08:52,081 [P6960/D2/T7] WARN  Umbraco.Web.Models.Mapping.PreValueDisplayResolver - Could not find persisted pre-value for field hideLabel
+ 2018-02-12 12:09:00,817 [P6960/D2/T39] WARN  Umbraco.Web.Models.Mapping.PreValueDisplayResolver - Could not find persisted pre-value for field crops
+ 2018-02-12 12:09:29,321 [P6960/D2/T45] WARN  Umbraco.Web.Models.Mapping.PreValueDisplayResolver - Could not find persisted pre-value for field crops
+ 2018-02-12 12:12:59,996 [P6960/D2/T11] WARN  Umbraco.Web.Models.Mapping.PreValueDisplayResolver - Could not find persisted pre-value for field crops
+ 2018-02-12 12:13:44,245 [P6960/D2/T55] WARN  Umbraco.Web.Models.Mapping.PreValueDisplayResolver - Could not find persisted pre-value for field crops
+ 2018-02-12 12:14:42,375 [P6960/D2/T31] ERROR Umbraco.Web.PropertyEditors.ValueConverters.RelatedLinksEditorValueConvertor - Could not parse the string [
+  {
+    "caption": "CNH",
+    "link": 1053,
+    "newWindow": false,
+    "internal": 1053,
+    "edit": false,
+    "isInternal": true,
+    "internalName": "Home",
+    "internalIcon": "icon-home",
+    "type": "internal",
+    "title": "CNH"
+  },
+  {
+    "caption": "Rondas",
+    "link": null,
+    "newWindow": false,
+    "internal": null,
+    "edit": false,
+    "isInternal": true,
+    "internalName": "",
+    "internalIcon": null,
+    "type": "internal",
+    "title": "Rondas"
+  },
+  {
+    "caption": "Asociaciones  Estratégicas",
+    "link": null,
+    "newWindow": false,
+    "internal": null,
+    "edit": false,
+    "isInternal": true,
+    "internalName": "",
+    "internalIcon": null,
+    "type": "internal",
+    "title": "Asociaciones  Estratégicas"
+  },
+  {
+    "caption": "Administración de Contratos",
+    "link": null,
+    "newWindow": false,
+    "internal": null,
+    "edit": false,
+    "isInternal": true,
+    "internalName": "",
+    "internalIcon": null,
+    "type": "internal",
+    "title": "Administración de Contratos"
+  },
+  {
+    "caption": "Cifras Relevantes",
+    "link": null,
+    "newWindow": false,
+    "internal": null,
+    "edit": false,
+    "isInternal": true,
+    "internalName": "",
+    "internalIcon": null,
+    "type": "internal",
+    "title": "Cifras Relevantes"
+  },
+  {
+    "caption": "Arreglo Institucional",
+    "link": null,
+    "newWindow": false,
+    "internal": null,
+    "edit": false,
+    "isInternal": true,
+    "internalName": "",
+    "internalIcon": null,
+    "type": "internal",
+    "title": "Arreglo Institucional"
+  },
+  {
+    "caption": "Contacto",
+    "link": null,
+    "newWindow": false,
+    "internal": null,
+    "edit": false,
+    "isInternal": true,
+    "internalName": "",
+    "internalIcon": null,
+    "type": "internal",
+    "title": "Contacto"
+  }
+] to a json object
+System.InvalidCastException: Null object cannot be converted to a value type.
+   at System.Convert.ChangeType(Object value, Type conversionType, IFormatProvider provider)
+   at Newtonsoft.Json.Linq.Extensions.Convert[T,U](T token)
+   at Newtonsoft.Json.Linq.JToken.Value[T](Object key)
+   at Umbraco.Web.PropertyEditors.ValueConverters.RelatedLinksEditorValueConvertor.ConvertDataToSource(PublishedPropertyType propertyType, Object source, Boolean preview)
+ 2018-02-12 12:14:42,375 [P6960/D2/T50] ERROR Umbraco.Web.PropertyEditors.ValueConverters.RelatedLinksEditorValueConvertor - Could not parse the string [
+  {
+    "caption": "CNH",
+    "link": 1053,
+    "newWindow": false,
+    "internal": 1053,
+    "edit": false,
+    "isInternal": true,
+    "internalName": "Home",
+    "internalIcon": "icon-home",
+    "type": "internal",
+    "title": "CNH"
+  },
+  {
+    "caption": "Rondas",
+    "link": null,
+    "newWindow": false,
+    "internal": null,
+    "edit": false,
+    "isInternal": true,
+    "internalName": "",
+    "internalIcon": null,
+    "type": "internal",
+    "title": "Rondas"
+  },
+  {
+    "caption": "Asociaciones  Estratégicas",
+    "link": null,
+    "newWindow": false,
+    "internal": null,
+    "edit": false,
+    "isInternal": true,
+    "internalName": "",
+    "internalIcon": null,
+    "type": "internal",
+    "title": "Asociaciones  Estratégicas"
+  },
+  {
+    "caption": "Administración de Contratos",
+    "link": null,
+    "newWindow": false,
+    "internal": null,
+    "edit": false,
+    "isInternal": true,
+    "internalName": "",
+    "internalIcon": null,
+    "type": "internal",
+    "title": "Administración de Contratos"
+  },
+  {
+    "caption": "Cifras Relevantes",
+    "link": null,
+    "newWindow": false,
+    "internal": null,
+    "edit": false,
+    "isInternal": true,
+    "internalName": "",
+    "internalIcon": null,
+    "type": "internal",
+    "title": "Cifras Relevantes"
+  },
+  {
+    "caption": "Arreglo Institucional",
+    "link": null,
+    "newWindow": false,
+    "internal": null,
+    "edit": false,
+    "isInternal": true,
+    "internalName": "",
+    "internalIcon": null,
+    "type": "internal",
+    "title": "Arreglo Institucional"
+  },
+  {
+    "caption": "Contacto",
+    "link": null,
+    "newWindow": false,
+    "internal": null,
+    "edit": false,
+    "isInternal": true,
+    "internalName": "",
+    "internalIcon": null,
+    "type": "internal",
+    "title": "Contacto"
+  }
+] to a json object
+System.InvalidCastException: Null object cannot be converted to a value type.
+   at System.Convert.ChangeType(Object value, Type conversionType, IFormatProvider provider)
+   at Newtonsoft.Json.Linq.Extensions.Convert[T,U](T token)
+   at Newtonsoft.Json.Linq.JToken.Value[T](Object key)
+   at Umbraco.Web.PropertyEditors.ValueConverters.RelatedLinksEditorValueConvertor.ConvertDataToSource(PublishedPropertyType propertyType, Object source, Boolean preview)
+ 2018-02-12 12:15:35,009 [P6960/D2/T56] ERROR Umbraco.Web.PropertyEditors.ValueConverters.RelatedLinksEditorValueConvertor - Could not parse the string [
+  {
+    "caption": "CNH",
+    "link": 1053,
+    "newWindow": false,
+    "internal": 1053,
+    "edit": false,
+    "isInternal": true,
+    "internalName": "Home",
+    "internalIcon": "icon-home",
+    "type": "internal",
+    "title": "CNH"
+  },
+  {
+    "caption": "Rondas",
+    "link": null,
+    "newWindow": false,
+    "internal": null,
+    "edit": false,
+    "isInternal": true,
+    "internalName": "",
+    "internalIcon": null,
+    "type": "internal",
+    "title": "Rondas"
+  },
+  {
+    "caption": "Asociaciones  Estratégicas",
+    "link": null,
+    "newWindow": false,
+    "internal": null,
+    "edit": false,
+    "isInternal": true,
+    "internalName": "",
+    "internalIcon": null,
+    "type": "internal",
+    "title": "Asociaciones  Estratégicas"
+  },
+  {
+    "caption": "Administración de Contratos",
+    "link": null,
+    "newWindow": false,
+    "internal": null,
+    "edit": false,
+    "isInternal": true,
+    "internalName": "",
+    "internalIcon": null,
+    "type": "internal",
+    "title": "Administración de Contratos"
+  },
+  {
+    "caption": "Cifras Relevantes",
+    "link": null,
+    "newWindow": false,
+    "internal": null,
+    "edit": false,
+    "isInternal": true,
+    "internalName": "",
+    "internalIcon": null,
+    "type": "internal",
+    "title": "Cifras Relevantes"
+  },
+  {
+    "caption": "Arreglo Institucional",
+    "link": null,
+    "newWindow": false,
+    "internal": null,
+    "edit": false,
+    "isInternal": true,
+    "internalName": "",
+    "internalIcon": null,
+    "type": "internal",
+    "title": "Arreglo Institucional"
+  },
+  {
+    "caption": "Contacto",
+    "link": null,
+    "newWindow": false,
+    "internal": null,
+    "edit": false,
+    "isInternal": true,
+    "internalName": "",
+    "internalIcon": null,
+    "type": "internal",
+    "title": "Contacto"
+  }
+] to a json object
+System.InvalidCastException: Null object cannot be converted to a value type.
+   at System.Convert.ChangeType(Object value, Type conversionType, IFormatProvider provider)
+   at Newtonsoft.Json.Linq.Extensions.Convert[T,U](T token)
+   at Newtonsoft.Json.Linq.JToken.Value[T](Object key)
+   at Umbraco.Web.PropertyEditors.ValueConverters.RelatedLinksEditorValueConvertor.ConvertDataToSource(PublishedPropertyType propertyType, Object source, Boolean preview)
+ 2018-02-12 12:16:03,699 [P6960/D2/T35] ERROR Umbraco.Web.PropertyEditors.ValueConverters.RelatedLinksEditorValueConvertor - Could not parse the string [
+  {
+    "caption": "CNH",
+    "link": 1053,
+    "newWindow": false,
+    "internal": 1053,
+    "edit": false,
+    "isInternal": true,
+    "internalName": "Home",
+    "internalIcon": "icon-home",
+    "type": "internal",
+    "title": "CNH"
+  },
+  {
+    "caption": "Rondas",
+    "link": null,
+    "newWindow": false,
+    "internal": null,
+    "edit": false,
+    "isInternal": true,
+    "internalName": "",
+    "internalIcon": null,
+    "type": "internal",
+    "title": "Rondas"
+  },
+  {
+    "caption": "Asociaciones  Estratégicas",
+    "link": null,
+    "newWindow": false,
+    "internal": null,
+    "edit": false,
+    "isInternal": true,
+    "internalName": "",
+    "internalIcon": null,
+    "type": "internal",
+    "title": "Asociaciones  Estratégicas"
+  },
+  {
+    "caption": "Administración de Contratos",
+    "link": null,
+    "newWindow": false,
+    "internal": null,
+    "edit": false,
+    "isInternal": true,
+    "internalName": "",
+    "internalIcon": null,
+    "type": "internal",
+    "title": "Administración de Contratos"
+  },
+  {
+    "caption": "Cifras Relevantes",
+    "link": null,
+    "newWindow": false,
+    "internal": null,
+    "edit": false,
+    "isInternal": true,
+    "internalName": "",
+    "internalIcon": null,
+    "type": "internal",
+    "title": "Cifras Relevantes"
+  },
+  {
+    "caption": "Arreglo Institucional",
+    "link": null,
+    "newWindow": false,
+    "internal": null,
+    "edit": false,
+    "isInternal": true,
+    "internalName": "",
+    "internalIcon": null,
+    "type": "internal",
+    "title": "Arreglo Institucional"
+  },
+  {
+    "caption": "Contacto",
+    "link": null,
+    "newWindow": false,
+    "internal": null,
+    "edit": false,
+    "isInternal": true,
+    "internalName": "",
+    "internalIcon": null,
+    "type": "internal",
+    "title": "Contacto"
+  }
+] to a json object
+System.InvalidCastException: Null object cannot be converted to a value type.
+   at System.Convert.ChangeType(Object value, Type conversionType, IFormatProvider provider)
+   at Newtonsoft.Json.Linq.Extensions.Convert[T,U](T token)
+   at Newtonsoft.Json.Linq.JToken.Value[T](Object key)
+   at Umbraco.Web.PropertyEditors.ValueConverters.RelatedLinksEditorValueConvertor.ConvertDataToSource(PublishedPropertyType propertyType, Object source, Boolean preview)
+ 2018-02-12 12:16:48,109 [P6960/D2/T38] WARN  Umbraco.Web.Models.Mapping.PreValueDisplayResolver - Could not find persisted pre-value for field crops
+ 2018-02-12 12:16:56,978 [P6960/D2/T40] WARN  Umbraco.Web.Models.Mapping.PreValueDisplayResolver - Could not find persisted pre-value for field crops
+ 2018-02-12 12:17:04,826 [P6960/D2/T19] WARN  Umbraco.Web.Models.Mapping.PreValueDisplayResolver - Could not find persisted pre-value for field crops
+ 2018-02-12 12:17:23,422 [P6960/D2/T7] ERROR Umbraco.Web.PropertyEditors.ValueConverters.RelatedLinksEditorValueConvertor - Could not parse the string [
+  {
+    "caption": "CNH",
+    "link": 1053,
+    "newWindow": false,
+    "internal": 1053,
+    "edit": false,
+    "isInternal": true,
+    "internalName": "Home",
+    "internalIcon": "icon-home",
+    "type": "internal",
+    "title": "CNH"
+  },
+  {
+    "caption": "Rondas",
+    "link": null,
+    "newWindow": false,
+    "internal": null,
+    "edit": false,
+    "isInternal": true,
+    "internalName": "",
+    "internalIcon": null,
+    "type": "internal",
+    "title": "Rondas"
+  },
+  {
+    "caption": "Asociaciones  Estratégicas",
+    "link": null,
+    "newWindow": false,
+    "internal": null,
+    "edit": false,
+    "isInternal": true,
+    "internalName": "",
+    "internalIcon": null,
+    "type": "internal",
+    "title": "Asociaciones  Estratégicas"
+  },
+  {
+    "caption": "Administración de Contratos",
+    "link": null,
+    "newWindow": false,
+    "internal": null,
+    "edit": false,
+    "isInternal": true,
+    "internalName": "",
+    "internalIcon": null,
+    "type": "internal",
+    "title": "Administración de Contratos"
+  },
+  {
+    "caption": "Cifras Relevantes",
+    "link": null,
+    "newWindow": false,
+    "internal": null,
+    "edit": false,
+    "isInternal": true,
+    "internalName": "",
+    "internalIcon": null,
+    "type": "internal",
+    "title": "Cifras Relevantes"
+  },
+  {
+    "caption": "Arreglo Institucional",
+    "link": null,
+    "newWindow": false,
+    "internal": null,
+    "edit": false,
+    "isInternal": true,
+    "internalName": "",
+    "internalIcon": null,
+    "type": "internal",
+    "title": "Arreglo Institucional"
+  },
+  {
+    "caption": "Contacto",
+    "link": null,
+    "newWindow": false,
+    "internal": null,
+    "edit": false,
+    "isInternal": true,
+    "internalName": "",
+    "internalIcon": null,
+    "type": "internal",
+    "title": "Contacto"
+  }
+] to a json object
+System.InvalidCastException: Null object cannot be converted to a value type.
+   at System.Convert.ChangeType(Object value, Type conversionType, IFormatProvider provider)
+   at Newtonsoft.Json.Linq.Extensions.Convert[T,U](T token)
+   at Newtonsoft.Json.Linq.JToken.Value[T](Object key)
+   at Umbraco.Web.PropertyEditors.ValueConverters.RelatedLinksEditorValueConvertor.ConvertDataToSource(PublishedPropertyType propertyType, Object source, Boolean preview)
+ 2018-02-12 12:17:33,379 [P6960/D2/T23] WARN  Umbraco.Web.Models.Mapping.PreValueDisplayResolver - Could not find persisted pre-value for field editor
+ 2018-02-12 12:17:33,379 [P6960/D2/T23] WARN  Umbraco.Web.Models.Mapping.PreValueDisplayResolver - Could not find persisted pre-value for field hideLabel
+ 2018-02-12 12:18:28,481 [P6960/D2/T35] WARN  Umbraco.Web.Models.Mapping.PreValueDisplayResolver - Could not find persisted pre-value for field crops
+ 2018-02-12 12:19:44,793 [P6960/D2/T39] WARN  Umbraco.Web.Models.Mapping.PreValueDisplayResolver - Could not find persisted pre-value for field values
+ 2018-02-12 12:20:26,839 [P6960/D2/T55] ERROR Umbraco.Web.PropertyEditors.ValueConverters.RelatedLinksEditorValueConvertor - Could not parse the string [
+  {
+    "caption": "CNH",
+    "link": 1053,
+    "newWindow": false,
+    "internal": 1053,
+    "edit": false,
+    "isInternal": true,
+    "internalName": "Home",
+    "internalIcon": "icon-home",
+    "type": "internal",
+    "title": "CNH"
+  },
+  {
+    "caption": "Rondas",
+    "link": null,
+    "newWindow": false,
+    "internal": null,
+    "edit": false,
+    "isInternal": true,
+    "internalName": "",
+    "internalIcon": null,
+    "type": "internal",
+    "title": "Rondas"
+  },
+  {
+    "caption": "Asociaciones  Estratégicas",
+    "link": null,
+    "newWindow": false,
+    "internal": null,
+    "edit": false,
+    "isInternal": true,
+    "internalName": "",
+    "internalIcon": null,
+    "type": "internal",
+    "title": "Asociaciones  Estratégicas"
+  },
+  {
+    "caption": "Administración de Contratos",
+    "link": null,
+    "newWindow": false,
+    "internal": null,
+    "edit": false,
+    "isInternal": true,
+    "internalName": "",
+    "internalIcon": null,
+    "type": "internal",
+    "title": "Administración de Contratos"
+  },
+  {
+    "caption": "Cifras Relevantes",
+    "link": null,
+    "newWindow": false,
+    "internal": null,
+    "edit": false,
+    "isInternal": true,
+    "internalName": "",
+    "internalIcon": null,
+    "type": "internal",
+    "title": "Cifras Relevantes"
+  },
+  {
+    "caption": "Arreglo Institucional",
+    "link": null,
+    "newWindow": false,
+    "internal": null,
+    "edit": false,
+    "isInternal": true,
+    "internalName": "",
+    "internalIcon": null,
+    "type": "internal",
+    "title": "Arreglo Institucional"
+  },
+  {
+    "caption": "Contacto",
+    "link": null,
+    "newWindow": false,
+    "internal": null,
+    "edit": false,
+    "isInternal": true,
+    "internalName": "",
+    "internalIcon": null,
+    "type": "internal",
+    "title": "Contacto"
+  }
+] to a json object
+System.InvalidCastException: Null object cannot be converted to a value type.
+   at System.Convert.ChangeType(Object value, Type conversionType, IFormatProvider provider)
+   at Newtonsoft.Json.Linq.Extensions.Convert[T,U](T token)
+   at Newtonsoft.Json.Linq.JToken.Value[T](Object key)
+   at Umbraco.Web.PropertyEditors.ValueConverters.RelatedLinksEditorValueConvertor.ConvertDataToSource(PublishedPropertyType propertyType, Object source, Boolean preview)
+ 2018-02-12 12:20:58,602 [P6960/D2/T25] WARN  Umbraco.Web.Models.Mapping.PreValueDisplayResolver - Could not find persisted pre-value for field crops
+ 2018-02-12 12:20:58,604 [P6960/D2/T7] WARN  Umbraco.Web.Models.Mapping.PreValueDisplayResolver - Could not find persisted pre-value for field values
+ 2018-02-12 12:21:17,064 [P6960/D2/T54] ERROR Umbraco.Web.PropertyEditors.ValueConverters.RelatedLinksEditorValueConvertor - Could not parse the string [
+  {
+    "caption": "CNH",
+    "link": 1053,
+    "newWindow": false,
+    "internal": 1053,
+    "edit": false,
+    "isInternal": true,
+    "internalName": "Home",
+    "internalIcon": "icon-home",
+    "type": "internal",
+    "title": "CNH"
+  },
+  {
+    "caption": "Rondas",
+    "link": null,
+    "newWindow": false,
+    "internal": null,
+    "edit": false,
+    "isInternal": true,
+    "internalName": "",
+    "internalIcon": null,
+    "type": "internal",
+    "title": "Rondas"
+  },
+  {
+    "caption": "Asociaciones  Estratégicas",
+    "link": null,
+    "newWindow": false,
+    "internal": null,
+    "edit": false,
+    "isInternal": true,
+    "internalName": "",
+    "internalIcon": null,
+    "type": "internal",
+    "title": "Asociaciones  Estratégicas"
+  },
+  {
+    "caption": "Administración de Contratos",
+    "link": null,
+    "newWindow": false,
+    "internal": null,
+    "edit": false,
+    "isInternal": true,
+    "internalName": "",
+    "internalIcon": null,
+    "type": "internal",
+    "title": "Administración de Contratos"
+  },
+  {
+    "caption": "Cifras Relevantes",
+    "link": null,
+    "newWindow": false,
+    "internal": null,
+    "edit": false,
+    "isInternal": true,
+    "internalName": "",
+    "internalIcon": null,
+    "type": "internal",
+    "title": "Cifras Relevantes"
+  },
+  {
+    "caption": "Arreglo Institucional",
+    "link": null,
+    "newWindow": false,
+    "internal": null,
+    "edit": false,
+    "isInternal": true,
+    "internalName": "",
+    "internalIcon": null,
+    "type": "internal",
+    "title": "Arreglo Institucional"
+  },
+  {
+    "caption": "Contacto",
+    "link": null,
+    "newWindow": false,
+    "internal": null,
+    "edit": false,
+    "isInternal": true,
+    "internalName": "",
+    "internalIcon": null,
+    "type": "internal",
+    "title": "Contacto"
+  }
+] to a json object
+System.InvalidCastException: Null object cannot be converted to a value type.
+   at System.Convert.ChangeType(Object value, Type conversionType, IFormatProvider provider)
+   at Newtonsoft.Json.Linq.Extensions.Convert[T,U](T token)
+   at Newtonsoft.Json.Linq.JToken.Value[T](Object key)
+   at Umbraco.Web.PropertyEditors.ValueConverters.RelatedLinksEditorValueConvertor.ConvertDataToSource(PublishedPropertyType propertyType, Object source, Boolean preview)
+ 2018-02-12 12:21:25,042 [P6960/D2/T40] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [LogScrubber] Terminating
+ 2018-02-12 12:21:25,042 [P6960/D2/T40] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [LogScrubber] Waiting for tasks to complete
+ 2018-02-12 12:21:25,042 [P6960/D2/T40] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [ScheduledPublishing] Terminating
+ 2018-02-12 12:21:25,042 [P6960/D2/T40] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [ScheduledPublishing] Waiting for tasks to complete
+ 2018-02-12 12:21:25,042 [P6960/D2/T40] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [Umbraco.Web.Scheduling.IBackgroundTask] Terminating
+ 2018-02-12 12:21:25,042 [P6960/D2/T40] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [Umbraco.Web.Scheduling.IBackgroundTask] Waiting for tasks to complete
+ 2018-02-12 12:21:25,042 [P6960/D2/T40] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [KeepAlive] Terminating
+ 2018-02-12 12:21:25,042 [P6960/D2/T40] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [KeepAlive] Waiting for tasks to complete
+ 2018-02-12 12:21:25,093 [P6960/D2/T19] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [Umbraco.Web.Scheduling.IBackgroundTask] Tasks completed, terminated
+ 2018-02-12 12:21:25,093 [P6960/D2/T15] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [LogScrubber] Tasks completed, terminated
+ 2018-02-12 12:21:25,093 [P6960/D2/T52] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [KeepAlive] Tasks completed, terminated
+ 2018-02-12 12:21:25,093 [P6960/D2/T39] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [ScheduledPublishing] Tasks completed, terminated
+ 2018-02-12 12:21:25,202 [P6960/D2/T40] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [ScheduledTasks] Terminating
+ 2018-02-12 12:21:25,202 [P6960/D2/T40] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [ScheduledTasks] Waiting for tasks to complete
+ 2018-02-12 12:21:25,202 [P6960/D2/T51] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [ScheduledTasks] Tasks completed, terminated
+ 2018-02-12 12:21:27,194 [P6960/D2/T25] ERROR Umbraco.Web.PropertyEditors.ValueConverters.RelatedLinksEditorValueConvertor - Could not parse the string [
+  {
+    "caption": "CNH",
+    "link": 1053,
+    "newWindow": false,
+    "internal": 1053,
+    "edit": false,
+    "isInternal": true,
+    "internalName": "Home",
+    "internalIcon": "icon-home",
+    "type": "internal",
+    "title": "CNH"
+  },
+  {
+    "caption": "Rondas",
+    "link": null,
+    "newWindow": false,
+    "internal": null,
+    "edit": false,
+    "isInternal": true,
+    "internalName": "",
+    "internalIcon": null,
+    "type": "internal",
+    "title": "Rondas"
+  },
+  {
+    "caption": "Asociaciones  Estratégicas",
+    "link": null,
+    "newWindow": false,
+    "internal": null,
+    "edit": false,
+    "isInternal": true,
+    "internalName": "",
+    "internalIcon": null,
+    "type": "internal",
+    "title": "Asociaciones  Estratégicas"
+  },
+  {
+    "caption": "Administración de Contratos",
+    "link": null,
+    "newWindow": false,
+    "internal": null,
+    "edit": false,
+    "isInternal": true,
+    "internalName": "",
+    "internalIcon": null,
+    "type": "internal",
+    "title": "Administración de Contratos"
+  },
+  {
+    "caption": "Cifras Relevantes",
+    "link": null,
+    "newWindow": false,
+    "internal": null,
+    "edit": false,
+    "isInternal": true,
+    "internalName": "",
+    "internalIcon": null,
+    "type": "internal",
+    "title": "Cifras Relevantes"
+  },
+  {
+    "caption": "Arreglo Institucional",
+    "link": null,
+    "newWindow": false,
+    "internal": null,
+    "edit": false,
+    "isInternal": true,
+    "internalName": "",
+    "internalIcon": null,
+    "type": "internal",
+    "title": "Arreglo Institucional"
+  },
+  {
+    "caption": "Contacto",
+    "link": null,
+    "newWindow": false,
+    "internal": null,
+    "edit": false,
+    "isInternal": true,
+    "internalName": "",
+    "internalIcon": null,
+    "type": "internal",
+    "title": "Contacto"
+  }
+] to a json object
+System.InvalidCastException: Null object cannot be converted to a value type.
+   at System.Convert.ChangeType(Object value, Type conversionType, IFormatProvider provider)
+   at Newtonsoft.Json.Linq.Extensions.Convert[T,U](T token)
+   at Newtonsoft.Json.Linq.JToken.Value[T](Object key)
+   at Umbraco.Web.PropertyEditors.ValueConverters.RelatedLinksEditorValueConvertor.ConvertDataToSource(PublishedPropertyType propertyType, Object source, Boolean preview)
+ 2018-02-12 12:21:34,149 [P6960/D3/T63] INFO  Umbraco.Core.CoreBootManager - Umbraco 7.5.4 application starting on PLANETMEDIA-PC
+ 2018-02-12 12:21:34,245 [P6960/D3/T63] INFO  Umbraco.Core.PluginManager - Determining hash of code files on disk
+ 2018-02-12 12:21:34,258 [P6960/D3/T63] INFO  Umbraco.Core.PluginManager - Hash determined (took 12ms)
+ 2018-02-12 12:21:34,445 [P6960/D3/T63] INFO  Umbraco.Core.PluginManager - Starting resolution types of umbraco.interfaces.IApplicationStartupHandler
+ 2018-02-12 12:21:35,029 [P6960/D3/T63] INFO  Umbraco.Core.PluginManager - Completed resolution of types of umbraco.interfaces.IApplicationStartupHandler, found 0 (took 584ms)
+ 2018-02-12 12:21:35,127 [P6960/D3/T63] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Core.PropertyEditors.IPropertyEditorValueConverter
+ 2018-02-12 12:21:35,128 [P6960/D3/T63] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Core.PropertyEditors.IPropertyEditorValueConverter, found 0 (took 0ms)
+ 2018-02-12 12:21:35,128 [P6960/D3/T63] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Core.PropertyEditors.IPropertyValueConverter
+ 2018-02-12 12:21:35,130 [P6960/D3/T63] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Core.PropertyEditors.IPropertyValueConverter, found 0 (took 1ms)
+ 2018-02-12 12:21:35,139 [P6960/D3/T63] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Web.Mvc.SurfaceController
+ 2018-02-12 12:21:35,141 [P6960/D3/T63] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Web.Mvc.SurfaceController, found 0 (took 1ms)
+ 2018-02-12 12:21:35,142 [P6960/D3/T63] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Web.WebApi.UmbracoApiController
+ 2018-02-12 12:21:35,150 [P6960/D3/T63] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Web.WebApi.UmbracoApiController, found 0 (took 7ms)
+ 2018-02-12 12:21:35,575 [P6960/D3/T63] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Core.Media.IThumbnailProvider
+ 2018-02-12 12:21:35,576 [P6960/D3/T63] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Core.Media.IThumbnailProvider, found 0 (took 1ms)
+ 2018-02-12 12:21:35,577 [P6960/D3/T63] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Core.Media.IImageUrlProvider
+ 2018-02-12 12:21:35,577 [P6960/D3/T63] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Core.Media.IImageUrlProvider, found 0 (took 0ms)
+ 2018-02-12 12:21:36,568 [P6960/D3/T63] INFO  Umbraco.Core.DatabaseContext - CanConnect = True
+ 2018-02-12 12:21:36,870 [P6960/D3/T63] INFO  Umbraco.Core.DatabaseContext - CanConnect = True
+ 2018-02-12 12:21:36,907 [P6960/D3/T63] INFO  Umbraco.Core.DatabaseContext - CanConnect = True
+ 2018-02-12 12:21:37,024 [P6960/D3/T63] INFO  Umbraco.Web.Cache.CacheRefresherEventHandler - Initializing Umbraco internal event handlers for cache refreshing
+ 2018-02-12 12:21:37,258 [P6960/D3/T63] INFO  Umbraco.Web.Search.ExamineEvents - Initializing Examine and binding to business logic events
+ 2018-02-12 12:21:37,258 [P6960/D3/T63] INFO  Umbraco.Web.Search.ExamineEvents - Adding examine event handlers for index providers: 3
+ 2018-02-12 12:21:37,378 [P6960/D3/T63] INFO  Umbraco.Core.CoreBootManager - Umbraco application startup complete (took 3310ms)
+ 2018-02-12 12:21:40,181 [P6960/D3/T49] INFO  Umbraco.Core.Sync.ApplicationUrlHelper - ApplicationUrl: http://localhost:18701/umbraco (UmbracoModule request)
+ 2018-02-12 12:21:53,323 [P6960/D3/T41] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Web.Trees.TreeController
+ 2018-02-12 12:21:53,324 [P6960/D3/T41] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Web.Trees.TreeController, found 0 (took 1ms)
+ 2018-02-12 12:21:53,326 [P6960/D3/T41] INFO  Umbraco.Core.PluginManager - Starting resolution types of umbraco.interfaces.ITree
+ 2018-02-12 12:21:53,328 [P6960/D3/T41] INFO  Umbraco.Core.PluginManager - Completed resolution of types of umbraco.interfaces.ITree, found 0 (took 1ms)
+ 2018-02-12 12:21:54,094 [P6960/D3/T41] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Web.Editors.IEditorValidator
+ 2018-02-12 12:21:54,095 [P6960/D3/T41] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Web.Editors.IEditorValidator, found 0 (took 1ms)
+ 2018-02-12 12:21:54,360 [P6960/D3/T41] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Core.Persistence.Mappers.BaseMapper
+ 2018-02-12 12:21:54,361 [P6960/D3/T41] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Core.Persistence.Mappers.BaseMapper, found 0 (took 0ms)
+ 2018-02-12 12:21:54,571 [P6960/D3/T41] INFO  Umbraco.Core.PluginManager - Starting resolution types of umbraco.interfaces.ICacheRefresher
+ 2018-02-12 12:21:54,573 [P6960/D3/T41] INFO  Umbraco.Core.PluginManager - Completed resolution of types of umbraco.interfaces.ICacheRefresher, found 0 (took 1ms)
+ 2018-02-12 12:21:54,783 [P6960/D3/T41] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Core.PropertyEditors.IParameterEditor
+ 2018-02-12 12:21:54,784 [P6960/D3/T41] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Core.PropertyEditors.IParameterEditor, found 0 (took 1ms)
+ 2018-02-12 12:21:55,327 [P6960/D2/T52] INFO  Umbraco.Core.UmbracoApplicationBase - Application shutdown. Details: MaxRecompilationsReached
+
+_shutDownMessage=Recompilation limit of 15 reached
+HostingEnvironment initiated shutdown
+HostingEnvironment originó el cierre
+
+_shutDownStack=   en System.Environment.GetStackTrace(Exception e, Boolean needFileInfo)
+   en System.Environment.get_StackTrace()
+   en System.Web.Hosting.HostingEnvironment.InitiateShutdownInternal()
+   en System.Web.Hosting.HostingEnvironment.InitiateShutdownWithoutDemand()
+   en System.Web.HttpRuntime.ShutdownAppDomain(String stackTrace)
+   en System.Web.Compilation.DiskBuildResultCache.ShutdownCallBack(Object state)
+   en System.Threading.QueueUserWorkItemCallback.WaitCallback_Context(Object state)
+   en System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   en System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   en System.Threading.QueueUserWorkItemCallback.System.Threading.IThreadPoolWorkItem.ExecuteWorkItem()
+   en System.Threading.ThreadPoolWorkQueue.Dispatch()
+   en System.Threading._ThreadPoolWaitCallback.PerformWaitCallback()
+ 2018-02-12 12:21:56,489 [P6960/D3/T11] INFO  Umbraco.Core.PluginManager - Starting resolution types of umbraco.interfaces.IApplication
+ 2018-02-12 12:21:56,490 [P6960/D3/T11] INFO  Umbraco.Core.PluginManager - Completed resolution of types of umbraco.interfaces.IApplication, found 0 (took 1ms)
+ 2018-02-12 12:22:53,372 [P6960/D3/T53] INFO  umbraco.content - Load Xml from file...
+ 2018-02-12 12:22:53,386 [P6960/D3/T53] INFO  umbraco.content - Loaded Xml from file.
+ 2018-02-12 12:22:53,585 [P6960/D3/T51] INFO  umbraco.BusinessLogic.Log - Log scrubbed.  Removed all items older than 2018-02-11 12:22:53
+ 2018-02-12 12:26:03,140 [P6960/D3/T57] ERROR Umbraco.Web.PropertyEditors.ValueConverters.RelatedLinksEditorValueConvertor - Could not parse the string [
+  {
+    "caption": "CNH",
+    "link": 1053,
+    "newWindow": false,
+    "internal": 1053,
+    "edit": false,
+    "isInternal": true,
+    "internalName": "Home",
+    "internalIcon": "icon-home",
+    "type": "internal",
+    "title": "CNH"
+  },
+  {
+    "caption": "Rondas",
+    "link": null,
+    "newWindow": false,
+    "internal": null,
+    "edit": false,
+    "isInternal": true,
+    "internalName": "",
+    "internalIcon": null,
+    "type": "internal",
+    "title": "Rondas"
+  },
+  {
+    "caption": "Asociaciones  Estratégicas",
+    "link": null,
+    "newWindow": false,
+    "internal": null,
+    "edit": false,
+    "isInternal": true,
+    "internalName": "",
+    "internalIcon": null,
+    "type": "internal",
+    "title": "Asociaciones  Estratégicas"
+  },
+  {
+    "caption": "Administración de Contratos",
+    "link": null,
+    "newWindow": false,
+    "internal": null,
+    "edit": false,
+    "isInternal": true,
+    "internalName": "",
+    "internalIcon": null,
+    "type": "internal",
+    "title": "Administración de Contratos"
+  },
+  {
+    "caption": "Cifras Relevantes",
+    "link": null,
+    "newWindow": false,
+    "internal": null,
+    "edit": false,
+    "isInternal": true,
+    "internalName": "",
+    "internalIcon": null,
+    "type": "internal",
+    "title": "Cifras Relevantes"
+  },
+  {
+    "caption": "Arreglo Institucional",
+    "link": null,
+    "newWindow": false,
+    "internal": null,
+    "edit": false,
+    "isInternal": true,
+    "internalName": "",
+    "internalIcon": null,
+    "type": "internal",
+    "title": "Arreglo Institucional"
+  },
+  {
+    "caption": "Contacto",
+    "link": null,
+    "newWindow": false,
+    "internal": null,
+    "edit": false,
+    "isInternal": true,
+    "internalName": "",
+    "internalIcon": null,
+    "type": "internal",
+    "title": "Contacto"
+  }
+] to a json object
+System.InvalidCastException: Null object cannot be converted to a value type.
+   at System.Convert.ChangeType(Object value, Type conversionType, IFormatProvider provider)
+   at Newtonsoft.Json.Linq.Extensions.Convert[T,U](T token)
+   at Newtonsoft.Json.Linq.JToken.Value[T](Object key)
+   at Umbraco.Web.PropertyEditors.ValueConverters.RelatedLinksEditorValueConvertor.ConvertDataToSource(PublishedPropertyType propertyType, Object source, Boolean preview)
+ 2018-02-12 12:26:27,610 [P6960/D3/T31] INFO  Umbraco.Core.PluginManager - Starting resolution types of umbraco.interfaces.IAction
+ 2018-02-12 12:26:27,648 [P6960/D3/T31] INFO  Umbraco.Core.PluginManager - Completed resolution of types of umbraco.interfaces.IAction, found 0 (took 37ms)
+ 2018-02-12 12:27:00,362 [P6960/D3/T31] ERROR Umbraco.Web.PropertyEditors.ValueConverters.RelatedLinksEditorValueConvertor - Could not parse the string [
+  {
+    "caption": "CNH",
+    "link": 1053,
+    "newWindow": false,
+    "internal": 1053,
+    "edit": false,
+    "isInternal": true,
+    "internalName": "Home",
+    "internalIcon": "icon-home",
+    "type": "internal",
+    "title": "CNH"
+  },
+  {
+    "caption": "Rondas",
+    "link": null,
+    "newWindow": false,
+    "internal": null,
+    "edit": false,
+    "isInternal": true,
+    "internalName": "",
+    "internalIcon": null,
+    "type": "internal",
+    "title": "Rondas"
+  },
+  {
+    "caption": "Asociaciones  Estratégicas",
+    "link": null,
+    "newWindow": false,
+    "internal": null,
+    "edit": false,
+    "isInternal": true,
+    "internalName": "",
+    "internalIcon": null,
+    "type": "internal",
+    "title": "Asociaciones  Estratégicas"
+  },
+  {
+    "caption": "Administración de Contratos",
+    "link": null,
+    "newWindow": false,
+    "internal": null,
+    "edit": false,
+    "isInternal": true,
+    "internalName": "",
+    "internalIcon": null,
+    "type": "internal",
+    "title": "Administración de Contratos"
+  },
+  {
+    "caption": "Cifras Relevantes",
+    "link": null,
+    "newWindow": false,
+    "internal": null,
+    "edit": false,
+    "isInternal": true,
+    "internalName": "",
+    "internalIcon": null,
+    "type": "internal",
+    "title": "Cifras Relevantes"
+  },
+  {
+    "caption": "Arreglo Institucional",
+    "link": null,
+    "newWindow": false,
+    "internal": null,
+    "edit": false,
+    "isInternal": true,
+    "internalName": "",
+    "internalIcon": null,
+    "type": "internal",
+    "title": "Arreglo Institucional"
+  },
+  {
+    "caption": "Contacto",
+    "link": null,
+    "newWindow": false,
+    "internal": null,
+    "edit": false,
+    "isInternal": true,
+    "internalName": "",
+    "internalIcon": null,
+    "type": "internal",
+    "title": "Contacto"
+  }
+] to a json object
+System.InvalidCastException: Null object cannot be converted to a value type.
+   at System.Convert.ChangeType(Object value, Type conversionType, IFormatProvider provider)
+   at Newtonsoft.Json.Linq.Extensions.Convert[T,U](T token)
+   at Newtonsoft.Json.Linq.JToken.Value[T](Object key)
+   at Umbraco.Web.PropertyEditors.ValueConverters.RelatedLinksEditorValueConvertor.ConvertDataToSource(PublishedPropertyType propertyType, Object source, Boolean preview)
+ 2018-02-12 12:27:51,472 [P6960/D3/T29] WARN  Umbraco.Web.Models.Mapping.PreValueDisplayResolver - Could not find persisted pre-value for field crops
+ 2018-02-12 12:27:51,480 [P6960/D3/T45] WARN  Umbraco.Web.Models.Mapping.PreValueDisplayResolver - Could not find persisted pre-value for field values
+ 2018-02-12 12:28:15,175 [P6960/D3/T32] WARN  Umbraco.Web.Models.Mapping.PreValueDisplayResolver - Could not find persisted pre-value for field crops
+ 2018-02-12 12:28:15,180 [P6960/D3/T37] WARN  Umbraco.Web.Models.Mapping.PreValueDisplayResolver - Could not find persisted pre-value for field values
+ 2018-02-12 12:29:08,788 [P6960/D3/T16] WARN  Umbraco.Web.Models.Mapping.PreValueDisplayResolver - Could not find persisted pre-value for field multiPicker
+ 2018-02-12 12:29:08,788 [P6960/D3/T16] WARN  Umbraco.Web.Models.Mapping.PreValueDisplayResolver - Could not find persisted pre-value for field onlyImages
+ 2018-02-12 12:29:08,789 [P6960/D3/T16] WARN  Umbraco.Web.Models.Mapping.PreValueDisplayResolver - Could not find persisted pre-value for field disableFolderSelect
+ 2018-02-12 12:29:08,789 [P6960/D3/T16] WARN  Umbraco.Web.Models.Mapping.PreValueDisplayResolver - Could not find persisted pre-value for field startNodeId
+ 2018-02-12 12:29:15,936 [P6960/D3/T18] WARN  Umbraco.Web.Models.Mapping.PreValueDisplayResolver - Could not find persisted pre-value for field multiPicker
+ 2018-02-12 12:29:15,936 [P6960/D3/T18] WARN  Umbraco.Web.Models.Mapping.PreValueDisplayResolver - Could not find persisted pre-value for field onlyImages
+ 2018-02-12 12:29:15,936 [P6960/D3/T18] WARN  Umbraco.Web.Models.Mapping.PreValueDisplayResolver - Could not find persisted pre-value for field disableFolderSelect
+ 2018-02-12 12:29:15,936 [P6960/D3/T18] WARN  Umbraco.Web.Models.Mapping.PreValueDisplayResolver - Could not find persisted pre-value for field startNodeId
+ 2018-02-12 12:30:42,952 [P6960/D3/T34] ERROR Umbraco.Web.PropertyEditors.ValueConverters.RelatedLinksEditorValueConvertor - Could not parse the string [
+  {
+    "caption": "CNH",
+    "link": 1053,
+    "newWindow": false,
+    "internal": 1053,
+    "edit": false,
+    "isInternal": true,
+    "internalName": "Home",
+    "internalIcon": "icon-home",
+    "type": "internal",
+    "title": "CNH"
+  },
+  {
+    "caption": "Rondas",
+    "link": null,
+    "newWindow": false,
+    "internal": null,
+    "edit": false,
+    "isInternal": true,
+    "internalName": "",
+    "internalIcon": null,
+    "type": "internal",
+    "title": "Rondas"
+  },
+  {
+    "caption": "Asociaciones  Estratégicas",
+    "link": null,
+    "newWindow": false,
+    "internal": null,
+    "edit": false,
+    "isInternal": true,
+    "internalName": "",
+    "internalIcon": null,
+    "type": "internal",
+    "title": "Asociaciones  Estratégicas"
+  },
+  {
+    "caption": "Administración de Contratos",
+    "link": null,
+    "newWindow": false,
+    "internal": null,
+    "edit": false,
+    "isInternal": true,
+    "internalName": "",
+    "internalIcon": null,
+    "type": "internal",
+    "title": "Administración de Contratos"
+  },
+  {
+    "caption": "Cifras Relevantes",
+    "link": null,
+    "newWindow": false,
+    "internal": null,
+    "edit": false,
+    "isInternal": true,
+    "internalName": "",
+    "internalIcon": null,
+    "type": "internal",
+    "title": "Cifras Relevantes"
+  },
+  {
+    "caption": "Arreglo Institucional",
+    "link": null,
+    "newWindow": false,
+    "internal": null,
+    "edit": false,
+    "isInternal": true,
+    "internalName": "",
+    "internalIcon": null,
+    "type": "internal",
+    "title": "Arreglo Institucional"
+  },
+  {
+    "caption": "Contacto",
+    "link": null,
+    "newWindow": false,
+    "internal": null,
+    "edit": false,
+    "isInternal": true,
+    "internalName": "",
+    "internalIcon": null,
+    "type": "internal",
+    "title": "Contacto"
+  }
+] to a json object
+System.InvalidCastException: Null object cannot be converted to a value type.
+   at System.Convert.ChangeType(Object value, Type conversionType, IFormatProvider provider)
+   at Newtonsoft.Json.Linq.Extensions.Convert[T,U](T token)
+   at Newtonsoft.Json.Linq.JToken.Value[T](Object key)
+   at Umbraco.Web.PropertyEditors.ValueConverters.RelatedLinksEditorValueConvertor.ConvertDataToSource(PublishedPropertyType propertyType, Object source, Boolean preview)
+ 2018-02-12 12:31:19,505 [P6960/D3/T37] ERROR Umbraco.Web.PropertyEditors.ValueConverters.RelatedLinksEditorValueConvertor - Could not parse the string [
+  {
+    "caption": "CNH",
+    "link": 1053,
+    "newWindow": false,
+    "internal": 1053,
+    "edit": false,
+    "isInternal": true,
+    "internalName": "Home",
+    "internalIcon": "icon-home",
+    "type": "internal",
+    "title": "CNH"
+  },
+  {
+    "caption": "Rondas",
+    "link": null,
+    "newWindow": false,
+    "internal": null,
+    "edit": false,
+    "isInternal": true,
+    "internalName": "",
+    "internalIcon": null,
+    "type": "internal",
+    "title": "Rondas"
+  },
+  {
+    "caption": "Asociaciones  Estratégicas",
+    "link": null,
+    "newWindow": false,
+    "internal": null,
+    "edit": false,
+    "isInternal": true,
+    "internalName": "",
+    "internalIcon": null,
+    "type": "internal",
+    "title": "Asociaciones  Estratégicas"
+  },
+  {
+    "caption": "Administración de Contratos",
+    "link": null,
+    "newWindow": false,
+    "internal": null,
+    "edit": false,
+    "isInternal": true,
+    "internalName": "",
+    "internalIcon": null,
+    "type": "internal",
+    "title": "Administración de Contratos"
+  },
+  {
+    "caption": "Cifras Relevantes",
+    "link": null,
+    "newWindow": false,
+    "internal": null,
+    "edit": false,
+    "isInternal": true,
+    "internalName": "",
+    "internalIcon": null,
+    "type": "internal",
+    "title": "Cifras Relevantes"
+  },
+  {
+    "caption": "Arreglo Institucional",
+    "link": null,
+    "newWindow": false,
+    "internal": null,
+    "edit": false,
+    "isInternal": true,
+    "internalName": "",
+    "internalIcon": null,
+    "type": "internal",
+    "title": "Arreglo Institucional"
+  },
+  {
+    "caption": "Contacto",
+    "link": null,
+    "newWindow": false,
+    "internal": null,
+    "edit": false,
+    "isInternal": true,
+    "internalName": "",
+    "internalIcon": null,
+    "type": "internal",
+    "title": "Contacto"
+  }
+] to a json object
+System.InvalidCastException: Null object cannot be converted to a value type.
+   at System.Convert.ChangeType(Object value, Type conversionType, IFormatProvider provider)
+   at Newtonsoft.Json.Linq.Extensions.Convert[T,U](T token)
+   at Newtonsoft.Json.Linq.JToken.Value[T](Object key)
+   at Umbraco.Web.PropertyEditors.ValueConverters.RelatedLinksEditorValueConvertor.ConvertDataToSource(PublishedPropertyType propertyType, Object source, Boolean preview)
+ 2018-02-12 12:34:58,089 [P6960/D3/T57] ERROR Umbraco.Web.PropertyEditors.ValueConverters.RelatedLinksEditorValueConvertor - Could not parse the string [
+  {
+    "caption": "CNH",
+    "link": 1053,
+    "newWindow": false,
+    "internal": 1053,
+    "edit": false,
+    "isInternal": true,
+    "internalName": "Home",
+    "internalIcon": "icon-home",
+    "type": "internal",
+    "title": "CNH"
+  },
+  {
+    "caption": "Rondas",
+    "link": null,
+    "newWindow": false,
+    "internal": null,
+    "edit": false,
+    "isInternal": true,
+    "internalName": "",
+    "internalIcon": null,
+    "type": "internal",
+    "title": "Rondas"
+  },
+  {
+    "caption": "Asociaciones  Estratégicas",
+    "link": null,
+    "newWindow": false,
+    "internal": null,
+    "edit": false,
+    "isInternal": true,
+    "internalName": "",
+    "internalIcon": null,
+    "type": "internal",
+    "title": "Asociaciones  Estratégicas"
+  },
+  {
+    "caption": "Administración de Contratos",
+    "link": null,
+    "newWindow": false,
+    "internal": null,
+    "edit": false,
+    "isInternal": true,
+    "internalName": "",
+    "internalIcon": null,
+    "type": "internal",
+    "title": "Administración de Contratos"
+  },
+  {
+    "caption": "Cifras Relevantes",
+    "link": null,
+    "newWindow": false,
+    "internal": null,
+    "edit": false,
+    "isInternal": true,
+    "internalName": "",
+    "internalIcon": null,
+    "type": "internal",
+    "title": "Cifras Relevantes"
+  },
+  {
+    "caption": "Arreglo Institucional",
+    "link": null,
+    "newWindow": false,
+    "internal": null,
+    "edit": false,
+    "isInternal": true,
+    "internalName": "",
+    "internalIcon": null,
+    "type": "internal",
+    "title": "Arreglo Institucional"
+  },
+  {
+    "caption": "Contacto",
+    "link": null,
+    "newWindow": false,
+    "internal": null,
+    "edit": false,
+    "isInternal": true,
+    "internalName": "",
+    "internalIcon": null,
+    "type": "internal",
+    "title": "Contacto"
+  }
+] to a json object
+System.InvalidCastException: Null object cannot be converted to a value type.
+   at System.Convert.ChangeType(Object value, Type conversionType, IFormatProvider provider)
+   at Newtonsoft.Json.Linq.Extensions.Convert[T,U](T token)
+   at Newtonsoft.Json.Linq.JToken.Value[T](Object key)
+   at Umbraco.Web.PropertyEditors.ValueConverters.RelatedLinksEditorValueConvertor.ConvertDataToSource(PublishedPropertyType propertyType, Object source, Boolean preview)
+ 2018-02-12 12:36:49,932 [P6960/D3/T20] ERROR Umbraco.Web.PropertyEditors.ValueConverters.RelatedLinksEditorValueConvertor - Could not parse the string [
+  {
+    "caption": "CNH",
+    "link": 1053,
+    "newWindow": false,
+    "internal": 1053,
+    "edit": false,
+    "isInternal": true,
+    "internalName": "Home",
+    "internalIcon": "icon-home",
+    "type": "internal",
+    "title": "CNH"
+  },
+  {
+    "caption": "Rondas",
+    "link": null,
+    "newWindow": false,
+    "internal": null,
+    "edit": false,
+    "isInternal": true,
+    "internalName": "",
+    "internalIcon": null,
+    "type": "internal",
+    "title": "Rondas"
+  },
+  {
+    "caption": "Asociaciones  Estratégicas",
+    "link": null,
+    "newWindow": false,
+    "internal": null,
+    "edit": false,
+    "isInternal": true,
+    "internalName": "",
+    "internalIcon": null,
+    "type": "internal",
+    "title": "Asociaciones  Estratégicas"
+  },
+  {
+    "caption": "Administración de Contratos",
+    "link": null,
+    "newWindow": false,
+    "internal": null,
+    "edit": false,
+    "isInternal": true,
+    "internalName": "",
+    "internalIcon": null,
+    "type": "internal",
+    "title": "Administración de Contratos"
+  },
+  {
+    "caption": "Cifras Relevantes",
+    "link": null,
+    "newWindow": false,
+    "internal": null,
+    "edit": false,
+    "isInternal": true,
+    "internalName": "",
+    "internalIcon": null,
+    "type": "internal",
+    "title": "Cifras Relevantes"
+  },
+  {
+    "caption": "Arreglo Institucional",
+    "link": null,
+    "newWindow": false,
+    "internal": null,
+    "edit": false,
+    "isInternal": true,
+    "internalName": "",
+    "internalIcon": null,
+    "type": "internal",
+    "title": "Arreglo Institucional"
+  },
+  {
+    "caption": "Contacto",
+    "link": null,
+    "newWindow": false,
+    "internal": null,
+    "edit": false,
+    "isInternal": true,
+    "internalName": "",
+    "internalIcon": null,
+    "type": "internal",
+    "title": "Contacto"
+  }
+] to a json object
+System.InvalidCastException: Null object cannot be converted to a value type.
+   at System.Convert.ChangeType(Object value, Type conversionType, IFormatProvider provider)
+   at Newtonsoft.Json.Linq.Extensions.Convert[T,U](T token)
+   at Newtonsoft.Json.Linq.JToken.Value[T](Object key)
+   at Umbraco.Web.PropertyEditors.ValueConverters.RelatedLinksEditorValueConvertor.ConvertDataToSource(PublishedPropertyType propertyType, Object source, Boolean preview)
+ 2018-02-12 12:36:54,845 [P6960/D3/T20] ERROR Umbraco.Web.PropertyEditors.ValueConverters.RelatedLinksEditorValueConvertor - Could not parse the string [
+  {
+    "caption": "CNH",
+    "link": 1053,
+    "newWindow": false,
+    "internal": 1053,
+    "edit": false,
+    "isInternal": true,
+    "internalName": "Home",
+    "internalIcon": "icon-home",
+    "type": "internal",
+    "title": "CNH"
+  },
+  {
+    "caption": "Rondas",
+    "link": null,
+    "newWindow": false,
+    "internal": null,
+    "edit": false,
+    "isInternal": true,
+    "internalName": "",
+    "internalIcon": null,
+    "type": "internal",
+    "title": "Rondas"
+  },
+  {
+    "caption": "Asociaciones  Estratégicas",
+    "link": null,
+    "newWindow": false,
+    "internal": null,
+    "edit": false,
+    "isInternal": true,
+    "internalName": "",
+    "internalIcon": null,
+    "type": "internal",
+    "title": "Asociaciones  Estratégicas"
+  },
+  {
+    "caption": "Administración de Contratos",
+    "link": null,
+    "newWindow": false,
+    "internal": null,
+    "edit": false,
+    "isInternal": true,
+    "internalName": "",
+    "internalIcon": null,
+    "type": "internal",
+    "title": "Administración de Contratos"
+  },
+  {
+    "caption": "Cifras Relevantes",
+    "link": null,
+    "newWindow": false,
+    "internal": null,
+    "edit": false,
+    "isInternal": true,
+    "internalName": "",
+    "internalIcon": null,
+    "type": "internal",
+    "title": "Cifras Relevantes"
+  },
+  {
+    "caption": "Arreglo Institucional",
+    "link": null,
+    "newWindow": false,
+    "internal": null,
+    "edit": false,
+    "isInternal": true,
+    "internalName": "",
+    "internalIcon": null,
+    "type": "internal",
+    "title": "Arreglo Institucional"
+  },
+  {
+    "caption": "Contacto",
+    "link": null,
+    "newWindow": false,
+    "internal": null,
+    "edit": false,
+    "isInternal": true,
+    "internalName": "",
+    "internalIcon": null,
+    "type": "internal",
+    "title": "Contacto"
+  }
+] to a json object
+System.InvalidCastException: Null object cannot be converted to a value type.
+   at System.Convert.ChangeType(Object value, Type conversionType, IFormatProvider provider)
+   at Newtonsoft.Json.Linq.Extensions.Convert[T,U](T token)
+   at Newtonsoft.Json.Linq.JToken.Value[T](Object key)
+   at Umbraco.Web.PropertyEditors.ValueConverters.RelatedLinksEditorValueConvertor.ConvertDataToSource(PublishedPropertyType propertyType, Object source, Boolean preview)
+ 2018-02-12 12:38:54,404 [P6960/D3/T64] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Web.Trees.TreeController
+ 2018-02-12 12:38:54,404 [P6960/D3/T64] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Web.Trees.TreeController, found 0 (took 0ms)
+ 2018-02-12 12:38:54,431 [P6960/D3/T64] INFO  Umbraco.Core.PluginManager - Starting resolution types of umbraco.interfaces.ITree
+ 2018-02-12 12:38:54,473 [P6960/D3/T64] INFO  Umbraco.Core.PluginManager - Completed resolution of types of umbraco.interfaces.ITree, found 0 (took 41ms)
+ 2018-02-12 12:51:34,178 [P6960/D3/T111] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Web.Trees.TreeController
+ 2018-02-12 12:51:34,178 [P6960/D3/T111] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Web.Trees.TreeController, found 0 (took 0ms)
+ 2018-02-12 13:13:21,399 [P6960/D3/T41] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [Umbraco.Web.Scheduling.IBackgroundTask] Terminating
+ 2018-02-12 13:13:21,399 [P6960/D3/T41] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [Umbraco.Web.Scheduling.IBackgroundTask] Waiting for tasks to complete
+ 2018-02-12 13:13:21,434 [P6960/D3/T41] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [ScheduledTasks] Terminating
+ 2018-02-12 13:13:21,434 [P6960/D3/T41] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [ScheduledTasks] Waiting for tasks to complete
+ 2018-02-12 13:13:21,468 [P6960/D3/T71] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [ScheduledTasks] Tasks completed, terminated
+ 2018-02-12 13:13:21,468 [P6960/D3/T128] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [Umbraco.Web.Scheduling.IBackgroundTask] Tasks completed, terminated
+ 2018-02-12 13:13:22,029 [P6960/D3/T41] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [ScheduledPublishing] Terminating
+ 2018-02-12 13:13:22,029 [P6960/D3/T41] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [ScheduledPublishing] Waiting for tasks to complete
+ 2018-02-12 13:13:22,029 [P6960/D3/T41] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [KeepAlive] Terminating
+ 2018-02-12 13:13:22,029 [P6960/D3/T41] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [KeepAlive] Waiting for tasks to complete
+ 2018-02-12 13:13:22,030 [P6960/D3/T18] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [ScheduledPublishing] Tasks completed, terminated
+ 2018-02-12 13:13:22,030 [P6960/D3/T52] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [KeepAlive] Tasks completed, terminated
+ 2018-02-12 13:13:22,222 [P6960/D3/T41] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [LogScrubber] Terminating
+ 2018-02-12 13:13:22,222 [P6960/D3/T41] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [LogScrubber] Waiting for tasks to complete
+ 2018-02-12 13:13:22,223 [P6960/D3/T50] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [LogScrubber] Tasks completed, terminated
+ 2018-02-12 13:13:23,106 [P6960/D3/T49] ERROR Umbraco.Web.PropertyEditors.ValueConverters.RelatedLinksEditorValueConvertor - Could not parse the string [
+  {
+    "caption": "CNH",
+    "link": 1053,
+    "newWindow": false,
+    "internal": 1053,
+    "edit": false,
+    "isInternal": true,
+    "internalName": "Home",
+    "internalIcon": "icon-home",
+    "type": "internal",
+    "title": "CNH"
+  },
+  {
+    "caption": "Rondas",
+    "link": null,
+    "newWindow": false,
+    "internal": null,
+    "edit": false,
+    "isInternal": true,
+    "internalName": "",
+    "internalIcon": null,
+    "type": "internal",
+    "title": "Rondas"
+  },
+  {
+    "caption": "Asociaciones  Estratégicas",
+    "link": null,
+    "newWindow": false,
+    "internal": null,
+    "edit": false,
+    "isInternal": true,
+    "internalName": "",
+    "internalIcon": null,
+    "type": "internal",
+    "title": "Asociaciones  Estratégicas"
+  },
+  {
+    "caption": "Administración de Contratos",
+    "link": null,
+    "newWindow": false,
+    "internal": null,
+    "edit": false,
+    "isInternal": true,
+    "internalName": "",
+    "internalIcon": null,
+    "type": "internal",
+    "title": "Administración de Contratos"
+  },
+  {
+    "caption": "Cifras Relevantes",
+    "link": null,
+    "newWindow": false,
+    "internal": null,
+    "edit": false,
+    "isInternal": true,
+    "internalName": "",
+    "internalIcon": null,
+    "type": "internal",
+    "title": "Cifras Relevantes"
+  },
+  {
+    "caption": "Arreglo Institucional",
+    "link": null,
+    "newWindow": false,
+    "internal": null,
+    "edit": false,
+    "isInternal": true,
+    "internalName": "",
+    "internalIcon": null,
+    "type": "internal",
+    "title": "Arreglo Institucional"
+  },
+  {
+    "caption": "Contacto",
+    "link": null,
+    "newWindow": false,
+    "internal": null,
+    "edit": false,
+    "isInternal": true,
+    "internalName": "",
+    "internalIcon": null,
+    "type": "internal",
+    "title": "Contacto"
+  }
+] to a json object
+System.InvalidCastException: Null object cannot be converted to a value type.
+   at System.Convert.ChangeType(Object value, Type conversionType, IFormatProvider provider)
+   at Newtonsoft.Json.Linq.Extensions.Convert[T,U](T token)
+   at Newtonsoft.Json.Linq.JToken.Value[T](Object key)
+   at Umbraco.Web.PropertyEditors.ValueConverters.RelatedLinksEditorValueConvertor.ConvertDataToSource(PublishedPropertyType propertyType, Object source, Boolean preview)
+ 2018-02-12 13:13:36,030 [P6960/D4/T1] INFO  Umbraco.Core.CoreBootManager - Umbraco 7.5.4 application starting on PLANETMEDIA-PC
+ 2018-02-12 13:13:36,149 [P6960/D4/T1] INFO  Umbraco.Core.PluginManager - Determining hash of code files on disk
+ 2018-02-12 13:13:36,177 [P6960/D4/T1] INFO  Umbraco.Core.PluginManager - Hash determined (took 28ms)
+ 2018-02-12 13:13:36,437 [P6960/D4/T1] INFO  Umbraco.Core.PluginManager - Starting resolution types of umbraco.interfaces.IApplicationStartupHandler
+ 2018-02-12 13:13:36,648 [P6960/D4/T1] INFO  Umbraco.Core.PluginManager - Completed resolution of types of umbraco.interfaces.IApplicationStartupHandler, found 0 (took 211ms)
+ 2018-02-12 13:13:36,784 [P6960/D4/T1] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Core.PropertyEditors.IPropertyEditorValueConverter
+ 2018-02-12 13:13:36,785 [P6960/D4/T1] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Core.PropertyEditors.IPropertyEditorValueConverter, found 0 (took 0ms)
+ 2018-02-12 13:13:36,786 [P6960/D4/T1] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Core.PropertyEditors.IPropertyValueConverter
+ 2018-02-12 13:13:36,787 [P6960/D4/T1] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Core.PropertyEditors.IPropertyValueConverter, found 0 (took 1ms)
+ 2018-02-12 13:13:36,799 [P6960/D4/T1] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Web.Mvc.SurfaceController
+ 2018-02-12 13:13:36,800 [P6960/D4/T1] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Web.Mvc.SurfaceController, found 0 (took 0ms)
+ 2018-02-12 13:13:36,800 [P6960/D4/T1] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Web.WebApi.UmbracoApiController
+ 2018-02-12 13:13:36,815 [P6960/D4/T1] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Web.WebApi.UmbracoApiController, found 0 (took 15ms)
+ 2018-02-12 13:13:37,373 [P6960/D4/T1] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Core.Media.IThumbnailProvider
+ 2018-02-12 13:13:37,374 [P6960/D4/T1] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Core.Media.IThumbnailProvider, found 0 (took 1ms)
+ 2018-02-12 13:13:37,375 [P6960/D4/T1] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Core.Media.IImageUrlProvider
+ 2018-02-12 13:13:37,376 [P6960/D4/T1] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Core.Media.IImageUrlProvider, found 0 (took 0ms)
+ 2018-02-12 13:13:38,708 [P6960/D4/T1] INFO  Umbraco.Core.DatabaseContext - CanConnect = True
+ 2018-02-12 13:13:39,328 [P6960/D4/T1] INFO  Umbraco.Core.DatabaseContext - CanConnect = True
+ 2018-02-12 13:13:39,365 [P6960/D4/T1] INFO  Umbraco.Core.DatabaseContext - CanConnect = True
+ 2018-02-12 13:13:39,492 [P6960/D4/T1] INFO  Umbraco.Web.Cache.CacheRefresherEventHandler - Initializing Umbraco internal event handlers for cache refreshing
+ 2018-02-12 13:13:39,743 [P6960/D4/T1] INFO  Umbraco.Web.Search.ExamineEvents - Initializing Examine and binding to business logic events
+ 2018-02-12 13:13:39,743 [P6960/D4/T1] INFO  Umbraco.Web.Search.ExamineEvents - Adding examine event handlers for index providers: 3
+ 2018-02-12 13:13:39,900 [P6960/D4/T1] INFO  Umbraco.Core.CoreBootManager - Umbraco application startup complete (took 3960ms)
+ 2018-02-12 13:13:44,063 [P6960/D4/T52] INFO  Umbraco.Core.Sync.ApplicationUrlHelper - ApplicationUrl: http://localhost:18701/umbraco (UmbracoModule request)
+ 2018-02-12 13:13:45,584 [P6960/D4/T125] INFO  Umbraco.Core.PluginManager - Starting resolution types of umbraco.interfaces.IApplication
+ 2018-02-12 13:13:45,585 [P6960/D4/T125] INFO  Umbraco.Core.PluginManager - Completed resolution of types of umbraco.interfaces.IApplication, found 0 (took 0ms)
+ 2018-02-12 13:13:52,309 [P6960/D3/T52] INFO  Umbraco.Core.UmbracoApplicationBase - Application shutdown. Details: MaxRecompilationsReached
+
+_shutDownMessage=Recompilation limit of 15 reached
+HostingEnvironment initiated shutdown
+HostingEnvironment originó el cierre
+
+_shutDownStack=   en System.Environment.GetStackTrace(Exception e, Boolean needFileInfo)
+   en System.Environment.get_StackTrace()
+   en System.Web.Hosting.HostingEnvironment.InitiateShutdownInternal()
+   en System.Web.Hosting.HostingEnvironment.InitiateShutdownWithoutDemand()
+   en System.Web.HttpRuntime.ShutdownAppDomain(String stackTrace)
+   en System.Web.Compilation.DiskBuildResultCache.ShutdownCallBack(Object state)
+   en System.Threading.QueueUserWorkItemCallback.WaitCallback_Context(Object state)
+   en System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   en System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   en System.Threading.QueueUserWorkItemCallback.System.Threading.IThreadPoolWorkItem.ExecuteWorkItem()
+   en System.Threading.ThreadPoolWorkQueue.Dispatch()
+   en System.Threading._ThreadPoolWaitCallback.PerformWaitCallback()
+ 2018-02-12 13:13:56,035 [P6960/D4/T50] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Web.Trees.TreeController
+ 2018-02-12 13:13:56,037 [P6960/D4/T50] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Web.Trees.TreeController, found 0 (took 1ms)
+ 2018-02-12 13:13:56,039 [P6960/D4/T50] INFO  Umbraco.Core.PluginManager - Starting resolution types of umbraco.interfaces.ITree
+ 2018-02-12 13:13:56,040 [P6960/D4/T50] INFO  Umbraco.Core.PluginManager - Completed resolution of types of umbraco.interfaces.ITree, found 0 (took 1ms)
+ 2018-02-12 13:14:45,336 [P6960/D4/T125] INFO  umbraco.content - Load Xml from file...
+ 2018-02-12 13:14:45,352 [P6960/D4/T125] INFO  umbraco.content - Loaded Xml from file.
+ 2018-02-12 13:14:45,359 [P6960/D4/T125] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Core.Persistence.Mappers.BaseMapper
+ 2018-02-12 13:14:45,360 [P6960/D4/T125] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Core.Persistence.Mappers.BaseMapper, found 0 (took 0ms)
+ 2018-02-12 13:14:45,523 [P6960/D4/T130] INFO  umbraco.BusinessLogic.Log - Log scrubbed.  Removed all items older than 2018-02-11 13:14:45
+ 2018-02-12 13:14:53,157 [P6960/D4/T130] INFO  Umbraco.Core.PluginManager - Starting resolution types of umbraco.interfaces.ICacheRefresher
+ 2018-02-12 13:14:53,161 [P6960/D4/T130] INFO  Umbraco.Core.PluginManager - Completed resolution of types of umbraco.interfaces.ICacheRefresher, found 0 (took 4ms)
+ 2018-02-12 13:15:07,205 [P6960/D4/T130] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Core.PropertyEditors.IParameterEditor
+ 2018-02-12 13:15:07,207 [P6960/D4/T130] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Core.PropertyEditors.IParameterEditor, found 0 (took 1ms)
+ 2018-02-12 13:15:33,007 [P6960/D4/T126] ERROR Umbraco.Web.PropertyEditors.ValueConverters.RelatedLinksEditorValueConvertor - Could not parse the string [
+  {
+    "caption": "CNH",
+    "link": 1053,
+    "newWindow": false,
+    "internal": 1053,
+    "edit": false,
+    "isInternal": true,
+    "internalName": "Home",
+    "internalIcon": "icon-home",
+    "type": "internal",
+    "title": "CNH"
+  },
+  {
+    "caption": "Rondas",
+    "link": null,
+    "newWindow": false,
+    "internal": null,
+    "edit": false,
+    "isInternal": true,
+    "internalName": "",
+    "internalIcon": null,
+    "type": "internal",
+    "title": "Rondas"
+  },
+  {
+    "caption": "Asociaciones  Estratégicas",
+    "link": null,
+    "newWindow": false,
+    "internal": null,
+    "edit": false,
+    "isInternal": true,
+    "internalName": "",
+    "internalIcon": null,
+    "type": "internal",
+    "title": "Asociaciones  Estratégicas"
+  },
+  {
+    "caption": "Administración de Contratos",
+    "link": null,
+    "newWindow": false,
+    "internal": null,
+    "edit": false,
+    "isInternal": true,
+    "internalName": "",
+    "internalIcon": null,
+    "type": "internal",
+    "title": "Administración de Contratos"
+  },
+  {
+    "caption": "Cifras Relevantes",
+    "link": null,
+    "newWindow": false,
+    "internal": null,
+    "edit": false,
+    "isInternal": true,
+    "internalName": "",
+    "internalIcon": null,
+    "type": "internal",
+    "title": "Cifras Relevantes"
+  },
+  {
+    "caption": "Arreglo Institucional",
+    "link": null,
+    "newWindow": false,
+    "internal": null,
+    "edit": false,
+    "isInternal": true,
+    "internalName": "",
+    "internalIcon": null,
+    "type": "internal",
+    "title": "Arreglo Institucional"
+  },
+  {
+    "caption": "Contacto",
+    "link": null,
+    "newWindow": false,
+    "internal": null,
+    "edit": false,
+    "isInternal": true,
+    "internalName": "",
+    "internalIcon": null,
+    "type": "internal",
+    "title": "Contacto"
+  }
+] to a json object
+System.InvalidCastException: Null object cannot be converted to a value type.
+   at System.Convert.ChangeType(Object value, Type conversionType, IFormatProvider provider)
+   at Newtonsoft.Json.Linq.Extensions.Convert[T,U](T token)
+   at Newtonsoft.Json.Linq.JToken.Value[T](Object key)
+   at Umbraco.Web.PropertyEditors.ValueConverters.RelatedLinksEditorValueConvertor.ConvertDataToSource(PublishedPropertyType propertyType, Object source, Boolean preview)
+ 2018-02-12 13:18:43,911 [P6960/D4/T79] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Web.Editors.IEditorValidator
+ 2018-02-12 13:18:43,913 [P6960/D4/T79] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Web.Editors.IEditorValidator, found 0 (took 2ms)
+ 2018-02-12 13:26:49,748 [P6960/D4/T125] WARN  Umbraco.Web.Models.Mapping.PreValueDisplayResolver - Could not find persisted pre-value for field startNodeId
+ 2018-02-12 13:27:12,815 [P6960/D4/T45] WARN  Umbraco.Web.Models.Mapping.PreValueDisplayResolver - Could not find persisted pre-value for field startNodeId
+ 2018-02-12 13:30:42,895 [P6960/D4/T63] WARN  Umbraco.Web.Models.Mapping.PreValueDisplayResolver - Could not find persisted pre-value for field multiPicker
+ 2018-02-12 13:30:42,895 [P6960/D4/T63] WARN  Umbraco.Web.Models.Mapping.PreValueDisplayResolver - Could not find persisted pre-value for field onlyImages
+ 2018-02-12 13:30:42,895 [P6960/D4/T63] WARN  Umbraco.Web.Models.Mapping.PreValueDisplayResolver - Could not find persisted pre-value for field disableFolderSelect
+ 2018-02-12 13:30:42,895 [P6960/D4/T63] WARN  Umbraco.Web.Models.Mapping.PreValueDisplayResolver - Could not find persisted pre-value for field startNodeId
+ 2018-02-12 13:31:29,980 [P6960/D4/T129] WARN  Umbraco.Web.Models.Mapping.PreValueDisplayResolver - Could not find persisted pre-value for field multiPicker
+ 2018-02-12 13:31:29,980 [P6960/D4/T129] WARN  Umbraco.Web.Models.Mapping.PreValueDisplayResolver - Could not find persisted pre-value for field onlyImages
+ 2018-02-12 13:31:29,980 [P6960/D4/T129] WARN  Umbraco.Web.Models.Mapping.PreValueDisplayResolver - Could not find persisted pre-value for field disableFolderSelect
+ 2018-02-12 13:31:29,980 [P6960/D4/T129] WARN  Umbraco.Web.Models.Mapping.PreValueDisplayResolver - Could not find persisted pre-value for field startNodeId
+ 2018-02-12 13:32:12,564 [P6960/D4/T30] ERROR Umbraco.Web.PropertyEditors.ValueConverters.RelatedLinksEditorValueConvertor - Could not parse the string [
+  {
+    "caption": "CNH",
+    "link": 1053,
+    "newWindow": false,
+    "internal": 1053,
+    "edit": false,
+    "isInternal": true,
+    "internalName": "Home",
+    "internalIcon": "icon-home",
+    "type": "internal",
+    "title": "CNH"
+  },
+  {
+    "caption": "Rondas",
+    "link": null,
+    "newWindow": false,
+    "internal": null,
+    "edit": false,
+    "isInternal": true,
+    "internalName": "",
+    "internalIcon": null,
+    "type": "internal",
+    "title": "Rondas"
+  },
+  {
+    "caption": "Asociaciones  Estratégicas",
+    "link": null,
+    "newWindow": false,
+    "internal": null,
+    "edit": false,
+    "isInternal": true,
+    "internalName": "",
+    "internalIcon": null,
+    "type": "internal",
+    "title": "Asociaciones  Estratégicas"
+  },
+  {
+    "caption": "Administración de Contratos",
+    "link": null,
+    "newWindow": false,
+    "internal": null,
+    "edit": false,
+    "isInternal": true,
+    "internalName": "",
+    "internalIcon": null,
+    "type": "internal",
+    "title": "Administración de Contratos"
+  },
+  {
+    "caption": "Cifras Relevantes",
+    "link": null,
+    "newWindow": false,
+    "internal": null,
+    "edit": false,
+    "isInternal": true,
+    "internalName": "",
+    "internalIcon": null,
+    "type": "internal",
+    "title": "Cifras Relevantes"
+  },
+  {
+    "caption": "Arreglo Institucional",
+    "link": null,
+    "newWindow": false,
+    "internal": null,
+    "edit": false,
+    "isInternal": true,
+    "internalName": "",
+    "internalIcon": null,
+    "type": "internal",
+    "title": "Arreglo Institucional"
+  },
+  {
+    "caption": "Contacto",
+    "link": null,
+    "newWindow": false,
+    "internal": null,
+    "edit": false,
+    "isInternal": true,
+    "internalName": "",
+    "internalIcon": null,
+    "type": "internal",
+    "title": "Contacto"
+  }
+] to a json object
+System.InvalidCastException: Null object cannot be converted to a value type.
+   at System.Convert.ChangeType(Object value, Type conversionType, IFormatProvider provider)
+   at Newtonsoft.Json.Linq.Extensions.Convert[T,U](T token)
+   at Newtonsoft.Json.Linq.JToken.Value[T](Object key)
+   at Umbraco.Web.PropertyEditors.ValueConverters.RelatedLinksEditorValueConvertor.ConvertDataToSource(PublishedPropertyType propertyType, Object source, Boolean preview)
+ 2018-02-12 13:38:13,401 [P6960/D4/T109] INFO  Umbraco.Core.PluginManager - Starting resolution types of umbraco.interfaces.ITree
+ 2018-02-12 13:38:13,402 [P6960/D4/T109] INFO  Umbraco.Core.PluginManager - Completed resolution of types of umbraco.interfaces.ITree, found 0 (took 1ms)
+ 2018-02-12 13:38:45,456 [P6960/D4/T89] INFO  Umbraco.Core.PluginManager - Starting resolution types of umbraco.interfaces.IAction
+ 2018-02-12 13:38:45,458 [P6960/D4/T89] INFO  Umbraco.Core.PluginManager - Completed resolution of types of umbraco.interfaces.IAction, found 0 (took 1ms)
+ 2018-02-12 13:38:50,409 [P6960/D4/T100] INFO  umbraco.content - Loading content from database...
+ 2018-02-12 13:38:54,807 [P6960/D4/T55] INFO  umbraco.content - Save Xml to file...
+ 2018-02-12 13:38:54,810 [P6960/D4/T55] INFO  umbraco.content - Saved Xml to file.
+ 2018-02-12 13:42:18,283 [P6960/D4/T62] ERROR Umbraco.Web.PropertyEditors.ValueConverters.RelatedLinksEditorValueConvertor - Could not parse the string [
+  {
+    "caption": "CNH",
+    "link": 1053,
+    "newWindow": false,
+    "internal": 1053,
+    "edit": false,
+    "isInternal": true,
+    "internalName": "Home",
+    "internalIcon": "icon-home",
+    "type": "internal",
+    "title": "CNH"
+  },
+  {
+    "caption": "Rondas",
+    "link": null,
+    "newWindow": false,
+    "internal": null,
+    "edit": false,
+    "isInternal": true,
+    "internalName": "",
+    "internalIcon": null,
+    "type": "internal",
+    "title": "Rondas"
+  },
+  {
+    "caption": "Asociaciones  Estratégicas",
+    "link": null,
+    "newWindow": false,
+    "internal": null,
+    "edit": false,
+    "isInternal": true,
+    "internalName": "",
+    "internalIcon": null,
+    "type": "internal",
+    "title": "Asociaciones  Estratégicas"
+  },
+  {
+    "caption": "Administración de Contratos",
+    "link": null,
+    "newWindow": false,
+    "internal": null,
+    "edit": false,
+    "isInternal": true,
+    "internalName": "",
+    "internalIcon": null,
+    "type": "internal",
+    "title": "Administración de Contratos"
+  },
+  {
+    "caption": "Cifras Relevantes",
+    "link": null,
+    "newWindow": false,
+    "internal": null,
+    "edit": false,
+    "isInternal": true,
+    "internalName": "",
+    "internalIcon": null,
+    "type": "internal",
+    "title": "Cifras Relevantes"
+  },
+  {
+    "caption": "Arreglo Institucional",
+    "link": null,
+    "newWindow": false,
+    "internal": null,
+    "edit": false,
+    "isInternal": true,
+    "internalName": "",
+    "internalIcon": null,
+    "type": "internal",
+    "title": "Arreglo Institucional"
+  },
+  {
+    "caption": "Contacto",
+    "link": null,
+    "newWindow": false,
+    "internal": null,
+    "edit": false,
+    "isInternal": true,
+    "internalName": "",
+    "internalIcon": null,
+    "type": "internal",
+    "title": "Contacto"
+  }
+] to a json object
+System.InvalidCastException: Null object cannot be converted to a value type.
+   at System.Convert.ChangeType(Object value, Type conversionType, IFormatProvider provider)
+   at Newtonsoft.Json.Linq.Extensions.Convert[T,U](T token)
+   at Newtonsoft.Json.Linq.JToken.Value[T](Object key)
+   at Umbraco.Web.PropertyEditors.ValueConverters.RelatedLinksEditorValueConvertor.ConvertDataToSource(PublishedPropertyType propertyType, Object source, Boolean preview)
+ 2018-02-12 13:51:21,585 [P6960/D4/T96] ERROR Umbraco.Web.PropertyEditors.ValueConverters.RelatedLinksEditorValueConvertor - Could not parse the string [
+  {
+    "caption": "CNH",
+    "link": 1053,
+    "newWindow": false,
+    "internal": 1053,
+    "edit": false,
+    "isInternal": true,
+    "internalName": "Home",
+    "internalIcon": "icon-home",
+    "type": "internal",
+    "title": "CNH"
+  },
+  {
+    "caption": "Rondas",
+    "link": null,
+    "newWindow": false,
+    "internal": null,
+    "edit": false,
+    "isInternal": true,
+    "internalName": "",
+    "internalIcon": null,
+    "type": "internal",
+    "title": "Rondas"
+  },
+  {
+    "caption": "Asociaciones  Estratégicas",
+    "link": null,
+    "newWindow": false,
+    "internal": null,
+    "edit": false,
+    "isInternal": true,
+    "internalName": "",
+    "internalIcon": null,
+    "type": "internal",
+    "title": "Asociaciones  Estratégicas"
+  },
+  {
+    "caption": "Administración de Contratos",
+    "link": null,
+    "newWindow": false,
+    "internal": null,
+    "edit": false,
+    "isInternal": true,
+    "internalName": "",
+    "internalIcon": null,
+    "type": "internal",
+    "title": "Administración de Contratos"
+  },
+  {
+    "caption": "Cifras Relevantes",
+    "link": null,
+    "newWindow": false,
+    "internal": null,
+    "edit": false,
+    "isInternal": true,
+    "internalName": "",
+    "internalIcon": null,
+    "type": "internal",
+    "title": "Cifras Relevantes"
+  },
+  {
+    "caption": "Arreglo Institucional",
+    "link": null,
+    "newWindow": false,
+    "internal": null,
+    "edit": false,
+    "isInternal": true,
+    "internalName": "",
+    "internalIcon": null,
+    "type": "internal",
+    "title": "Arreglo Institucional"
+  },
+  {
+    "caption": "Contacto",
+    "link": null,
+    "newWindow": false,
+    "internal": null,
+    "edit": false,
+    "isInternal": true,
+    "internalName": "",
+    "internalIcon": null,
+    "type": "internal",
+    "title": "Contacto"
+  }
+] to a json object
+System.InvalidCastException: Null object cannot be converted to a value type.
+   at System.Convert.ChangeType(Object value, Type conversionType, IFormatProvider provider)
+   at Newtonsoft.Json.Linq.Extensions.Convert[T,U](T token)
+   at Newtonsoft.Json.Linq.JToken.Value[T](Object key)
+   at Umbraco.Web.PropertyEditors.ValueConverters.RelatedLinksEditorValueConvertor.ConvertDataToSource(PublishedPropertyType propertyType, Object source, Boolean preview)
+ 2018-02-12 13:55:07,974 [P6960/D4/T96] ERROR Umbraco.Web.PropertyEditors.ValueConverters.RelatedLinksEditorValueConvertor - Could not parse the string [
+  {
+    "caption": "CNH",
+    "link": 1053,
+    "newWindow": false,
+    "internal": 1053,
+    "edit": false,
+    "isInternal": true,
+    "internalName": "Home",
+    "internalIcon": "icon-home",
+    "type": "internal",
+    "title": "CNH"
+  },
+  {
+    "caption": "Rondas",
+    "link": null,
+    "newWindow": false,
+    "internal": null,
+    "edit": false,
+    "isInternal": true,
+    "internalName": "",
+    "internalIcon": null,
+    "type": "internal",
+    "title": "Rondas"
+  },
+  {
+    "caption": "Asociaciones  Estratégicas",
+    "link": null,
+    "newWindow": false,
+    "internal": null,
+    "edit": false,
+    "isInternal": true,
+    "internalName": "",
+    "internalIcon": null,
+    "type": "internal",
+    "title": "Asociaciones  Estratégicas"
+  },
+  {
+    "caption": "Administración de Contratos",
+    "link": null,
+    "newWindow": false,
+    "internal": null,
+    "edit": false,
+    "isInternal": true,
+    "internalName": "",
+    "internalIcon": null,
+    "type": "internal",
+    "title": "Administración de Contratos"
+  },
+  {
+    "caption": "Cifras Relevantes",
+    "link": null,
+    "newWindow": false,
+    "internal": null,
+    "edit": false,
+    "isInternal": true,
+    "internalName": "",
+    "internalIcon": null,
+    "type": "internal",
+    "title": "Cifras Relevantes"
+  },
+  {
+    "caption": "Arreglo Institucional",
+    "link": null,
+    "newWindow": false,
+    "internal": null,
+    "edit": false,
+    "isInternal": true,
+    "internalName": "",
+    "internalIcon": null,
+    "type": "internal",
+    "title": "Arreglo Institucional"
+  },
+  {
+    "caption": "Contacto",
+    "link": null,
+    "newWindow": false,
+    "internal": null,
+    "edit": false,
+    "isInternal": true,
+    "internalName": "",
+    "internalIcon": null,
+    "type": "internal",
+    "title": "Contacto"
+  }
+] to a json object
+System.InvalidCastException: Null object cannot be converted to a value type.
+   at System.Convert.ChangeType(Object value, Type conversionType, IFormatProvider provider)
+   at Newtonsoft.Json.Linq.Extensions.Convert[T,U](T token)
+   at Newtonsoft.Json.Linq.JToken.Value[T](Object key)
+   at Umbraco.Web.PropertyEditors.ValueConverters.RelatedLinksEditorValueConvertor.ConvertDataToSource(PublishedPropertyType propertyType, Object source, Boolean preview)
+ 2018-02-12 13:56:04,555 [P6960/D4/T66] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [ScheduledTasks] Terminating
+ 2018-02-12 13:56:04,555 [P6960/D4/T66] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [ScheduledTasks] Waiting for tasks to complete
+ 2018-02-12 13:56:04,556 [P6960/D4/T66] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [LogScrubber] Terminating
+ 2018-02-12 13:56:04,556 [P6960/D4/T66] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [LogScrubber] Waiting for tasks to complete
+ 2018-02-12 13:56:04,556 [P6960/D4/T51] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [ScheduledTasks] Tasks completed, terminated
+ 2018-02-12 13:56:04,558 [P6960/D4/T50] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [LogScrubber] Tasks completed, terminated
+ 2018-02-12 13:56:04,615 [P6960/D4/T66] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [ScheduledPublishing] Terminating
+ 2018-02-12 13:56:04,615 [P6960/D4/T66] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [ScheduledPublishing] Waiting for tasks to complete
+ 2018-02-12 13:56:04,615 [P6960/D4/T66] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [Umbraco.Web.Scheduling.IBackgroundTask] Terminating
+ 2018-02-12 13:56:04,615 [P6960/D4/T66] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [Umbraco.Web.Scheduling.IBackgroundTask] Waiting for tasks to complete
+ 2018-02-12 13:56:04,615 [P6960/D4/T66] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [KeepAlive] Terminating
+ 2018-02-12 13:56:04,615 [P6960/D4/T66] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [KeepAlive] Waiting for tasks to complete
+ 2018-02-12 13:56:04,615 [P6960/D4/T128] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [ScheduledPublishing] Tasks completed, terminated
+ 2018-02-12 13:56:04,615 [P6960/D4/T129] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [KeepAlive] Tasks completed, terminated
+ 2018-02-12 13:56:04,616 [P6960/D4/T18] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [Umbraco.Web.Scheduling.IBackgroundTask] Tasks completed, terminated
+ 2018-02-12 13:56:05,422 [P6960/D5/T78] INFO  Umbraco.Core.CoreBootManager - Umbraco 7.5.4 application starting on PLANETMEDIA-PC
+ 2018-02-12 13:56:05,430 [P6960/D5/T78] INFO  Umbraco.Core.PluginManager - Determining hash of code files on disk
+ 2018-02-12 13:56:05,441 [P6960/D5/T78] INFO  Umbraco.Core.PluginManager - Hash determined (took 10ms)
+ 2018-02-12 13:56:05,481 [P6960/D5/T78] INFO  Umbraco.Core.PluginManager - Starting resolution types of umbraco.interfaces.IApplicationStartupHandler
+ 2018-02-12 13:56:05,517 [P6960/D5/T78] INFO  Umbraco.Core.PluginManager - Completed resolution of types of umbraco.interfaces.IApplicationStartupHandler, found 0 (took 35ms)
+ 2018-02-12 13:56:05,553 [P6960/D5/T78] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Core.PropertyEditors.IPropertyEditorValueConverter
+ 2018-02-12 13:56:05,554 [P6960/D5/T78] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Core.PropertyEditors.IPropertyEditorValueConverter, found 0 (took 0ms)
+ 2018-02-12 13:56:05,554 [P6960/D5/T78] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Core.PropertyEditors.IPropertyValueConverter
+ 2018-02-12 13:56:05,557 [P6960/D5/T78] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Core.PropertyEditors.IPropertyValueConverter, found 0 (took 2ms)
+ 2018-02-12 13:56:05,561 [P6960/D5/T78] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Web.Mvc.SurfaceController
+ 2018-02-12 13:56:05,562 [P6960/D5/T78] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Web.Mvc.SurfaceController, found 0 (took 1ms)
+ 2018-02-12 13:56:05,563 [P6960/D5/T78] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Web.WebApi.UmbracoApiController
+ 2018-02-12 13:56:05,570 [P6960/D5/T78] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Web.WebApi.UmbracoApiController, found 0 (took 7ms)
+ 2018-02-12 13:56:05,621 [P6960/D5/T78] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Core.Media.IThumbnailProvider
+ 2018-02-12 13:56:05,622 [P6960/D5/T78] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Core.Media.IThumbnailProvider, found 0 (took 0ms)
+ 2018-02-12 13:56:05,622 [P6960/D5/T78] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Core.Media.IImageUrlProvider
+ 2018-02-12 13:56:05,623 [P6960/D5/T78] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Core.Media.IImageUrlProvider, found 0 (took 0ms)
+ 2018-02-12 13:56:06,576 [P6960/D5/T78] INFO  Umbraco.Core.DatabaseContext - CanConnect = True
+ 2018-02-12 13:56:06,761 [P6960/D5/T78] INFO  Umbraco.Core.DatabaseContext - CanConnect = True
+ 2018-02-12 13:56:06,812 [P6960/D5/T78] INFO  Umbraco.Core.DatabaseContext - CanConnect = True
+ 2018-02-12 13:56:06,947 [P6960/D5/T78] INFO  Umbraco.Web.Cache.CacheRefresherEventHandler - Initializing Umbraco internal event handlers for cache refreshing
+ 2018-02-12 13:56:07,097 [P6960/D5/T78] INFO  Umbraco.Web.Search.ExamineEvents - Initializing Examine and binding to business logic events
+ 2018-02-12 13:56:07,097 [P6960/D5/T78] INFO  Umbraco.Web.Search.ExamineEvents - Adding examine event handlers for index providers: 3
+ 2018-02-12 13:56:07,148 [P6960/D5/T78] INFO  Umbraco.Core.CoreBootManager - Umbraco application startup complete (took 1772ms)
+ 2018-02-12 13:56:07,676 [P6960/D5/T79] INFO  Umbraco.Core.Sync.ApplicationUrlHelper - ApplicationUrl: http://localhost:18701/umbraco (UmbracoModule request)
+ 2018-02-12 13:56:08,527 [P6960/D5/T129] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Web.Trees.TreeController
+ 2018-02-12 13:56:08,529 [P6960/D5/T129] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Web.Trees.TreeController, found 0 (took 1ms)
+ 2018-02-12 13:56:08,533 [P6960/D5/T129] INFO  Umbraco.Core.PluginManager - Starting resolution types of umbraco.interfaces.ITree
+ 2018-02-12 13:56:08,534 [P6960/D5/T129] INFO  Umbraco.Core.PluginManager - Completed resolution of types of umbraco.interfaces.ITree, found 0 (took 1ms)
+ 2018-02-12 13:56:09,330 [P6960/D5/T51] INFO  Umbraco.Core.PluginManager - Starting resolution types of umbraco.interfaces.ICacheRefresher
+ 2018-02-12 13:56:09,332 [P6960/D5/T51] INFO  Umbraco.Core.PluginManager - Completed resolution of types of umbraco.interfaces.ICacheRefresher, found 0 (took 1ms)
+ 2018-02-12 13:56:09,667 [P6960/D5/T129] INFO  umbraco.content - Load Xml from file...
+ 2018-02-12 13:56:09,668 [P6960/D5/T129] INFO  umbraco.content - Loaded Xml from file.
+ 2018-02-12 13:56:09,998 [P6960/D5/T129] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Core.PropertyEditors.IParameterEditor
+ 2018-02-12 13:56:10,000 [P6960/D5/T129] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Core.PropertyEditors.IParameterEditor, found 0 (took 1ms)
+ 2018-02-12 13:56:12,580 [P6960/D5/T129] ERROR Umbraco.Web.PropertyEditors.ValueConverters.RelatedLinksEditorValueConvertor - Could not parse the string [
+  {
+    "caption": "CNH",
+    "link": 1053,
+    "newWindow": false,
+    "internal": 1053,
+    "edit": false,
+    "isInternal": true,
+    "internalName": "Home",
+    "internalIcon": "icon-home",
+    "type": "internal",
+    "title": "CNH"
+  },
+  {
+    "caption": "Rondas",
+    "link": null,
+    "newWindow": false,
+    "internal": null,
+    "edit": false,
+    "isInternal": true,
+    "internalName": "",
+    "internalIcon": null,
+    "type": "internal",
+    "title": "Rondas"
+  },
+  {
+    "caption": "Asociaciones  Estratégicas",
+    "link": null,
+    "newWindow": false,
+    "internal": null,
+    "edit": false,
+    "isInternal": true,
+    "internalName": "",
+    "internalIcon": null,
+    "type": "internal",
+    "title": "Asociaciones  Estratégicas"
+  },
+  {
+    "caption": "Administración de Contratos",
+    "link": null,
+    "newWindow": false,
+    "internal": null,
+    "edit": false,
+    "isInternal": true,
+    "internalName": "",
+    "internalIcon": null,
+    "type": "internal",
+    "title": "Administración de Contratos"
+  },
+  {
+    "caption": "Cifras Relevantes",
+    "link": null,
+    "newWindow": false,
+    "internal": null,
+    "edit": false,
+    "isInternal": true,
+    "internalName": "",
+    "internalIcon": null,
+    "type": "internal",
+    "title": "Cifras Relevantes"
+  },
+  {
+    "caption": "Arreglo Institucional",
+    "link": null,
+    "newWindow": false,
+    "internal": null,
+    "edit": false,
+    "isInternal": true,
+    "internalName": "",
+    "internalIcon": null,
+    "type": "internal",
+    "title": "Arreglo Institucional"
+  },
+  {
+    "caption": "Contacto",
+    "link": null,
+    "newWindow": false,
+    "internal": null,
+    "edit": false,
+    "isInternal": true,
+    "internalName": "",
+    "internalIcon": null,
+    "type": "internal",
+    "title": "Contacto"
+  }
+] to a json object
+System.InvalidCastException: Null object cannot be converted to a value type.
+   at System.Convert.ChangeType(Object value, Type conversionType, IFormatProvider provider)
+   at Newtonsoft.Json.Linq.Extensions.Convert[T,U](T token)
+   at Newtonsoft.Json.Linq.JToken.Value[T](Object key)
+   at Umbraco.Web.PropertyEditors.ValueConverters.RelatedLinksEditorValueConvertor.ConvertDataToSource(PublishedPropertyType propertyType, Object source, Boolean preview)
+ 2018-02-12 13:56:34,691 [P6960/D4/T120] INFO  Umbraco.Core.UmbracoApplicationBase - Application shutdown. Details: MaxRecompilationsReached
+
+_shutDownMessage=Recompilation limit of 15 reached
+HostingEnvironment initiated shutdown
+HostingEnvironment originó el cierre
+
+_shutDownStack=   en System.Environment.GetStackTrace(Exception e, Boolean needFileInfo)
+   en System.Environment.get_StackTrace()
+   en System.Web.Hosting.HostingEnvironment.InitiateShutdownInternal()
+   en System.Web.Hosting.HostingEnvironment.InitiateShutdownWithoutDemand()
+   en System.Web.HttpRuntime.ShutdownAppDomain(String stackTrace)
+   en System.Web.Compilation.DiskBuildResultCache.ShutdownCallBack(Object state)
+   en System.Threading.QueueUserWorkItemCallback.WaitCallback_Context(Object state)
+   en System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   en System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   en System.Threading.QueueUserWorkItemCallback.System.Threading.IThreadPoolWorkItem.ExecuteWorkItem()
+   en System.Threading.ThreadPoolWorkQueue.Dispatch()
+   en System.Threading._ThreadPoolWaitCallback.PerformWaitCallback()
+ 2018-02-12 13:56:37,661 [P6960/D5/T128] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Core.Persistence.Mappers.BaseMapper
+ 2018-02-12 13:56:37,662 [P6960/D5/T128] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Core.Persistence.Mappers.BaseMapper, found 0 (took 1ms)
+ 2018-02-12 13:56:57,999 [P6960/D5/T79] INFO  Umbraco.Core.PluginManager - Starting resolution types of umbraco.interfaces.ITree
+ 2018-02-12 13:56:58,001 [P6960/D5/T79] INFO  Umbraco.Core.PluginManager - Completed resolution of types of umbraco.interfaces.ITree, found 0 (took 2ms)
+ 2018-02-12 13:56:58,016 [P6960/D5/T79] INFO  Umbraco.Core.PluginManager - Starting resolution types of umbraco.interfaces.IApplication
+ 2018-02-12 13:56:58,019 [P6960/D5/T79] INFO  Umbraco.Core.PluginManager - Completed resolution of types of umbraco.interfaces.IApplication, found 0 (took 3ms)
+ 2018-02-12 13:56:58,752 [P6960/D5/T80] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Web.HealthCheck.HealthCheck
+ 2018-02-12 13:56:58,812 [P6960/D5/T80] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Web.HealthCheck.HealthCheck, found 0 (took 60ms)
+ 2018-02-12 13:57:08,643 [P6960/D5/T71] INFO  umbraco.BusinessLogic.Log - Log scrubbed.  Removed all items older than 2018-02-11 13:57:08
+ 2018-02-12 13:57:59,689 [P6960/D5/T129] INFO  Umbraco.Core.PluginManager - Starting resolution types of umbraco.interfaces.IAction
+ 2018-02-12 13:57:59,690 [P6960/D5/T129] INFO  Umbraco.Core.PluginManager - Completed resolution of types of umbraco.interfaces.IAction, found 0 (took 1ms)
+ 2018-02-12 14:20:29,076 [P6960/D5/T12] INFO  Umbraco.Core.Logging.OwinLogger - Event Id: 0, state: User logged will be logged out due to timeout: armando.diaz@planetmedia.com.mx, IP Address: ::1
+ 2018-02-12 15:11:03,259 [P6960/D5/T30] INFO  Umbraco.Core.Security.BackOfficeSignInManager - Event Id: 0, state: Login attempt succeeded for username armando.diaz@planetmedia.com.mx from IP address ::1
+ 2018-02-12 15:11:03,261 [P6960/D5/T30] INFO  Umbraco.Core.Security.BackOfficeSignInManager - Event Id: 0, state: User: armando.diaz@planetmedia.com.mx logged in from IP address ::1
+ 2018-02-12 15:30:35,861 [P6960/D5/T30] INFO  Umbraco.Core.Logging.OwinLogger - Event Id: 0, state: User logged will be logged out due to timeout: armando.diaz@planetmedia.com.mx, IP Address: ::1
+ 2018-02-12 15:32:32,058 [P6960/D5/T92] INFO  Umbraco.Core.Security.BackOfficeSignInManager - Event Id: 0, state: Login attempt succeeded for username armando.diaz@planetmedia.com.mx from IP address ::1
+ 2018-02-12 15:32:32,058 [P6960/D5/T92] INFO  Umbraco.Core.Security.BackOfficeSignInManager - Event Id: 0, state: User: armando.diaz@planetmedia.com.mx logged in from IP address ::1
+ 2018-02-12 15:32:32,482 [P6960/D5/T72] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Web.Trees.TreeController
+ 2018-02-12 15:32:32,483 [P6960/D5/T72] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Web.Trees.TreeController, found 0 (took 0ms)
+ 2018-02-12 15:52:02,932 [P6960/D5/T141] INFO  Umbraco.Core.Logging.OwinLogger - Event Id: 0, state: User logged will be logged out due to timeout: armando.diaz@planetmedia.com.mx, IP Address: ::1
+ 2018-02-12 15:52:08,961 [P6960/D5/T141] INFO  Umbraco.Core.Logging.OwinLogger - Event Id: 0, state: User logged will be logged out due to timeout: armando.diaz@planetmedia.com.mx, IP Address: ::1
+ 2018-02-12 15:54:46,028 [P6960/D5/T35] INFO  Umbraco.Core.Security.BackOfficeSignInManager - Event Id: 0, state: Login attempt succeeded for username armando.diaz@planetmedia.com.mx from IP address ::1
+ 2018-02-12 15:54:46,029 [P6960/D5/T35] INFO  Umbraco.Core.Security.BackOfficeSignInManager - Event Id: 0, state: User: armando.diaz@planetmedia.com.mx logged in from IP address ::1
+ 2018-02-12 15:54:46,247 [P6960/D5/T162] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Web.Trees.TreeController
+ 2018-02-12 15:54:46,247 [P6960/D5/T162] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Web.Trees.TreeController, found 0 (took 0ms)
+ 2018-02-12 15:55:12,641 [P6960/D5/T142] INFO  umbraco.content - Loading content from database...
+ 2018-02-12 15:55:16,991 [P6960/D5/T110] INFO  umbraco.content - Save Xml to file...
+ 2018-02-12 15:55:17,165 [P6960/D5/T110] INFO  umbraco.content - Saved Xml to file.
+ 2018-02-12 15:57:29,558 [P6960/D5/T156] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Web.Editors.IEditorValidator
+ 2018-02-12 15:57:29,637 [P6960/D5/T156] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Web.Editors.IEditorValidator, found 0 (took 78ms)
+ 2018-02-12 15:59:42,976 [P6960/D5/T141] WARN  Umbraco.Web.Models.Mapping.PreValueDisplayResolver - Could not find persisted pre-value for field editor
+ 2018-02-12 15:59:42,976 [P6960/D5/T141] WARN  Umbraco.Web.Models.Mapping.PreValueDisplayResolver - Could not find persisted pre-value for field hideLabel
+ 2018-02-12 16:23:18,498 [P6960/D5/T35] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Web.Trees.TreeController
+ 2018-02-12 16:23:18,499 [P6960/D5/T35] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Web.Trees.TreeController, found 0 (took 0ms)
+ 2018-02-12 16:36:50,938 [P6960/D5/T141] ERROR dashboardUtilities.FeedProxy - Exception occurred
+System.Net.WebException: Unable to connect to the remote server ---> System.Net.Sockets.SocketException: Se produjo un error durante el intento de conexión ya que la parte conectada no respondió adecuadamente tras un periodo de tiempo, o bien se produjo un error en la conexión establecida ya que el host conectado no ha podido responder 93.90.118.244:80
+   at System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   at System.Net.ServicePoint.ConnectSocketInternal(Boolean connectFailure, Socket s4, Socket s6, Socket& socket, IPAddress& address, ConnectSocketState state, IAsyncResult asyncResult, Exception& exception)
+   --- End of inner exception stack trace ---
+   at System.Net.WebClient.DownloadDataInternal(Uri address, WebRequest& request)
+   at System.Net.WebClient.DownloadString(Uri address)
+   at dashboardUtilities.FeedProxy.Page_Load(Object sender, EventArgs e)
+ 2018-02-12 16:47:14,327 [P6960/D5/T162] WARN  Umbraco.Web.Models.Mapping.PreValueDisplayResolver - Could not find persisted pre-value for field editor
+ 2018-02-12 16:47:14,327 [P6960/D5/T162] WARN  Umbraco.Web.Models.Mapping.PreValueDisplayResolver - Could not find persisted pre-value for field hideLabel
+ 2018-02-12 17:12:37,911 [P6960/D5/T141] ERROR Umbraco.Web.PropertyEditors.ValueConverters.RelatedLinksEditorValueConvertor - Could not parse the string [
+  {
+    "caption": "CNH",
+    "link": 1053,
+    "newWindow": false,
+    "internal": 1053,
+    "edit": false,
+    "isInternal": true,
+    "internalName": "Home",
+    "internalIcon": "icon-home",
+    "type": "internal",
+    "title": "CNH"
+  },
+  {
+    "caption": "Rondas",
+    "link": null,
+    "newWindow": false,
+    "internal": null,
+    "edit": false,
+    "isInternal": true,
+    "internalName": "",
+    "internalIcon": null,
+    "type": "internal",
+    "title": "Rondas"
+  },
+  {
+    "caption": "Asociaciones  Estratégicas",
+    "link": null,
+    "newWindow": false,
+    "internal": null,
+    "edit": false,
+    "isInternal": true,
+    "internalName": "",
+    "internalIcon": null,
+    "type": "internal",
+    "title": "Asociaciones  Estratégicas"
+  },
+  {
+    "caption": "Administración de Contratos",
+    "link": null,
+    "newWindow": false,
+    "internal": null,
+    "edit": false,
+    "isInternal": true,
+    "internalName": "",
+    "internalIcon": null,
+    "type": "internal",
+    "title": "Administración de Contratos"
+  },
+  {
+    "caption": "Cifras Relevantes",
+    "link": null,
+    "newWindow": false,
+    "internal": null,
+    "edit": false,
+    "isInternal": true,
+    "internalName": "",
+    "internalIcon": null,
+    "type": "internal",
+    "title": "Cifras Relevantes"
+  },
+  {
+    "caption": "Arreglo Institucional",
+    "link": null,
+    "newWindow": false,
+    "internal": null,
+    "edit": false,
+    "isInternal": true,
+    "internalName": "",
+    "internalIcon": null,
+    "type": "internal",
+    "title": "Arreglo Institucional"
+  },
+  {
+    "caption": "Contacto",
+    "link": null,
+    "newWindow": false,
+    "internal": null,
+    "edit": false,
+    "isInternal": true,
+    "internalName": "",
+    "internalIcon": null,
+    "type": "internal",
+    "title": "Contacto"
+  }
+] to a json object
+System.InvalidCastException: Null object cannot be converted to a value type.
+   at System.Convert.ChangeType(Object value, Type conversionType, IFormatProvider provider)
+   at Newtonsoft.Json.Linq.Extensions.Convert[T,U](T token)
+   at Newtonsoft.Json.Linq.JToken.Value[T](Object key)
+   at Umbraco.Web.PropertyEditors.ValueConverters.RelatedLinksEditorValueConvertor.ConvertDataToSource(PublishedPropertyType propertyType, Object source, Boolean preview)
+ 2018-02-12 17:23:59,957 [P6960/D5/T162] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [KeepAlive] Terminating
+ 2018-02-12 17:23:59,959 [P6960/D5/T162] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [KeepAlive] Waiting for tasks to complete
+ 2018-02-12 17:24:00,092 [P6960/D5/T35] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [KeepAlive] Tasks completed, terminated
+ 2018-02-12 17:24:00,144 [P6960/D5/T162] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [ScheduledPublishing] Terminating
+ 2018-02-12 17:24:00,144 [P6960/D5/T162] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [ScheduledPublishing] Waiting for tasks to complete
+ 2018-02-12 17:24:00,145 [P6960/D5/T142] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [ScheduledPublishing] Tasks completed, terminated
+ 2018-02-12 17:24:00,680 [P6960/D5/T162] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [Umbraco.Web.Scheduling.IBackgroundTask] Terminating
+ 2018-02-12 17:24:00,680 [P6960/D5/T162] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [Umbraco.Web.Scheduling.IBackgroundTask] Waiting for tasks to complete
+ 2018-02-12 17:24:00,680 [P6960/D5/T167] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [Umbraco.Web.Scheduling.IBackgroundTask] Tasks completed, terminated
+ 2018-02-12 17:24:00,814 [P6960/D5/T162] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [LogScrubber] Terminating
+ 2018-02-12 17:24:00,814 [P6960/D5/T162] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [LogScrubber] Waiting for tasks to complete
+ 2018-02-12 17:24:00,929 [P6960/D5/T162] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [ScheduledTasks] Terminating
+ 2018-02-12 17:24:00,929 [P6960/D5/T162] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [ScheduledTasks] Waiting for tasks to complete
+ 2018-02-12 17:24:00,929 [P6960/D5/T157] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [ScheduledTasks] Tasks completed, terminated
+ 2018-02-12 17:24:00,947 [P6960/D5/T159] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [LogScrubber] Tasks completed, terminated
+ 2018-02-12 17:24:19,742 [P6960/D6/T1] INFO  Umbraco.Core.CoreBootManager - Umbraco 7.5.4 application starting on PLANETMEDIA-PC
+ 2018-02-12 17:24:19,785 [P6960/D6/T1] INFO  Umbraco.Core.PluginManager - Determining hash of code files on disk
+ 2018-02-12 17:24:19,795 [P6960/D6/T1] INFO  Umbraco.Core.PluginManager - Hash determined (took 9ms)
+ 2018-02-12 17:24:20,073 [P6960/D6/T1] INFO  Umbraco.Core.PluginManager - Starting resolution types of umbraco.interfaces.IApplicationStartupHandler
+ 2018-02-12 17:24:20,536 [P6960/D6/T1] INFO  Umbraco.Core.PluginManager - Completed resolution of types of umbraco.interfaces.IApplicationStartupHandler, found 0 (took 463ms)
+ 2018-02-12 17:24:20,752 [P6960/D6/T1] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Core.PropertyEditors.IPropertyEditorValueConverter
+ 2018-02-12 17:24:20,752 [P6960/D6/T1] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Core.PropertyEditors.IPropertyEditorValueConverter, found 0 (took 0ms)
+ 2018-02-12 17:24:20,752 [P6960/D6/T1] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Core.PropertyEditors.IPropertyValueConverter
+ 2018-02-12 17:24:20,754 [P6960/D6/T1] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Core.PropertyEditors.IPropertyValueConverter, found 0 (took 1ms)
+ 2018-02-12 17:24:20,758 [P6960/D6/T1] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Web.Mvc.SurfaceController
+ 2018-02-12 17:24:20,759 [P6960/D6/T1] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Web.Mvc.SurfaceController, found 0 (took 0ms)
+ 2018-02-12 17:24:20,759 [P6960/D6/T1] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Web.WebApi.UmbracoApiController
+ 2018-02-12 17:24:20,779 [P6960/D6/T1] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Web.WebApi.UmbracoApiController, found 0 (took 20ms)
+ 2018-02-12 17:24:22,108 [P6960/D6/T1] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Core.Media.IThumbnailProvider
+ 2018-02-12 17:24:22,109 [P6960/D6/T1] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Core.Media.IThumbnailProvider, found 0 (took 0ms)
+ 2018-02-12 17:24:22,110 [P6960/D6/T1] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Core.Media.IImageUrlProvider
+ 2018-02-12 17:24:22,110 [P6960/D6/T1] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Core.Media.IImageUrlProvider, found 0 (took 0ms)
+ 2018-02-12 17:24:23,988 [P6960/D6/T1] INFO  Umbraco.Core.DatabaseContext - CanConnect = True
+ 2018-02-12 17:24:24,583 [P6960/D6/T1] INFO  Umbraco.Core.DatabaseContext - CanConnect = True
+ 2018-02-12 17:24:24,619 [P6960/D6/T1] INFO  Umbraco.Core.DatabaseContext - CanConnect = True
+ 2018-02-12 17:24:24,822 [P6960/D6/T1] INFO  Umbraco.Web.Cache.CacheRefresherEventHandler - Initializing Umbraco internal event handlers for cache refreshing
+ 2018-02-12 17:24:25,419 [P6960/D6/T1] INFO  Umbraco.Web.Search.ExamineEvents - Initializing Examine and binding to business logic events
+ 2018-02-12 17:24:25,419 [P6960/D6/T1] INFO  Umbraco.Web.Search.ExamineEvents - Adding examine event handlers for index providers: 3
+ 2018-02-12 17:24:25,653 [P6960/D6/T1] INFO  Umbraco.Core.CoreBootManager - Umbraco application startup complete (took 6158ms)
+ 2018-02-12 17:24:31,260 [P6960/D5/T144] INFO  Umbraco.Core.UmbracoApplicationBase - Application shutdown. Details: MaxRecompilationsReached
+
+_shutDownMessage=Recompilation limit of 15 reached
+HostingEnvironment initiated shutdown
+HostingEnvironment originó el cierre
+
+_shutDownStack=   en System.Environment.GetStackTrace(Exception e, Boolean needFileInfo)
+   en System.Environment.get_StackTrace()
+   en System.Web.Hosting.HostingEnvironment.InitiateShutdownInternal()
+   en System.Web.Hosting.HostingEnvironment.InitiateShutdownWithoutDemand()
+   en System.Web.HttpRuntime.ShutdownAppDomain(String stackTrace)
+   en System.Web.Compilation.DiskBuildResultCache.ShutdownCallBack(Object state)
+   en System.Threading.QueueUserWorkItemCallback.WaitCallback_Context(Object state)
+   en System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   en System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   en System.Threading.QueueUserWorkItemCallback.System.Threading.IThreadPoolWorkItem.ExecuteWorkItem()
+   en System.Threading.ThreadPoolWorkQueue.Dispatch()
+   en System.Threading._ThreadPoolWaitCallback.PerformWaitCallback()
+ 2018-02-12 17:24:34,541 [P6960/D6/T159] INFO  Umbraco.Core.Sync.ApplicationUrlHelper - ApplicationUrl: http://localhost:18701/umbraco (UmbracoModule request)
+ 2018-02-12 17:24:34,544 [P6960/D6/T167] INFO  Umbraco.Core.Sync.ApplicationUrlHelper - ApplicationUrl: http://localhost:18701/umbraco (UmbracoModule request)
+ 2018-02-12 17:24:38,715 [P6960/D6/T167] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Web.Trees.TreeController
+ 2018-02-12 17:24:38,717 [P6960/D6/T167] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Web.Trees.TreeController, found 0 (took 1ms)
+ 2018-02-12 17:24:38,720 [P6960/D6/T167] INFO  Umbraco.Core.PluginManager - Starting resolution types of umbraco.interfaces.ITree
+ 2018-02-12 17:24:38,721 [P6960/D6/T167] INFO  Umbraco.Core.PluginManager - Completed resolution of types of umbraco.interfaces.ITree, found 0 (took 1ms)
+ 2018-02-12 17:24:39,120 [P6960/D6/T156] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Core.Persistence.Mappers.BaseMapper
+ 2018-02-12 17:24:39,121 [P6960/D6/T156] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Core.Persistence.Mappers.BaseMapper, found 0 (took 1ms)
+ 2018-02-12 17:24:40,430 [P6960/D6/T167] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Core.PropertyEditors.IParameterEditor
+ 2018-02-12 17:24:40,431 [P6960/D6/T167] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Core.PropertyEditors.IParameterEditor, found 0 (took 1ms)
+ 2018-02-12 17:24:40,443 [P6960/D6/T168] INFO  Umbraco.Core.PluginManager - Starting resolution types of umbraco.interfaces.IAction
+ 2018-02-12 17:24:40,444 [P6960/D6/T168] INFO  Umbraco.Core.PluginManager - Completed resolution of types of umbraco.interfaces.IAction, found 0 (took 1ms)
+ 2018-02-12 17:24:46,289 [P6960/D6/T162] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Home' with Id '1053' has been published.
+ 2018-02-12 17:24:46,677 [P6960/D6/T162] INFO  Umbraco.Core.PluginManager - Starting resolution types of umbraco.interfaces.ICacheRefresher
+ 2018-02-12 17:24:46,678 [P6960/D6/T162] INFO  Umbraco.Core.PluginManager - Completed resolution of types of umbraco.interfaces.ICacheRefresher, found 0 (took 1ms)
+ 2018-02-12 17:24:46,691 [P6960/D6/T162] INFO  umbraco.content - Load Xml from file...
+ 2018-02-12 17:24:46,692 [P6960/D6/T162] INFO  umbraco.content - Loaded Xml from file.
+ 2018-02-12 17:24:51,951 [P6960/D6/T6] INFO  umbraco.content - Save Xml to file...
+ 2018-02-12 17:24:51,986 [P6960/D6/T6] INFO  umbraco.content - Saved Xml to file.
+ 2018-02-12 17:25:38,042 [P6960/D6/T96] INFO  umbraco.BusinessLogic.Log - Log scrubbed.  Removed all items older than 2018-02-11 17:25:38
+ 2018-02-12 17:25:55,875 [P6960/D6/T152] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Web.Editors.IEditorValidator
+ 2018-02-12 17:25:55,876 [P6960/D6/T152] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Web.Editors.IEditorValidator, found 0 (took 1ms)
+ 2018-02-12 17:26:09,759 [P6960/D6/T161] INFO  Umbraco.Core.PluginManager - Starting resolution types of umbraco.interfaces.IApplication
+ 2018-02-12 17:26:09,760 [P6960/D6/T161] INFO  Umbraco.Core.PluginManager - Completed resolution of types of umbraco.interfaces.IApplication, found 0 (took 1ms)
+ 2018-02-12 17:40:56,438 [P6960/D6/T30] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Web.Trees.TreeController
+ 2018-02-12 17:40:56,439 [P6960/D6/T30] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Web.Trees.TreeController, found 0 (took 0ms)
+ 2018-02-12 17:40:56,470 [P6960/D6/T161] INFO  Umbraco.Core.PluginManager - Starting resolution types of umbraco.interfaces.ITree
+ 2018-02-12 17:40:56,473 [P6960/D6/T161] INFO  Umbraco.Core.PluginManager - Completed resolution of types of umbraco.interfaces.ITree, found 0 (took 2ms)
+ 2018-02-12 17:42:56,485 [P6960/D6/T152] WARN  Umbraco.Web.Models.Mapping.PreValueDisplayResolver - Could not find persisted pre-value for field editor
+ 2018-02-12 17:42:56,485 [P6960/D6/T152] WARN  Umbraco.Web.Models.Mapping.PreValueDisplayResolver - Could not find persisted pre-value for field hideLabel
+ 2018-02-12 17:44:31,710 [P6960/D6/T156] WARN  Umbraco.Web.Models.Mapping.PreValueDisplayResolver - Could not find persisted pre-value for field multiPicker
+ 2018-02-12 17:44:31,710 [P6960/D6/T156] WARN  Umbraco.Web.Models.Mapping.PreValueDisplayResolver - Could not find persisted pre-value for field onlyImages
+ 2018-02-12 17:44:31,710 [P6960/D6/T156] WARN  Umbraco.Web.Models.Mapping.PreValueDisplayResolver - Could not find persisted pre-value for field disableFolderSelect
+ 2018-02-12 17:44:31,710 [P6960/D6/T156] WARN  Umbraco.Web.Models.Mapping.PreValueDisplayResolver - Could not find persisted pre-value for field startNodeId
+ 2018-02-12 17:44:58,462 [P6960/D6/T96] WARN  Umbraco.Web.Models.Mapping.PreValueDisplayResolver - Could not find persisted pre-value for field multiPicker
+ 2018-02-12 17:44:58,462 [P6960/D6/T96] WARN  Umbraco.Web.Models.Mapping.PreValueDisplayResolver - Could not find persisted pre-value for field onlyImages
+ 2018-02-12 17:44:58,462 [P6960/D6/T96] WARN  Umbraco.Web.Models.Mapping.PreValueDisplayResolver - Could not find persisted pre-value for field disableFolderSelect
+ 2018-02-12 17:44:58,462 [P6960/D6/T96] WARN  Umbraco.Web.Models.Mapping.PreValueDisplayResolver - Could not find persisted pre-value for field startNodeId
+ 2018-02-12 17:58:38,377 [P6960/D6/T30] INFO  Umbraco.Core.Logging.OwinLogger - Event Id: 0, state: User logged will be logged out due to timeout: armando.diaz@planetmedia.com.mx, IP Address: ::1

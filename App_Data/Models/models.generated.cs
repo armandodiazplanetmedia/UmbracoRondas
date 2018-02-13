@@ -19,8 +19,8 @@ using Umbraco.ModelsBuilder;
 using Umbraco.ModelsBuilder.Umbraco;
 
 [assembly: PureLiveAssembly]
-[assembly:ModelsBuilderAssembly(PureLive = true, SourceHash = "2bb2efe5bb64f049")]
-[assembly:System.Reflection.AssemblyVersion("0.0.0.3")]
+[assembly:ModelsBuilderAssembly(PureLive = true, SourceHash = "bbf785dbd033732b")]
+[assembly:System.Reflection.AssemblyVersion("0.0.0.5")]
 
 namespace Umbraco.Web.PublishedContentModels
 {
@@ -56,6 +56,15 @@ namespace Umbraco.Web.PublishedContentModels
 		public IHtmlString BodyText
 		{
 			get { return this.GetPropertyValue<IHtmlString>("bodyText"); }
+		}
+
+		///<summary>
+		/// contentDes
+		///</summary>
+		[ImplementPropertyType("contentDes")]
+		public object ContentDes
+		{
+			get { return this.GetPropertyValue("contentDes"); }
 		}
 
 		///<summary>
